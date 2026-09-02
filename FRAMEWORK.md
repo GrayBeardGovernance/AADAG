@@ -1,4 +1,4 @@
-# AADAG Framework
+# AI-Assisted Decision Accountability & Governance (AADAG)
 
 ## Purpose
 
