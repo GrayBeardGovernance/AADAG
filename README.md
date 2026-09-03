@@ -1,10 +1,10 @@
 # AADAG
 
-## AI-Assisted Decision Accountability & Governance
+## AI Assisted Decision Accountability & Governance
 
-> **Govern the decisions AI helps shape—not just the tools people use.**
+> **Govern the decisions AI helps shape not just the tools people use.**
 
-AADAG is an emerging, decision-centered framework for governing how artificial intelligence influences consequential decisions.
+AADAG is an emerging, decision centered framework for governing how artificial intelligence influences consequential decisions.
 
 Most AI governance begins with a tool inventory:
 
@@ -37,7 +37,7 @@ AADAG is not presented as a finished standard. It is a practical framework in de
 
 ## Current status
 
-- **Version:** 0.1 — Foundation
+- **Version:** 0.1 Foundation
 - **Status:** Early public draft
 - **Maintainer:** Gray Beard Governance
 
