@@ -4,19 +4,19 @@
 
 AADAG provides a practical way to govern AI according to the decisions it influences and the consequences of getting those decisions wrong.
 
-The framework shifts the primary unit of governance from the **AI tool** to the **AI-influenced decision**.
+The **AI-influenced decision** is the primary unit of governance.
 
 ## The governance object
 
-A tool inventory can tell an organization what technology exists. It cannot, by itself, explain:
+AADAG begins with a decision inventory. The inventory records:
 
-- which decisions the technology affects;
-- how much authority has shifted to the technology;
+- which decisions AI affects;
+- how much authority the technology carries;
 - who may be harmed by an incorrect decision;
-- where human judgment is required; or
-- who remains accountable for the outcome.
+- where human judgment is required; and
+- who owns the outcome.
 
-AADAG therefore begins with a decision inventory.
+A tool inventory remains useful supporting evidence. The decision inventory connects that technology to its real-world use and consequences.
 
 ## Core questions
 
@@ -74,15 +74,11 @@ Safeguards should increase with both consequence and AI influence. Candidate saf
 
 **The greater the consequence and the greater the AI influence, the stronger the required evidence, oversight, traceability, and recourse.**
 
-## What AADAG is not
+## Scope
 
-AADAG is not:
+AADAG provides a decision-governance layer that works alongside law, regulation, organizational policy, technical assurance, and vendor review.
 
-- a substitute for law, regulation, or organizational policy;
-- a product approval checklist;
-- a claim that every use of AI is high-risk;
-- a finished certification standard; or
-- a way to label a human as accountable while removing meaningful human control.
+It applies proportional governance to AI-assisted decisions according to their consequences and the influence given to AI. Human accountability requires meaningful authority, adequate information, and genuine control over the outcome.
 
 ## Development status
 
