@@ -2,30 +2,24 @@
 
 ## AI Assisted Decision Accountability & Governance
 
-> **Govern the decisions AI helps shape not just the tools people use.**
+> **Govern every decision AI helps shape.**
 
-AADAG is an emerging, decision centered framework for governing how artificial intelligence influences consequential decisions.
+AADAG is an emerging, decision-centered framework for governing how artificial intelligence influences consequential decisions.
 
-Most AI governance begins with a tool inventory:
-
-- What is approved?
-- What is blocked?
-- Who reviewed the vendor?
-
-Those questions matter, but they do not reveal how much influence AI has over decisions that affect people, resources, rights, access, safety, or institutional outcomes.
-
-AADAG starts somewhere else:
+AADAG begins with the decisions AI helps shape:
 
 1. **What decision is AI helping us make?**
 2. **How consequential is that decision if it is wrong?**
 3. **How much influence does AI have over the outcome?**
 4. **What human judgment, evidence, and accountability must remain?**
 
+These questions reveal how AI affects people, resources, rights, access, safety, and institutional outcomes.
+
 ## Why this repository exists
 
 This repository is the public working home of AADAG. Version 0.1 establishes the central thesis and opens the framework to testing, criticism, and refinement.
 
-AADAG is not presented as a finished standard. It is a practical framework in development, informed by risk management, cybersecurity governance, and real-world accountability.
+AADAG is a practical framework in development, informed by risk management, cybersecurity governance, and real-world accountability.
 
 ## Start here
 
