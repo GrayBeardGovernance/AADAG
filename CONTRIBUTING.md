@@ -6,10 +6,10 @@ AADAG is an early public framework. Constructive criticism is welcome, especiall
 
 You can help by identifying:
 
-- an important question the framework does not ask;
-- a decision that does not fit the proposed model;
-- a safeguard that is missing or disproportionate;
-- language that is unclear or difficult to apply;
+- a missing governance question;
+- a decision that challenges the proposed model;
+- a missing or disproportionate safeguard;
+- language that needs greater clarity;
 - a conflict with existing law, policy, or practice; or
 - a practical example that strengthens or challenges the framework.
 
@@ -18,16 +18,16 @@ You can help by identifying:
 Open a GitHub issue and include:
 
 1. the decision or concept involved;
-2. what you believe is incomplete or incorrect;
+2. the gap or problem you identified;
 3. why it matters; and
-4. your proposed change, if you have one.
+4. your proposed change, when you have one.
 
 ## Working norms
 
-- Challenge ideas rather than people.
+- Challenge ideas while respecting people.
 - State assumptions and relevant context.
 - Distinguish evidence from opinion.
-- Avoid including confidential, proprietary, or personal information.
+- Protect confidential, proprietary, and personal information.
 - Expect the framework to evolve.
 
 Pull-request guidance will be added as the project matures.
