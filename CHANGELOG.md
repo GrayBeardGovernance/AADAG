@@ -2,6 +2,14 @@
 
 All notable changes to AADAG will be documented here.
 
+## Unreleased
+
+### Changed
+
+- Reframed project language as direct affirmative statements
+- Replaced contrast-based scope descriptions with positive commitments
+- Simplified contribution and roadmap language
+
 ## [0.1.0] — 2026-09-02
 
 ### Added
