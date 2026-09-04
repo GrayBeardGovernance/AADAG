@@ -37,7 +37,7 @@
 
 ## Near-term parking lot
 
-These ideas are worth preserving but are not current deliverables:
+These ideas remain available for future development:
 
 - trust ladder;
 - executive and board reporting view;
