@@ -4,7 +4,7 @@
 
 > **Govern every decision AI helps shape.**
 
-AADAG is an emerging, decision-centered framework for governing how artificial intelligence influences consequential decisions.
+AADAG is an emerging, decision centered framework for governing how artificial intelligence influences consequential decisions.
 
 AADAG begins with the decisions AI helps shape:
 
