@@ -17,9 +17,22 @@ These questions reveal how AI affects people, resources, rights, access, safety,
 
 ## Why this repository exists
 
-This repository is the public working home of AADAG. Version 0.1 establishes the central thesis and opens the framework to testing, criticism, and refinement.
+This repository is the public working home of AADAG. Version 0.1 established the foundation. Development is now underway on version 0.2, Decision Classification.
 
 AADAG is a practical framework in development, informed by risk management, cybersecurity governance, and real-world accountability.
+
+## Decision consequence levels
+
+AADAG v0.2 introduces a working consequence scale for classifying the potential impact of an incorrect AI influenced decision:
+
+- **CU: Undetermined**
+- **C0: Negligible**
+- **C1: Limited**
+- **C2: Moderate**
+- **C3: Significant**
+- **C4: Critical**
+
+Full definitions are maintained in the [Framework](FRAMEWORK.md).
 
 ## Start here
 
@@ -31,8 +44,10 @@ AADAG is a practical framework in development, informed by risk management, cybe
 
 ## Current status
 
-- **Version:** 0.1 Foundation
-- **Status:** Early public draft
+- **Version:** 0.2 Decision Classification
+- **Status:** Active development
+- **Completed:** Decision consequence levels
+- **Current focus:** Refining AI influence levels
 - **Maintainer:** Gray Beard Governance
 
 ## Short description
