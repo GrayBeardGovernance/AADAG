@@ -9,7 +9,7 @@
 
 ## v0.2 — Decision classification
 
-- [ ] Define consequence levels
+- [x] Define consequence levels
 - [ ] Refine AI influence levels
 - [ ] Develop a decision inventory template
 - [ ] Test definitions against practical examples
