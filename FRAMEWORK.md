@@ -36,7 +36,9 @@ AADAG v0.1 proposes three dimensions for further development.
 
 ### 1. Decision consequence
 
-Assess the potential effect of an incorrect decision on:
+Decision consequence describes the potential impact of an incorrect AI-influenced decision.
+
+Consequence is assessed by considering the nature, scope, duration, and reversibility of the potential harm. Assessment may include impacts to:
 
 - people and communities;
 - rights, eligibility, or access;
@@ -44,6 +46,25 @@ Assess the potential effect of an incorrect decision on:
 - financial or material resources;
 - reputation and opportunity; and
 - mission or operational outcomes.
+
+#### Consequence levels
+
+AADAG uses the following consequence levels:
+
+| Level | Classification | Definition |
+|---|---|---|
+| **CU** | **Undetermined** | The potential consequence of an incorrect decision cannot yet be determined with sufficient confidence. Additional information or analysis is required before assigning a consequence level. |
+| **C0** | **Negligible** | An incorrect decision has no meaningful adverse effect. Any resulting inconvenience is trivial and readily corrected. |
+| **C1** | **Limited** | An incorrect decision may cause minor disruption or inconvenience. Effects are identifiable and can be corrected through routine action. |
+| **C2** | **Moderate** | An incorrect decision may cause meaningful adverse effects requiring deliberate corrective action. |
+| **C3** | **Significant** | An incorrect decision may cause substantial harm involving people, rights, access, finances, security, opportunity, reputation, or mission outcomes. Correction may require significant intervention and some effects may persist. |
+| **C4** | **Critical** | An incorrect decision may cause lasting harm involving life, safety, fundamental rights, major financial or material loss, critical security interests, or essential mission functions. Effective correction may be difficult or impossible. |
+
+#### Undetermined consequences
+
+An undetermined consequence is a valid assessment when available information does not support a reliable classification.
+
+The uncertainty should be documented along with the information needed to complete the assessment.
 
 ### 2. AI influence
 
