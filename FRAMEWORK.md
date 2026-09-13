@@ -32,7 +32,7 @@ For each AI-influenced decision, ask:
 
 ## Initial assessment model
 
-AADAG v0.1 proposes three dimensions for further development.
+AADAG uses three working dimensions established in v0.1 and being refined through v0.2 and later development.
 
 ### 1. Decision consequence
 
@@ -49,7 +49,7 @@ Consequence is assessed by considering the nature, scope, duration, and reversib
 
 #### Consequence levels
 
-AADAG uses the following consequence levels:
+AADAG v0.2 introduces the following working consequence levels:
 
 | Level | Classification | Definition |
 |---|---|---|
@@ -59,6 +59,8 @@ AADAG uses the following consequence levels:
 | **C2** | **Moderate** | An incorrect decision may cause meaningful adverse effects requiring deliberate corrective action. |
 | **C3** | **Significant** | An incorrect decision may cause substantial harm involving people, rights, access, finances, security, opportunity, reputation, or mission outcomes. Correction may require significant intervention and some effects may persist. |
 | **C4** | **Critical** | An incorrect decision may cause lasting harm involving life, safety, fundamental rights, major financial or material loss, critical security interests, or essential mission functions. Effective correction may be difficult or impossible. |
+
+These labels and definitions are the current v0.2 working scale. Assignment rules, examples, and known limitations remain under development.
 
 #### Undetermined consequences
 
@@ -75,7 +77,9 @@ Identify the AI system's actual role:
 - **Presume:** establishes a default that a human may override;
 - **Decide:** makes or executes the decision with limited intervention.
 
-These are working categories and will be tested during development.
+These are working categories and will be tested during v0.2 development.
+
+AADAG is also exploring whether **delegation** adds a useful accountability concept alongside influence. Influence describes how much AI affects a decision. Delegation may describe the organizational choice to give AI that influence. This distinction is exploratory and is not yet a formal scoring dimension.
 
 ### 3. Required safeguards
 
@@ -91,6 +95,8 @@ Safeguards should increase with both consequence and AI influence. Candidate saf
 - monitoring for changed conditions; and
 - authority to suspend AI use.
 
+Detailed safeguard mapping is planned for v0.3.
+
 ## Central rule
 
 **The greater the consequence and the greater the AI influence, the stronger the required evidence, oversight, traceability, and recourse.**
@@ -103,4 +109,4 @@ It applies proportional governance to AI-assisted decisions according to their c
 
 ## Development status
 
-This is an early public draft. Decision classes, scoring, safeguard mappings, examples, and implementation guidance remain under development.
+AADAG v0.2 is an active development release focused on decision classification. The consequence labels and core definitions are established as the current working scale. Assignment rules, examples, AI influence levels, delegation, decision inventory mechanics, and later safeguard mappings remain under development.
