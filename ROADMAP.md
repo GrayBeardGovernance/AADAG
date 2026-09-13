@@ -11,6 +11,8 @@
 
 - [x] Define consequence levels
 - [ ] Refine AI influence levels
+- [ ] Explore delegation as a distinct governance concept
+- [ ] Determine whether delegation adds accountability without adding unnecessary complexity
 - [ ] Develop a decision inventory template
 - [ ] Test definitions against practical examples
 
