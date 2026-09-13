@@ -9,7 +9,10 @@
 
 ## v0.2 — Decision classification
 
-- [x] Define consequence levels
+- [x] Establish consequence level names and core definitions
+- [ ] Define consequence assignment rules
+- [ ] Add practical consequence examples
+- [ ] Document known consequence-model limitations
 - [ ] Refine AI influence levels
 - [ ] Explore delegation as a distinct governance concept
 - [ ] Determine whether delegation adds accountability without adding unnecessary complexity
