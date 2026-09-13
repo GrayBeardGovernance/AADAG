@@ -13,11 +13,15 @@ All notable changes to AADAG will be documented here.
 - Began exploring delegation as a possible AADAG concept for describing the organizational choice to give AI influence over a decision
 - Opened the distinction between AI influence and delegated influence for further testing
 - Added a working observation for the delegation exploration: "The technology didn't necessarily change. Its influence did."
+- Added TRACEABILITY.md to map concepts, versions, status, authoritative sources, and tracking items
 
 ### Changed
 
-- Marked Define consequence levels complete in the v0.2 roadmap
-- Updated the README to reflect active v0.2 development and the current consequence model
+- Clarified that v0.1 established the initial three-dimension assessment model while v0.2 refines decision classification
+- Clarified that the v0.2 consequence level names and core definitions are established while assignment rules, examples, and known limitations remain in development
+- Updated Issue #1 and the roadmap so completion status matches the actual definition of done
+- Updated Issue #2 to identify delegation explicitly as v0.2 exploratory work
+- Updated the README to reflect active v0.2 development, current consequence-model status, and traceability documentation
 - Updated the README and roadmap to show delegation as an active area of exploration
 - Reframed project language as direct affirmative statements
 - Replaced contrast-based scope descriptions with positive commitments
