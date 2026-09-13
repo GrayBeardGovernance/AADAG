@@ -34,6 +34,21 @@ AADAG v0.2 introduces a working consequence scale for classifying the potential 
 
 Full definitions are maintained in the [Framework](FRAMEWORK.md).
 
+## Current exploration: delegation
+
+AADAG is currently exploring **delegation** as a way to describe the organizational choice to give AI influence over a decision.
+
+The working distinction is simple:
+
+- **Influence** describes how much AI affects a decision.
+- **Delegation** describes how much decision influence people or organizations choose to give AI.
+
+The idea is still being tested. The current question is whether delegation adds useful accountability to the framework without creating unnecessary complexity.
+
+A working observation behind this exploration is:
+
+> **The technology didn't necessarily change. Its influence did.**
+
 ## Start here
 
 - [Framework](FRAMEWORK.md)
@@ -47,7 +62,7 @@ Full definitions are maintained in the [Framework](FRAMEWORK.md).
 - **Version:** 0.2 Decision Classification
 - **Status:** Active development
 - **Completed:** Decision consequence levels
-- **Current focus:** Refining AI influence levels
+- **Current focus:** Refining AI influence levels and testing delegation as a governance concept
 - **Maintainer:** Gray Beard Governance
 
 ## Short description
