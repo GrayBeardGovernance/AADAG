@@ -32,7 +32,7 @@ AADAG v0.2 introduces a working consequence scale for classifying the potential 
 - **C3: Significant**
 - **C4: Critical**
 
-Full definitions are maintained in the [Framework](FRAMEWORK.md).
+Full definitions are maintained in the [Framework](FRAMEWORK.md). The level names and core definitions are established as the current v0.2 working scale. Assignment rules, examples, and known limitations are still being developed.
 
 ## Current exploration: delegation
 
@@ -54,6 +54,7 @@ A working observation behind this exploration is:
 - [Framework](FRAMEWORK.md)
 - [Principles](PRINCIPLES.md)
 - [Roadmap](ROADMAP.md)
+- [Traceability](TRACEABILITY.md)
 - [Contributing](CONTRIBUTING.md)
 - [Changelog](CHANGELOG.md)
 
@@ -61,8 +62,8 @@ A working observation behind this exploration is:
 
 - **Version:** 0.2 Decision Classification
 - **Status:** Active development
-- **Completed:** Decision consequence levels
-- **Current focus:** Refining AI influence levels and testing delegation as a governance concept
+- **Completed:** Consequence level names and core definitions
+- **In progress:** Consequence assignment guidance, AI influence refinement, delegation exploration, and practical examples
 - **Maintainer:** Gray Beard Governance
 
 ## Short description
