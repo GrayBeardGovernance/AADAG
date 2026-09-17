@@ -1,4 +1,4 @@
-# Case Study 001: Agentic Product Planning
+# Case Study 001: The Decision Environment
 
 ## Status
 
