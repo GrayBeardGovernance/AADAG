@@ -13,7 +13,7 @@
 - [ ] Define consequence assignment rules
 - [ ] Add practical consequence examples
 - [ ] Document known consequence-model limitations
-- [ ] Refine AI influence levels
+- [x] Refine AI influence levels
 - [ ] Explore delegation as a distinct governance concept
 - [ ] Determine whether delegation adds accountability without adding unnecessary complexity
 - [ ] Develop a decision inventory template
