@@ -70,14 +70,20 @@ The uncertainty should be documented along with the information needed to comple
 
 ### 2. AI influence
 
-Identify the AI system's actual role:
+AI influence describes how AI participates in a decision and how much decision authority remains with a human.
 
-- **Inform:** supplies information to a human;
-- **Recommend:** proposes or ranks possible decisions;
-- **Presume:** establishes a default that a human may override;
-- **Decide:** makes or executes the decision with limited intervention.
+- **Inform:** AI provides information, analysis, or context for consideration. The human evaluates the information and retains responsibility for determining what action, if any, to take. AI may identify, summarize, analyze, prioritize, or flag information without leaving this level, provided it does not propose a decision or action.
+- **Recommend:** AI proposes a decision, action, or ranked set of options for human consideration. The human retains authority to accept, reject, or modify the recommendation, and human action is required for it to become the decision.
+- **Presume:** AI establishes a default decision or action that will take effect unless a human intervenes. A human retains the authority and opportunity to change or override the outcome before it takes effect.
+- **Decide:** AI selects or executes a decision without requiring case-by-case human approval. Human authority is exercised through the rules, limits, oversight, and ability to modify or stop the AI's decision-making authority.
 
-These are working categories and will be tested during v0.2 development.
+#### Influence boundaries
+
+- **Inform → Recommend:** Inform may rank or prioritize information. Recommend proposes or ranks decisions or actions.
+- **Recommend → Presume:** A recommendation requires human action to become the decision. Under Presume, human inaction allows the AI-established outcome to proceed.
+- **Presume → Decide:** Under Presume, a human has the authority and opportunity to intervene before the outcome takes effect. Under Decide, the individual decision can occur without prior human intervention.
+
+These definitions and boundaries are the current v0.2 working influence model.
 
 AADAG is also exploring whether **delegation** adds a useful accountability concept alongside influence. Influence describes how much AI affects a decision. Delegation may describe the organizational choice to give AI that influence. This distinction is exploratory and is not yet a formal scoring dimension.
 
@@ -109,4 +115,4 @@ It applies proportional governance to AI-assisted decisions according to their c
 
 ## Development status
 
-AADAG v0.2 is an active development release focused on decision classification. The consequence labels and core definitions are established as the current working scale. Assignment rules, examples, AI influence levels, delegation, decision inventory mechanics, and later safeguard mappings remain under development.
+AADAG v0.2 is an active development release focused on decision classification. The consequence labels and core definitions are established as the current working scale. Assignment rules, examples, delegation, decision inventory mechanics, and later safeguard mappings remain under development.
