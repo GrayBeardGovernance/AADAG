@@ -47,6 +47,7 @@ These ideas remain available for future development:
 - trust ladder;
 - executive and board reporting view;
 - crosswalks to established governance frameworks;
+- detailed NIST AI RMF 1.0 crosswalk and aligned use case;
 - lightweight implementation for small organizations;
 - maturity model;
 - case-study series; and
