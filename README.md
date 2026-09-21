@@ -36,18 +36,33 @@ Full definitions are maintained in the [Framework](FRAMEWORK.md). The level name
 
 ## Alignment with the NIST AI Risk Management Framework
 
-AADAG is designed to align with the principles of the **[NIST Artificial Intelligence Risk Management Framework (AI RMF 1.0)](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10)** and its four core functions: **GOVERN, MAP, MEASURE, and MANAGE**.
+AADAG is designed to align with the principles of the **NIST Artificial Intelligence Risk Management Framework (AI RMF 1.0)** and its four core functions:
 
-AADAG applies these principles at the decision level. It establishes the context and potential consequences of an AI influenced decision, identifies the degree of influence given to AI, establishes human accountability for the outcome, and provides a basis for applying governance and safeguards proportional to consequence.
+**GOVERN:** Establish governance, accountability, policies, and responsibilities for managing AI risk.
 
-The relationship can be viewed through the NIST AI RMF functions:
+**MAP:** Establish the context in which AI is used and identify potential risks and impacts.
 
-- **GOVERN:** AADAG identifies ownership, accountability, and the authority given to AI within a decision.
-- **MAP:** AADAG identifies the decision being influenced, its context, affected parties, and the potential consequences if the decision is wrong.
-- **MEASURE:** AADAG consequence and influence classifications provide context for determining what evidence, testing, and monitoring are appropriate.
-- **MANAGE:** AADAG provides a structure for applying oversight, safeguards, review, and recourse according to the consequence and AI influence associated with a decision.
+**MEASURE:** Assess, test, and monitor identified AI risks using appropriate qualitative and quantitative methods.
 
-A more detailed NIST AI RMF crosswalk is planned as the framework develops.
+**MANAGE:** Prioritize identified risks and implement, monitor, and adjust risk treatments.
+
+AADAG applies these principles at the decision level through a simple governance path:
+
+> **Decision → Consequence → Influence → Human Authority**
+
+**Decision:** What decision is AI helping make?
+
+**Consequence:** What happens if that decision is wrong?
+
+**Influence:** How much influence does AI have over the outcome?
+
+**Human Authority:** What judgment, approval, override, or decision authority must remain with a person?
+
+This decision path provides context for applying the NIST AI RMF functions. AADAG identifies the decision being governed, its potential consequences, the influence given to AI, and the human authority required over the outcome.
+
+A more detailed **NIST AI RMF 1.0 crosswalk and use case** is planned as the framework develops.
+
+**Reference:** National Institute of Standards and Technology, [Artificial Intelligence Risk Management Framework (AI RMF 1.0)](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10)
 
 ## Current exploration: delegation
 
