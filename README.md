@@ -34,6 +34,21 @@ AADAG v0.2 introduces a working consequence scale for classifying the potential 
 
 Full definitions are maintained in the [Framework](FRAMEWORK.md). The level names and core definitions are established as the current v0.2 working scale. Assignment rules, examples, and known limitations are still being developed.
 
+## Alignment with the NIST AI Risk Management Framework
+
+AADAG is designed to align with the principles of the **[NIST Artificial Intelligence Risk Management Framework (AI RMF 1.0)](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10)** and its four core functions: **GOVERN, MAP, MEASURE, and MANAGE**.
+
+AADAG applies these principles at the decision level. It establishes the context and potential consequences of an AI influenced decision, identifies the degree of influence given to AI, establishes human accountability for the outcome, and provides a basis for applying governance and safeguards proportional to consequence.
+
+The relationship can be viewed through the NIST AI RMF functions:
+
+- **GOVERN:** AADAG identifies ownership, accountability, and the authority given to AI within a decision.
+- **MAP:** AADAG identifies the decision being influenced, its context, affected parties, and the potential consequences if the decision is wrong.
+- **MEASURE:** AADAG consequence and influence classifications provide context for determining what evidence, testing, and monitoring are appropriate.
+- **MANAGE:** AADAG provides a structure for applying oversight, safeguards, review, and recourse according to the consequence and AI influence associated with a decision.
+
+A more detailed NIST AI RMF crosswalk is planned as the framework develops.
+
 ## Current exploration: delegation
 
 AADAG is currently exploring **delegation** as a way to describe the organizational choice to give AI influence over a decision.
