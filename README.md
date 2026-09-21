@@ -92,8 +92,8 @@ A working observation behind this exploration is:
 
 - **Version:** 0.2 Decision Classification
 - **Status:** Active development
-- **Completed:** Consequence level names and core definitions
-- **In progress:** Consequence assignment guidance, AI influence refinement, delegation exploration, and practical examples
+- **Completed:** Consequence level names and core definitions; AI influence definitions and boundaries
+- **In progress:** Consequence assignment guidance, delegation exploration, practical examples, and decision inventory development
 - **Maintainer:** Gray Beard Governance
 
 ## Short description
