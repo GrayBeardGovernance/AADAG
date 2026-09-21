@@ -14,6 +14,8 @@ All notable changes to AADAG will be documented here.
 - Opened the distinction between AI influence and delegated influence for further testing
 - Added a working observation for the delegation exploration: "The technology didn't necessarily change. Its influence did."
 - Added TRACEABILITY.md to map concepts, versions, status, authoritative sources, and tracking items
+- Added the AADAG Decision Path: **Decision → Consequence → Influence → Human Authority**
+- Added initial alignment with the **NIST Artificial Intelligence Risk Management Framework (AI RMF 1.0)** and its GOVERN, MAP, MEASURE, and MANAGE functions
 
 ### Changed
 
@@ -26,6 +28,8 @@ All notable changes to AADAG will be documented here.
 - Reframed project language as direct affirmative statements
 - Replaced contrast-based scope descriptions with positive commitments
 - Simplified contribution and roadmap language
+- Refined the AI influence model with definitions and boundaries for **Inform, Recommend, Presume, and Decide**
+- Tested the AI influence model using a cybersecurity account-compromise scenario across all four influence levels
 
 ## [0.1.0] — 2026-09-02
 
