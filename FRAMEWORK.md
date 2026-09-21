@@ -10,10 +10,10 @@ The **AI-influenced decision** is the primary unit of governance.
 
 AADAG begins with a decision inventory. The inventory records:
 
-- which decisions AI affects;
-- how much authority the technology carries;
-- who may be harmed by an incorrect decision;
-- where human judgment is required; and
+- which decisions AI affects
+- how much authority the technology carries
+- who may be harmed by an incorrect decision
+- where human judgment is required
 - who owns the outcome.
 
 A tool inventory remains useful supporting evidence. The decision inventory connects that technology to its real-world use and consequences.
@@ -40,11 +40,11 @@ Decision consequence describes the potential impact of an incorrect AI-influence
 
 Consequence is assessed by considering the nature, scope, duration, and reversibility of the potential harm. Assessment may include impacts to:
 
-- people and communities;
-- rights, eligibility, or access;
-- safety and security;
-- financial or material resources;
-- reputation and opportunity; and
+- people and communities
+- rights, eligibility, or access
+- safety and security
+- financial or material resources
+- reputation and opportunity
 - mission or operational outcomes.
 
 #### Consequence levels
@@ -91,14 +91,14 @@ AADAG is also exploring whether **delegation** adds a useful accountability conc
 
 Safeguards should increase with both consequence and AI influence. Candidate safeguards include:
 
-- named human ownership;
-- documented decision criteria;
-- source and evidence review;
-- meaningful human review;
-- logging and traceability;
-- bias and performance evaluation;
-- appeal or correction mechanisms;
-- monitoring for changed conditions; and
+- named human ownership
+- documented decision criteria
+- source and evidence review
+- meaningful human review
+- logging and traceability
+- bias and performance evaluation
+- appeal or correction mechanisms
+- monitoring for changed conditions
 - authority to suspend AI use.
 
 Detailed safeguard mapping is planned for v0.3.
