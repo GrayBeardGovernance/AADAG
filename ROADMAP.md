@@ -14,10 +14,13 @@
 - [ ] Add practical consequence examples
 - [ ] Document known consequence-model limitations
 - [x] Refine AI influence levels
-- [ ] Explore delegation as a distinct governance concept
+- [x] Test AI influence definitions against a practical example
+- [x] Explore delegation as a distinct governance concept
 - [ ] Determine whether delegation adds accountability without adding unnecessary complexity
+- [x] Formalize the AADAG Decision Path: Decision → Consequence → Influence → Human Authority
+- [x] Document initial alignment with NIST AI RMF 1.0
 - [ ] Develop a decision inventory template
-- [ ] Test definitions against practical examples
+- [ ] Test consequence classifications against practical examples
 
 ## v0.3 — Safeguard mapping
 
