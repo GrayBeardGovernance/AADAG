@@ -16,7 +16,7 @@ This file connects each major AADAG concept to the version where it entered deve
 | C2: Moderate | v0.2 | Working level | FRAMEWORK.md | Issue #1 |
 | C3: Significant | v0.2 | Working level | FRAMEWORK.md | Issue #1 |
 | C4: Critical | v0.2 | Working level | FRAMEWORK.md | Issue #1 |
-| AI influence levels: Inform, Recommend, Presume, Decide | v0.1 concept; v0.2 refinement | Working categories | FRAMEWORK.md | Issue #3, ROADMAP.md |
+| AI influence levels: Inform, Recommend, Presume, Decide | v0.1 concept; v0.2 refinement | Definitions and boundaries established as current working model | FRAMEWORK.md | Issue #3, ROADMAP.md |
 | Delegation | v0.2 exploration | Exploratory, not a formal scoring dimension | README.md, FRAMEWORK.md | Issue #2, ROADMAP.md |
 | Safeguard mapping | v0.3 planned | Planned | FRAMEWORK.md, ROADMAP.md | ROADMAP.md |
 | Field testing | v0.4 planned | Planned | ROADMAP.md | ROADMAP.md |
