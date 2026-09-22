@@ -27,7 +27,7 @@ For each AI-influenced decision, ask:
 3. **Influence:** How much influence does AI have over the outcome?
 4. **Human role:** What judgment or authority must remain with a person?
 5. **Evidence:** What information supports the decision, and can it be examined?
-6. **Accountability:** Who owns the decision and its consequences?
+6. **Accountability:** Who owns the decision and its consequences, and who authorized AI to have its assigned level of influence?
 7. **Review:** How can the decision be challenged, corrected, or reversed?
 
 ## Initial assessment model
@@ -149,8 +149,6 @@ AI influence describes how AI participates in a decision and how much decision a
 
 These definitions and boundaries are the current v0.2 working influence model.
 
-AADAG is also exploring whether **delegation** adds a useful accountability concept alongside influence. Influence describes how much AI affects a decision. Delegation may describe the organizational choice to give AI that influence. This distinction is exploratory and is not yet a formal scoring dimension.
-
 ### 3. Required safeguards
 
 Safeguards should increase with both consequence and AI influence. Candidate safeguards include:
@@ -167,6 +165,22 @@ Safeguards should increase with both consequence and AI influence. Candidate saf
 
 Detailed safeguard mapping is planned for v0.3.
 
+## Delegation and accountability
+
+**Delegation** is the organizational authorization granting AI a defined level of influence over a decision.
+
+The authority granting or changing AI's influence over a decision should be identifiable and documented.
+
+Delegation does not create a separate classification scale. The AI Influence level identifies what AI is authorized to do. Delegation identifies the organizational authority that authorized it.
+
+When an AI system's authorized influence changes, such as moving from Recommend to Presume, the change should be treated as a governance decision and the authorizing authority documented.
+
+A decision inventory can capture this accountability through three fields:
+
+- **Decision owner:** Who owns the decision and its consequences
+- **Authorized AI influence:** Inform, Recommend, Presume, or Decide
+- **Authorizing authority:** Who approved that level of influence
+
 ## Central rule
 
 **The greater the consequence and the greater the AI influence, the stronger the required evidence, oversight, traceability, and recourse.**
@@ -179,4 +193,4 @@ It applies proportional governance to AI-assisted decisions according to their c
 
 ## Development status
 
-AADAG v0.2 is an active development release focused on decision classification. The consequence model, including level definitions, assignment rules, practical examples, and known limitations, is established as the current v0.2 working model. Delegation, decision inventory mechanics, and later safeguard mappings remain under development.
+AADAG v0.2 is an active development release focused on decision classification. The consequence model and AI influence model are established as current v0.2 working models. Delegation is incorporated as an accountability mechanism rather than a separate scoring dimension. Decision inventory mechanics and later safeguard mappings remain under development.
