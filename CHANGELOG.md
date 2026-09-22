@@ -10,6 +10,11 @@ All notable changes to AADAG will be documented here.
 - Added decision consequence levels: CU Undetermined, C0 Negligible, C1 Limited, C2 Moderate, C3 Significant, and C4 Critical
 - Added guidance for documenting undetermined consequences
 - Added nature, scope, duration, and reversibility as considerations when assessing decision consequence
+- Added the consequence assignment rule based on the highest credible consequence to affected parties
+- Added decision-type granularity guidance and an affected-party assessment sequence
+- Added practical examples for C0 through C4
+- Added known limitations for the consequence model
+- Clarified that consequence classification is performed without relying on safeguards intended to control the consequence
 - Began exploring delegation as a possible AADAG concept for describing the organizational choice to give AI influence over a decision
 - Opened the distinction between AI influence and delegated influence for further testing
 - Added a working observation for the delegation exploration: "The technology didn't necessarily change. Its influence did."
@@ -20,7 +25,7 @@ All notable changes to AADAG will be documented here.
 ### Changed
 
 - Clarified that v0.1 established the initial three-dimension assessment model while v0.2 refines decision classification
-- Clarified that the v0.2 consequence level names and core definitions are established while assignment rules, examples, and known limitations remain in development
+- Completed the v0.2 consequence model with level definitions, assignment rules, practical examples, and known limitations
 - Updated Issue #1 and the roadmap so completion status matches the actual definition of done
 - Updated Issue #2 to identify delegation explicitly as v0.2 exploratory work
 - Updated the README to reflect active v0.2 development, current consequence-model status, and traceability documentation
