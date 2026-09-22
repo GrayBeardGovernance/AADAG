@@ -10,9 +10,9 @@
 ## v0.2 — Decision classification
 
 - [x] Establish consequence level names and core definitions
-- [ ] Define consequence assignment rules
-- [ ] Add practical consequence examples
-- [ ] Document known consequence-model limitations
+- [x] Define consequence assignment rules
+- [x] Add practical consequence examples
+- [x] Document known consequence-model limitations
 - [x] Refine AI influence levels
 - [x] Test AI influence definitions against a practical example
 - [x] Explore delegation as a distinct governance concept
@@ -20,7 +20,7 @@
 - [x] Formalize the AADAG Decision Path: Decision → Consequence → Influence → Human Authority
 - [x] Document initial alignment with NIST AI RMF 1.0
 - [ ] Develop a decision inventory template
-- [ ] Test consequence classifications against practical examples
+- [x] Test consequence classifications against practical examples
 
 ## v0.3 — Safeguard mapping
 
@@ -52,5 +52,5 @@ These ideas remain available for future development:
 - detailed NIST AI RMF 1.0 crosswalk and aligned use case
 - lightweight implementation for small organizations
 - maturity model
-- case-study series;
+- case-study series
 - training and facilitation materials.
