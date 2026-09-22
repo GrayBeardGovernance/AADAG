@@ -56,7 +56,7 @@ For each AI-influenced decision, ask:
 
 ## Initial assessment model
 
-AADAG uses three working dimensions established in v0.1 and being refined through v0.2 and later development.
+AADAG uses three working dimensions established in v0.1. Decision classification was refined in v0.2, with safeguard mapping continuing in later development.
 
 ### 1. Decision consequence
 
@@ -217,4 +217,4 @@ It applies proportional governance to AI-assisted decisions according to their c
 
 ## Development status
 
-AADAG v0.2 is an active development release focused on decision classification. The consequence model, AI influence model, delegation accountability mechanism, and nine-field decision inventory are established as current v0.2 working models. Later safeguard mappings remain under development.
+AADAG v0.2 Decision Classification was released on September 22, 2026. The consequence model, AI influence model, delegation accountability mechanism, Decision Path, and nine-field Decision Inventory form the v0.2 release. Safeguard mapping is planned for v0.3.
