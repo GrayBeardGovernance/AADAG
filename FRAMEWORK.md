@@ -11,12 +11,36 @@ The **AI-influenced decision** is the primary unit of governance.
 AADAG begins with a decision inventory. The inventory records:
 
 - which decisions AI affects
-- how much authority the technology carries
-- who may be harmed by an incorrect decision
-- where human judgment is required
-- who owns the outcome.
+- who could be affected if a decision is wrong
+- the consequence of an incorrect decision
+- how much influence AI has over the decision
+- what authority people retain
+- who owns the decision
+- who authorized AI's level of influence
+- the basis supporting the decision process
+- how the decision can be challenged, corrected, or reversed.
 
 A tool inventory remains useful supporting evidence. The decision inventory connects that technology to its real-world use and consequences.
+
+### Decision inventory template
+
+The v0.2 decision inventory uses nine fields:
+
+| Field | Question |
+|---|---|
+| **Decision** | What decision is AI helping make? |
+| **Affected Parties** | Who could be affected if the decision is wrong? |
+| **Consequence** | CU, C0, C1, C2, C3, or C4 |
+| **AI Influence** | Inform, Recommend, Presume, or Decide |
+| **Human Authority** | What authority do people retain over the decision or decision process? |
+| **Decision Owner** | Who is accountable for the decision and its outcomes? |
+| **Authorizing Authority** | Who authorized this level of AI influence? |
+| **Basis** | What information, criteria, need, or reasoning supports the decision? |
+| **Review / Recourse** | How can the decision be challenged, corrected, or reversed? |
+
+**Decision Owner** is the person or role accountable for the decision and its outcomes, including when individual decisions occur without case-by-case human approval.
+
+The template was pressure-tested against C1 Recommend, C2 Recommend, C3 Presume, and C4 Decide scenarios. The fields are intended to remain concise. Basis may reference supporting information rather than reproduce documentation inside the inventory.
 
 ## Core questions
 
@@ -175,9 +199,9 @@ Delegation does not create a separate classification scale. The AI Influence lev
 
 When an AI system's authorized influence changes, such as moving from Recommend to Presume, the change should be treated as a governance decision and the authorizing authority documented.
 
-A decision inventory can capture this accountability through three fields:
+The decision inventory captures this accountability through three fields:
 
-- **Decision owner:** Who owns the decision and its consequences
+- **Decision owner:** Who is accountable for the decision and its outcomes
 - **Authorized AI influence:** Inform, Recommend, Presume, or Decide
 - **Authorizing authority:** Who approved that level of influence
 
@@ -193,4 +217,4 @@ It applies proportional governance to AI-assisted decisions according to their c
 
 ## Development status
 
-AADAG v0.2 is an active development release focused on decision classification. The consequence model and AI influence model are established as current v0.2 working models. Delegation is incorporated as an accountability mechanism rather than a separate scoring dimension. Decision inventory mechanics and later safeguard mappings remain under development.
+AADAG v0.2 is an active development release focused on decision classification. The consequence model, AI influence model, delegation accountability mechanism, and nine-field decision inventory are established as current v0.2 working models. Later safeguard mappings remain under development.
