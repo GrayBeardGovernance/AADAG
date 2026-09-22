@@ -17,7 +17,7 @@ These questions reveal how AI affects people, resources, rights, access, safety,
 
 ## Why this repository exists
 
-This repository is the public working home of AADAG. Version 0.1 established the foundation. Version 0.2, Decision Classification, is in final validation and release preparation.
+This repository is the public working home of AADAG. Version 0.1 established the foundation. Version 0.2, Decision Classification, was released on September 22, 2026.
 
 AADAG is a practical framework in development, informed by risk management, cybersecurity governance, and real-world accountability.
 
@@ -85,9 +85,9 @@ The authority granting or changing AI's influence over a decision should be iden
 ## Current status
 
 - **Version:** 0.2 Decision Classification
-- **Status:** Final validation and release preparation
+- **Status:** Released September 22, 2026
 - **Completed:** Consequence model, AI influence model, delegation accountability mechanism, Decision Path, nine-field Decision Inventory, initial NIST AI RMF 1.0 alignment, and end-to-end validation
-- **Next:** Final consistency decisions and v0.2 release
+- **Next:** v0.3 Safeguard Mapping
 - **Maintainer:** Gray Beard Governance
 
 ## Short description
