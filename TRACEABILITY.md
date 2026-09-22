@@ -39,7 +39,7 @@ FRAMEWORK.md is the authoritative source for the definitions of these levels. RE
 ## Version status
 
 - **v0.1 Foundation:** published 2026-09-02
-- **v0.2 Decision Classification:** active development
+- **v0.2 Decision Classification:** published 2026-09-22
 - **v0.3 Safeguard Mapping:** planned
 - **v0.4 Field Testing:** planned
 - **v1.0 Usable Release:** planned
