@@ -60,7 +60,47 @@ AADAG v0.2 introduces the following working consequence levels:
 | **C3** | **Significant** | An incorrect decision may cause substantial harm involving people, rights, access, finances, security, opportunity, reputation, or mission outcomes. Correction may require significant intervention and some effects may persist. |
 | **C4** | **Critical** | An incorrect decision may cause lasting harm involving life, safety, fundamental rights, major financial or material loss, critical security interests, or essential mission functions. Effective correction may be difficult or impossible. |
 
-These labels and definitions are the current v0.2 working scale. Assignment rules, examples, and known limitations remain under development.
+These labels and definitions are the current v0.2 working scale. Examples and known limitations remain under development.
+
+#### Consequence assignment
+
+AADAG assigns a consequence level based on what could credibly happen if an AI-influenced decision is wrong.
+
+**Assignment rule:** Assign the consequence level according to the highest credible consequence of an incorrect decision to affected parties. Consider the nature, scope, duration, and reversibility of the potential harm when determining that level.
+
+Use the following sequence:
+
+> **Define Decision Type → Identify Affected Parties → Identify Highest Credible Consequence → Consider Nature, Scope, Duration, and Reversibility → Assign Consequence Level**
+
+1. **Define the decision type.** Identify the specific decision AI is helping make. Consequence is assigned to a defined decision type rather than each individual decision instance. The decision type should be specific enough that its credible consequences can be meaningfully assessed. Separate decision types should be defined when differences in purpose, affected parties, or potential outcomes would materially change the consequence classification.
+
+2. **Identify affected parties.** Identify the people, groups, organizations, or other parties that could be affected if the decision is wrong. Consider consequence from the perspective of those affected, rather than solely from the perspective of the organization making or operating the decision.
+
+3. **Identify the highest credible consequence.** Determine the highest consequence that could credibly result from an incorrect decision. A consequence should not be elevated simply because an extreme outcome can be imagined. There should be a reasonable connection between the incorrect decision and the potential consequence.
+
+4. **Consider the characteristics of the consequence.** Consider nature, scope, duration, and reversibility when determining the appropriate level. Assess these characteristics based on the credible consequence of the incorrect decision without relying on safeguards intended to prevent, limit, or correct that consequence.
+
+   - **Nature:** What kind of harm or adverse effect could occur?
+   - **Scope:** Who or how many could be affected?
+   - **Duration:** How long could the effects persist?
+   - **Reversibility:** How easily could the effects be corrected or undone?
+
+   These characteristics inform judgment rather than functioning as separate numerical scores.
+
+5. **Assign the consequence level.** Assign the decision type to the consequence level that represents its highest credible consequence.
+
+#### Treatment of safeguards
+
+The initial consequence classification is made without relying on safeguards or mitigations intended to control the consequence.
+
+Safeguards are evaluated separately. They may prevent an incorrect decision, reduce its effects, provide opportunities for intervention, or help correct an outcome.
+
+This keeps two questions distinct:
+
+- **Consequence:** What could credibly happen if this decision is wrong?
+- **Safeguards:** What are we doing about it?
+
+Detailed safeguard selection and mapping are addressed separately within AADAG.
 
 #### Undetermined consequences
 
@@ -115,4 +155,4 @@ It applies proportional governance to AI-assisted decisions according to their c
 
 ## Development status
 
-AADAG v0.2 is an active development release focused on decision classification. The consequence labels and core definitions are established as the current working scale. Assignment rules, examples, delegation, decision inventory mechanics, and later safeguard mappings remain under development.
+AADAG v0.2 is an active development release focused on decision classification. The consequence labels and core definitions are established as the current working scale. Examples, delegation, decision inventory mechanics, and later safeguard mappings remain under development.
