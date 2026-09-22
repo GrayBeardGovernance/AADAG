@@ -53,4 +53,6 @@ These ideas remain available for future development:
 - lightweight implementation for small organizations
 - maturity model
 - case-study series
-- training and facilitation materials.
+- training and facilitation materials
+- distilled Decision View using the Decision Path as a concise summary of a completed AADAG assessment
+- proportional assessment depth to test when the Decision Path is sufficient, when the full Decision Inventory should be documented, and when deeper safeguards and supporting evidence are warranted.
