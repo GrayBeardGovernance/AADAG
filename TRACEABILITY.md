@@ -5,7 +5,7 @@ This file connects each major AADAG concept to the version where it entered deve
 | Concept | Version | Status | Authoritative source | Tracking |
 |---|---|---|---|---|
 | Decision-centered governance thesis | v0.1 | Established foundation | README.md, FRAMEWORK.md, PRINCIPLES.md | v0.1 release history |
-| Seven core governance questions | v0.1 | Established foundation | FRAMEWORK.md | v0.1 release history |
+| Seven core governance questions | v0.1 foundation; v0.2 terminology refinement | Established foundation with Basis and Human Authority terminology aligned to the Decision Inventory | FRAMEWORK.md | v0.1 release history, v0.2 consistency audit |
 | AADAG Decision Path: Decision → Consequence → Influence → Human Authority | v0.2 formalization of v0.1 core questions | Working model, end-to-end tested | README.md, TESTING.md | v0.2 development |
 | NIST AI RMF 1.0 alignment | v0.2 | Initial alignment documented; detailed crosswalk and use case planned | README.md | ROADMAP.md parking lot |
 | Three working assessment dimensions | v0.1 | Established foundation, refinement continues | FRAMEWORK.md | ROADMAP.md |
