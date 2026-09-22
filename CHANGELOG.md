@@ -18,6 +18,9 @@ All notable changes to AADAG will be documented here.
 - Added delegation as an accountability mechanism that identifies who authorized AI's defined level of influence over a decision
 - Added a governance rule requiring the authority granting or changing AI influence to be identifiable and documented
 - Added decision owner, authorized AI influence, and authorizing authority as accountability fields for the decision inventory
+- Added the nine-field decision inventory template: Decision, Affected Parties, Consequence, AI Influence, Human Authority, Decision Owner, Authorizing Authority, Basis, and Review / Recourse
+- Added Basis as the field for information, criteria, need, or reasoning supporting the decision
+- Pressure-tested the decision inventory across C1 Recommend, C2 Recommend, C3 Presume, and C4 Decide scenarios
 - Added TRACEABILITY.md to map concepts, versions, status, authoritative sources, and tracking items
 - Added the AADAG Decision Path: **Decision → Consequence → Influence → Human Authority**
 - Added initial alignment with the **NIST Artificial Intelligence Risk Management Framework (AI RMF 1.0)** and its GOVERN, MAP, MEASURE, and MANAGE functions
@@ -34,6 +37,7 @@ All notable changes to AADAG will be documented here.
 - Simplified contribution and roadmap language
 - Refined the AI influence model with definitions and boundaries for **Inform, Recommend, Presume, and Decide**
 - Tested the AI influence model using a cybersecurity account-compromise scenario across all four influence levels
+- Completed the v0.2 decision inventory design and marked the roadmap item complete
 
 ## [0.1.0] — 2026-09-02
 
