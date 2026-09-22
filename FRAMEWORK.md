@@ -60,7 +60,7 @@ AADAG v0.2 introduces the following working consequence levels:
 | **C3** | **Significant** | An incorrect decision may cause substantial harm involving people, rights, access, finances, security, opportunity, reputation, or mission outcomes. Correction may require significant intervention and some effects may persist. |
 | **C4** | **Critical** | An incorrect decision may cause lasting harm involving life, safety, fundamental rights, major financial or material loss, critical security interests, or essential mission functions. Effective correction may be difficult or impossible. |
 
-These labels and definitions are the current v0.2 working scale. Examples and known limitations remain under development.
+These labels, definitions, assignment rules, examples, and known limitations form the current v0.2 consequence model.
 
 #### Consequence assignment
 
@@ -101,6 +101,30 @@ This keeps two questions distinct:
 - **Safeguards:** What are we doing about it?
 
 Detailed safeguard selection and mapping are addressed separately within AADAG.
+
+#### Practical examples
+
+The following examples illustrate the consequence levels. Classification depends on the defined decision type and its credible consequences.
+
+- **C0 — Negligible:** AI selects the order in which optional internal training announcements appear on an employee portal. An incorrect decision causes only trivial inconvenience with no meaningful adverse effect.
+- **C1 — Limited:** AI recommends an optional employee training course. An incorrect recommendation may waste a small amount of employee time and can be corrected through routine action.
+- **C2 — Moderate:** AI determines whether an employee should be granted access to a routine business application based on role and authorization. An incorrect denial may prevent the employee from performing part of their job until deliberate administrative action restores access.
+- **C3 — Significant:** AI temporarily restricts access to a customer's primary deposit account because activity is suspected to be fraudulent, pending verification. An incorrect restriction may prevent access to funds needed for housing, food, bills, transportation, or other important needs. Some resulting financial effects may persist after access is restored.
+- **C4 — Critical:** AI influences whether a patient should receive an urgent medical intervention. An incorrect decision may credibly result in death, serious injury, or lasting harm.
+
+A change in context may require a different decision type and consequence classification. For example, access to a routine business application and privileged access to a critical system should not automatically be treated as the same decision type when their credible consequences materially differ.
+
+#### Known limitations
+
+1. **Consequences depend on available context.** A classification is only as good as the information available when the assessment is performed. Unknown affected parties, uses, dependencies, or circumstances may reveal consequences that were not reasonably identifiable during the original assessment.
+
+2. **Credibility requires judgment.** AADAG does not assign a numerical probability to every possible consequence. Determining whether a consequence is credible requires informed judgment and may produce disagreement between assessors.
+
+3. **Individual outcomes can vary.** AADAG assigns consequence to a decision type, while the actual effect of an incorrect decision may differ between individual cases. The classification represents the highest credible consequence to affected parties rather than predicting the outcome of every individual instance.
+
+4. **Context can change.** A classification can become outdated when the decision's purpose, affected population, operating environment, or potential outcomes materially change. Classification should be revisited when the decision materially changes.
+
+5. **Consequence is not likelihood.** Consequence classification describes what could credibly happen if the decision is wrong. It does not by itself determine how likely the AI is to make that incorrect decision.
 
 #### Undetermined consequences
 
@@ -155,4 +179,4 @@ It applies proportional governance to AI-assisted decisions according to their c
 
 ## Development status
 
-AADAG v0.2 is an active development release focused on decision classification. The consequence labels and core definitions are established as the current working scale. Examples, delegation, decision inventory mechanics, and later safeguard mappings remain under development.
+AADAG v0.2 is an active development release focused on decision classification. The consequence model, including level definitions, assignment rules, practical examples, and known limitations, is established as the current v0.2 working model. Delegation, decision inventory mechanics, and later safeguard mappings remain under development.
