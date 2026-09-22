@@ -16,7 +16,7 @@
 - [x] Refine AI influence levels
 - [x] Test AI influence definitions against a practical example
 - [x] Explore delegation as a distinct governance concept
-- [ ] Determine whether delegation adds accountability without adding unnecessary complexity
+- [x] Determine whether delegation adds accountability without adding unnecessary complexity
 - [x] Formalize the AADAG Decision Path: Decision → Consequence → Influence → Human Authority
 - [x] Document initial alignment with NIST AI RMF 1.0
 - [ ] Develop a decision inventory template
