@@ -17,7 +17,7 @@ These questions reveal how AI affects people, resources, rights, access, safety,
 
 ## Why this repository exists
 
-This repository is the public working home of AADAG. Version 0.1 established the foundation. Development is now underway on version 0.2, Decision Classification.
+This repository is the public working home of AADAG. Version 0.1 established the foundation. Version 0.2, Decision Classification, is in final validation and release preparation.
 
 AADAG is a practical framework in development, informed by risk management, cybersecurity governance, and real-world accountability.
 
@@ -32,7 +32,7 @@ AADAG v0.2 introduces a working consequence scale for classifying the potential 
 - **C3: Significant**
 - **C4: Critical**
 
-Full definitions are maintained in the [Framework](FRAMEWORK.md). The level names and core definitions are established as the current v0.2 working scale. Assignment rules, examples, and known limitations are still being developed.
+Full definitions are maintained in the [Framework](FRAMEWORK.md). The level names, definitions, assignment rules, practical examples, and known limitations are established as the current v0.2 working consequence model.
 
 ## Alignment with the NIST AI Risk Management Framework
 
@@ -56,32 +56,26 @@ AADAG applies these principles at the decision level through a simple governance
 
 **Influence:** How much influence does AI have over the outcome?
 
-**Human Authority:** What judgment, approval, override, or decision authority must remain with a person?
+**Human Authority:** What authority do people retain over the decision or decision process?
 
-This decision path provides context for applying the NIST AI RMF functions. AADAG identifies the decision being governed, its potential consequences, the influence given to AI, and the human authority required over the outcome.
+This decision path provides context for applying the NIST AI RMF functions. AADAG identifies the decision being governed, its potential consequences, the influence given to AI, and the human authority retained over the decision or decision process.
 
 A more detailed **NIST AI RMF 1.0 crosswalk and use case** is planned as the framework develops.
 
 **Reference:** National Institute of Standards and Technology, [Artificial Intelligence Risk Management Framework (AI RMF 1.0)](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10)
 
-## Current exploration: delegation
+## Delegation and accountability
 
-AADAG is currently exploring **delegation** as a way to describe the organizational choice to give AI influence over a decision.
+AADAG defines **delegation** as the organizational authorization granting AI a defined level of influence over a decision.
 
-The working distinction is simple:
+Influence describes what AI is authorized to do. Delegation identifies the organizational authority that authorized it. Delegation is incorporated as an accountability mechanism rather than a separate scoring dimension.
 
-- **Influence** describes how much AI affects a decision.
-- **Delegation** describes how much decision influence people or organizations choose to give AI.
-
-The idea is still being tested. The current question is whether delegation adds useful accountability to the framework without creating unnecessary complexity.
-
-A working observation behind this exploration is:
-
-> **The technology didn't necessarily change. Its influence did.**
+The authority granting or changing AI's influence over a decision should be identifiable and documented.
 
 ## Start here
 
 - [Framework](FRAMEWORK.md)
+- [Validation Record](TESTING.md)
 - [Principles](PRINCIPLES.md)
 - [Roadmap](ROADMAP.md)
 - [Traceability](TRACEABILITY.md)
@@ -91,9 +85,9 @@ A working observation behind this exploration is:
 ## Current status
 
 - **Version:** 0.2 Decision Classification
-- **Status:** Active development
-- **Completed:** Consequence level names and core definitions; AI influence definitions and boundaries
-- **In progress:** Consequence assignment guidance, delegation exploration, practical examples, and decision inventory development
+- **Status:** Final validation and release preparation
+- **Completed:** Consequence model, AI influence model, delegation accountability mechanism, Decision Path, nine-field Decision Inventory, initial NIST AI RMF 1.0 alignment, and end-to-end validation
+- **Next:** Final consistency decisions and v0.2 release
 - **Maintainer:** Gray Beard Governance
 
 ## Short description
