@@ -19,7 +19,7 @@
 - [x] Determine whether delegation adds accountability without adding unnecessary complexity
 - [x] Formalize the AADAG Decision Path: Decision → Consequence → Influence → Human Authority
 - [x] Document initial alignment with NIST AI RMF 1.0
-- [ ] Develop a decision inventory template
+- [x] Develop a decision inventory template
 - [x] Test consequence classifications against practical examples
 
 ## v0.3 — Safeguard mapping
