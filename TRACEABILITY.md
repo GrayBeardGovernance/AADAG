@@ -9,7 +9,7 @@ This file connects each major AADAG concept to the version where it entered deve
 | AADAG Decision Path: Decision → Consequence → Influence → Human Authority | v0.2 formalization of v0.1 core questions | Working model | README.md | v0.2 development |
 | NIST AI RMF 1.0 alignment | v0.2 | Initial alignment documented; detailed crosswalk and use case planned | README.md | ROADMAP.md parking lot |
 | Three working assessment dimensions | v0.1 | Established foundation, refinement continues | FRAMEWORK.md | ROADMAP.md |
-| Decision consequence scale | v0.2 | Core level names and definitions established; assignment rules, examples, and limitations still in development | FRAMEWORK.md | Issue #1, ROADMAP.md |
+| Decision consequence scale | v0.2 | Level definitions, assignment rules, practical examples, and known limitations established as current working model | FRAMEWORK.md | Issue #1, ROADMAP.md |
 | CU: Undetermined | v0.2 | Working level | FRAMEWORK.md | Issue #1 |
 | C0: Negligible | v0.2 | Working level | FRAMEWORK.md | Issue #1 |
 | C1: Limited | v0.2 | Working level | FRAMEWORK.md | Issue #1 |
