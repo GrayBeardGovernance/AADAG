@@ -49,7 +49,7 @@ For each AI-influenced decision, ask:
 1. **Decision:** What decision is AI helping us make?
 2. **Consequence:** What happens if the decision is wrong?
 3. **Influence:** How much influence does AI have over the outcome?
-4. **Human role:** What judgment or authority must remain with a person?
+4. **Human Authority:** What authority do people retain over the decision or decision process?
 5. **Evidence:** What information supports the decision, and can it be examined?
 6. **Accountability:** Who owns the decision and its consequences, and who authorized AI to have its assigned level of influence?
 7. **Review:** How can the decision be challenged, corrected, or reversed?
