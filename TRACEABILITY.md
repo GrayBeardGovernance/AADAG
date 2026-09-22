@@ -6,7 +6,7 @@ This file connects each major AADAG concept to the version where it entered deve
 |---|---|---|---|---|
 | Decision-centered governance thesis | v0.1 | Established foundation | README.md, FRAMEWORK.md, PRINCIPLES.md | v0.1 release history |
 | Seven core governance questions | v0.1 | Established foundation | FRAMEWORK.md | v0.1 release history |
-| AADAG Decision Path: Decision → Consequence → Influence → Human Authority | v0.2 formalization of v0.1 core questions | Working model | README.md | v0.2 development |
+| AADAG Decision Path: Decision → Consequence → Influence → Human Authority | v0.2 formalization of v0.1 core questions | Working model, end-to-end tested | README.md, TESTING.md | v0.2 development |
 | NIST AI RMF 1.0 alignment | v0.2 | Initial alignment documented; detailed crosswalk and use case planned | README.md | ROADMAP.md parking lot |
 | Three working assessment dimensions | v0.1 | Established foundation, refinement continues | FRAMEWORK.md | ROADMAP.md |
 | Decision consequence scale | v0.2 | Level definitions, assignment rules, practical examples, and known limitations established as current working model | FRAMEWORK.md | Issue #1, ROADMAP.md |
@@ -18,7 +18,7 @@ This file connects each major AADAG concept to the version where it entered deve
 | C4: Critical | v0.2 | Working level | FRAMEWORK.md | Issue #1 |
 | AI influence levels: Inform, Recommend, Presume, Decide | v0.1 concept; v0.2 refinement | Definitions and boundaries established as current working model | FRAMEWORK.md | Issue #3, ROADMAP.md |
 | Delegation | v0.2 | Incorporated as an accountability mechanism, not a separate scoring dimension | FRAMEWORK.md | Issue #2, ROADMAP.md |
-| Decision inventory | v0.2 | Nine-field template established and pressure-tested across C1 Recommend, C2 Recommend, C3 Presume, and C4 Decide scenarios | FRAMEWORK.md | ROADMAP.md |
+| Decision inventory | v0.2 | Nine-field template established and end-to-end tested across Inform, Recommend, Presume, Decide, failure reconstruction, and incomplete-information scenarios | FRAMEWORK.md | TESTING.md, ROADMAP.md |
 | Safeguard mapping | v0.3 planned | Planned | FRAMEWORK.md, ROADMAP.md | ROADMAP.md |
 | Field testing | v0.4 planned | Planned | ROADMAP.md | ROADMAP.md |
 | Complete usable release | v1.0 planned | Planned | ROADMAP.md | ROADMAP.md |
