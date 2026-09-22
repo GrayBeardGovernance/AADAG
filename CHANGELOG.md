@@ -24,6 +24,8 @@ All notable changes to AADAG will be documented here.
 - Added TRACEABILITY.md to map concepts, versions, status, authoritative sources, and tracking items
 - Added the AADAG Decision Path: **Decision → Consequence → Influence → Human Authority**
 - Added initial alignment with the **NIST Artificial Intelligence Risk Management Framework (AI RMF 1.0)** and its GOVERN, MAP, MEASURE, and MANAGE functions
+- Added TESTING.md as the v0.2 validation record covering Inform, Recommend, Presume, Decide, failure reconstruction, and incomplete-information scenarios
+- Added validation findings for distilled assessment views, proportional assessment depth, accountability reconstruction, and decision-instance traceability
 
 ### Changed
 
@@ -38,6 +40,8 @@ All notable changes to AADAG will be documented here.
 - Refined the AI influence model with definitions and boundaries for **Inform, Recommend, Presume, and Decide**
 - Tested the AI influence model using a cybersecurity account-compromise scenario across all four influence levels
 - Completed the v0.2 decision inventory design and marked the roadmap item complete
+- Standardized the core governance question on **Human Authority** to match the Decision Path and Decision Inventory
+- Updated README status and delegation language to match the completed v0.2 work
 
 ## [0.1.0] — 2026-09-02
 
