@@ -41,6 +41,7 @@ All notable changes to AADAG will be documented here.
 - Tested the AI influence model using a cybersecurity account-compromise scenario across all four influence levels
 - Completed the v0.2 decision inventory design and marked the roadmap item complete
 - Standardized the core governance question on **Human Authority** to match the Decision Path and Decision Inventory
+- Replaced **Evidence** with **Basis** in the core governance questions to align with the Decision Inventory and separate decision basis from later evidence and traceability safeguards
 - Updated README status and delegation language to match the completed v0.2 work
 
 ## [0.1.0] — 2026-09-02
