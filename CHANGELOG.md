@@ -15,9 +15,9 @@ All notable changes to AADAG will be documented here.
 - Added practical examples for C0 through C4
 - Added known limitations for the consequence model
 - Clarified that consequence classification is performed without relying on safeguards intended to control the consequence
-- Began exploring delegation as a possible AADAG concept for describing the organizational choice to give AI influence over a decision
-- Opened the distinction between AI influence and delegated influence for further testing
-- Added a working observation for the delegation exploration: "The technology didn't necessarily change. Its influence did."
+- Added delegation as an accountability mechanism that identifies who authorized AI's defined level of influence over a decision
+- Added a governance rule requiring the authority granting or changing AI influence to be identifiable and documented
+- Added decision owner, authorized AI influence, and authorizing authority as accountability fields for the decision inventory
 - Added TRACEABILITY.md to map concepts, versions, status, authoritative sources, and tracking items
 - Added the AADAG Decision Path: **Decision → Consequence → Influence → Human Authority**
 - Added initial alignment with the **NIST Artificial Intelligence Risk Management Framework (AI RMF 1.0)** and its GOVERN, MAP, MEASURE, and MANAGE functions
@@ -27,9 +27,8 @@ All notable changes to AADAG will be documented here.
 - Clarified that v0.1 established the initial three-dimension assessment model while v0.2 refines decision classification
 - Completed the v0.2 consequence model with level definitions, assignment rules, practical examples, and known limitations
 - Updated Issue #1 and the roadmap so completion status matches the actual definition of done
-- Updated Issue #2 to identify delegation explicitly as v0.2 exploratory work
+- Resolved the v0.2 delegation exploration by placing delegation under accountability rather than creating a separate scoring dimension
 - Updated the README to reflect active v0.2 development, current consequence-model status, and traceability documentation
-- Updated the README and roadmap to show delegation as an active area of exploration
 - Reframed project language as direct affirmative statements
 - Replaced contrast-based scope descriptions with positive commitments
 - Simplified contribution and roadmap language
