@@ -43,7 +43,7 @@
 - [ ] Release templates and worksheets
 - [ ] Document versioning and governance of AADAG itself
 
-## Near-term parking lot
+## Incubator
 
 These ideas remain available for future development:
 
