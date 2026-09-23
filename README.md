@@ -34,6 +34,16 @@ AADAG v0.2 introduces a working consequence scale for classifying the potential 
 
 Full definitions are maintained in the [Framework](FRAMEWORK.md). The level names, definitions, assignment rules, practical examples, and known limitations are established as the current v0.2 working consequence model.
 
+## Worked example
+
+A privileged-access decision shows the Decision Path in practice:
+
+> **Privileged production access → C3 Significant → Recommend → Human approval**
+
+An AI system evaluates an employee's role, requested permissions, manager authorization, existing access, and applicable policy, then recommends whether privileged administrator access should be granted. A designated human approver retains authority to accept, reject, or modify the recommendation.
+
+The full nine-field Decision Inventory captures the affected parties, decision owner, authorizing authority, basis, and review or recourse. See the [v0.2 Validation Record](TESTING.md) for the complete pressure test.
+
 ## Alignment with the NIST AI Risk Management Framework
 
 AADAG is designed to align with the principles of the **NIST Artificial Intelligence Risk Management Framework (AI RMF 1.0)** and its four core functions:
