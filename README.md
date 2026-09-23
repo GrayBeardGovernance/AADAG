@@ -11,7 +11,7 @@ AADAG begins with the decisions AI helps shape:
 1. **What decision is AI helping us make?**
 2. **How consequential is that decision if it is wrong?**
 3. **How much influence does AI have over the outcome?**
-4. **What human judgment, evidence, and accountability must remain?**
+4. **What human authority, basis, and accountability apply to the decision?**
 
 These questions reveal how AI affects people, resources, rights, access, safety, and institutional outcomes.
 
@@ -92,7 +92,7 @@ The authority granting or changing AI's influence over a decision should be iden
 
 ## Short description
 
-AADAG helps organizations classify the decisions AI influences, determine how much influence is appropriate, and assign safeguards and accountability in proportion to potential harm.
+AADAG helps organizations identify and classify the decisions AI influences, document human authority and accountability, and assess potential consequences and AI influence.
 
 ## Feedback
 
