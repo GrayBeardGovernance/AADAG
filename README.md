@@ -37,7 +37,7 @@ flowchart TD
 
 ## Why this repository exists
 
-AADAG applies principles from risk management, cybersecurity governance, and accountability to the decisions AI helps shape. This repository exists to develop AADAG in the open, test its concepts against real decisions, and provide a practical method organizations can use to govern AI influenced decisions.
+AADAG applies principles from risk management, cybersecurity governance, and accountability to the decisions AI helps shape. This repository exists to develop AADAG in the open, test its concepts against real decisions, and provide organizations with a practical method for managing AI influence over consequential decisions.
 
 ## Decision consequence levels
 
