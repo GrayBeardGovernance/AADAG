@@ -3,6 +3,17 @@
 ## AI Assisted Decision Accountability & Governance
 
 > **Govern every decision AI helps shape.**
+# AADAG
+AI Assisted Decision Accountability & Governance
+Govern every decision AI helps shape.
+
+AADAG is an emerging, decision centered framework for governing how artificial intelligence influences consequential decisions.
+
+```mermaid
+graph TD
+    A[Decision: What is AI helping shape?] --> B[Consequence: What if it's wrong?]
+    B --> C[Influence: Inform, Recommend, Presume, Decide]
+    C --> D[Human Authority: Who owns accountability?]
 
 AADAG is an emerging, decision centered framework for governing how artificial intelligence influences consequential decisions.
 
