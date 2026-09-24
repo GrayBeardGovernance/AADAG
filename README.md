@@ -37,9 +37,9 @@ flowchart TD
 
 ## Why this repository exists
 
-This repository is the public working home of AADAG. Version 0.1 established the foundation. Version 0.2, Decision Classification, was released on September 22, 2026.
+AADAG applies principles from risk management, cybersecurity governance, and accountability to the decisions AI helps shape.
 
-AADAG is a practical framework in development, informed by risk management, cybersecurity governance, and real-world accountability.
+This repository exists to develop AADAG in the open, test its concepts against real decisions, and provide a practical method organizations can use to govern AI influenced decisions.
 
 ## Decision consequence levels
 
