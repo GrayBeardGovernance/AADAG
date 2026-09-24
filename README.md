@@ -94,13 +94,6 @@ A more detailed **NIST AI RMF 1.0 crosswalk and use case** is planned as the fra
 
 **Reference:** National Institute of Standards and Technology, [Artificial Intelligence Risk Management Framework (AI RMF 1.0)](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10)
 
-## Delegation and accountability
-
-AADAG defines **delegation** as the organizational authorization granting AI a defined level of influence over a decision.
-
-Influence describes what AI is authorized to do. Delegation identifies the organizational authority that authorized it. Delegation is incorporated as an accountability mechanism rather than a separate scoring dimension.
-
-The authority granting or changing AI's influence over a decision should be identifiable and documented.
 
 ## Start here
 
