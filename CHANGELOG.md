@@ -20,7 +20,7 @@ All notable changes to AADAG will be documented here.
 - Added decision owner, authorized AI influence, and authorizing authority as accountability fields for the decision inventory
 - Added the nine-field decision inventory template: Decision, Affected Parties, Consequence, AI Influence, Human Authority, Decision Owner, Authorizing Authority, Basis, and Review / Recourse
 - Added Basis as the field for information, criteria, need, or reasoning supporting the decision
-- Pressure-tested the decision inventory across C1 Recommend, C2 Recommend, C3 Presume, and C4 Decide scenarios
+- Pressure-tested the Decision Inventory across Inform, Recommend, Presume, and Decide influence levels, along with failure reconstruction and an incomplete-information scenario
 - Added TRACEABILITY.md to map concepts, versions, status, authoritative sources, and tracking items
 - Added the AADAG Decision Path: **Decision → Consequence → Influence → Human Authority**
 - Added initial alignment with the **NIST Artificial Intelligence Risk Management Framework (AI RMF 1.0)** and its GOVERN, MAP, MEASURE, and MANAGE functions
