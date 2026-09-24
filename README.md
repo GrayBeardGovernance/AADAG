@@ -54,6 +54,16 @@ Full definitions are maintained in the [Framework](FRAMEWORK.md). The level name
 
 ## Worked example
 
+
+```mermaid
+flowchart LR
+    A["DECISION<br/><br/>Privileged Production Access"]
+    B["CONSEQUENCE<br/><br/>C3 Significant"]
+    C["AI INFLUENCE<br/><br/>Recommend"]
+    D["HUMAN AUTHORITY<br/><br/>Human Approval"]
+
+    A --> B --> C --> D
+```
 A privileged-access decision shows the Decision Path in practice:
 
 > **Privileged production access → C3 Significant → Recommend → Human approval**
