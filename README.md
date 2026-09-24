@@ -98,6 +98,7 @@ A more detailed **NIST AI RMF 1.0 crosswalk and use case** is planned as the fra
 ## Start here
 
 - [Framework](FRAMEWORK.md)
+- [Glossary](GLOSSARY.md)
 - [Validation Record](TESTING.md)
 - [Principles](PRINCIPLES.md)
 - [Roadmap](ROADMAP.md)
