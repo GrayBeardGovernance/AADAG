@@ -76,16 +76,6 @@ AADAG is designed to align with the principles of the **NIST Artificial Intellig
 
 **MANAGE:** Prioritize identified risks and implement, monitor, and adjust risk treatments.
 
-```mermaid
-flowchart TD
-    N["NIST AI RMF 1.0<br/><br/>GOVERN&nbsp;&nbsp;&nbsp;&nbsp;MAP&nbsp;&nbsp;&nbsp;&nbsp;MEASURE&nbsp;&nbsp;&nbsp;&nbsp;MANAGE"]
-    A["AADAG<br/><br/>Decision → Consequence → Influence → Human Authority"]
-
-    N -->|"Alignment"| A
-
-    style N fill:#eaf4ff,stroke:#238636,stroke-width:2px,color:#0d1117
-    style A fill:#0d3b66,stroke:#0d3b66,stroke-width:2px,color:#ffffff
-```
 
 AADAG applies these principles at the decision level through a simple governance path:
 
