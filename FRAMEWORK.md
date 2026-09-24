@@ -38,8 +38,6 @@ The v0.2 decision inventory uses nine fields:
 | **Basis** | What information, criteria, need, or reasoning supports the decision? |
 | **Review / Recourse** | How can the decision be challenged, corrected, or reversed? |
 
-**Decision Owner** is the person or role accountable for the decision and its outcomes, including when individual decisions occur without case-by-case human approval.
-
 The Decision Inventory was pressure-tested across Inform, Recommend, Presume, and Decide influence levels, along with failure reconstruction and an incomplete-information scenario. The fields are intended to remain concise. Basis may reference supporting information rather than reproduce documentation inside the inventory.
 
 ## Core questions
