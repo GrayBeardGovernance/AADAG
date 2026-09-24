@@ -40,7 +40,7 @@ The v0.2 decision inventory uses nine fields:
 
 **Decision Owner** is the person or role accountable for the decision and its outcomes, including when individual decisions occur without case-by-case human approval.
 
-The template was pressure-tested against C1 Recommend, C2 Recommend, C3 Presume, and C4 Decide scenarios. The fields are intended to remain concise. Basis may reference supporting information rather than reproduce documentation inside the inventory.
+The Decision Inventory was pressure-tested across Inform, Recommend, Presume, and Decide influence levels, along with failure reconstruction and an incomplete-information scenario. The fields are intended to remain concise. Basis may reference supporting information rather than reproduce documentation inside the inventory.
 
 ## Core questions
 
