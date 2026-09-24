@@ -20,6 +20,18 @@ AADAG begins with the decisions AI helps shape:
 
 These questions reveal how AI affects people, resources, rights, access, safety, and institutional outcomes.
 
+## Decision Path
+
+```mermaid
+graph LR
+    A["Decision<br/>What decision is AI helping make?"]
+    B["Consequence<br/>What happens if the decision is wrong?"]
+    C["Influence<br/>How much influence does AI have over the outcome?"]
+    D["Human Authority<br/>What authority do people retain over the decision or decision process?"]
+
+    A --> B --> C --> D
+```
+
 ## Why this repository exists
 
 This repository is the public working home of AADAG. Version 0.1 established the foundation. Version 0.2, Decision Classification, was released on September 22, 2026.
