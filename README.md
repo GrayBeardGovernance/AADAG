@@ -23,13 +23,23 @@ These questions reveal how AI affects people, resources, rights, access, safety,
 ## Decision Path
 
 ```mermaid
-graph LR
-    A["Decision<br/>What decision is AI helping make?"]
-    B["Consequence<br/>What happens if the decision is wrong?"]
-    C["Influence<br/>How much influence does AI have over the outcome?"]
-    D["Human Authority<br/>What authority do people retain over the decision or decision process?"]
+flowchart TD
+    A(("1")) --> B(("2")) --> C(("3")) --> D(("4"))
 
-    A --> B --> C --> D
+    A --- AT["DECISION<br/>What decision is AI helping make?"]
+    B --- BT["CONSEQUENCE<br/>What happens if the decision is wrong?"]
+    C --- CT["INFLUENCE<br/>How much influence does AI have over the outcome?"]
+    D --- DT["HUMAN AUTHORITY<br/>What authority do people retain over the decision or decision process?"]
+
+    style A fill:#238636,stroke:#238636,color:#fff
+    style B fill:#238636,stroke:#238636,color:#fff
+    style C fill:#238636,stroke:#238636,color:#fff
+    style D fill:#238636,stroke:#238636,color:#fff
+
+    style AT fill:none,stroke:none
+    style BT fill:none,stroke:none
+    style CT fill:none,stroke:none
+    style DT fill:none,stroke:none
 ```
 
 ## Why this repository exists
