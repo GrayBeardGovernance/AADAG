@@ -183,3 +183,14 @@ The tests produced several items for continued development:
 5. Continue testing CU and incomplete-information scenarios during field testing.
 
 These findings do not establish universal thresholds or safeguard requirements. Those questions remain subject to later development and field testing.
+
+## v0.3 exploratory finding: Candidate sourcing
+
+An AI system may remain at the **Inform** influence level while materially shaping the options available to a human decision maker.
+
+In the candidate-sourcing scenario, AI filtered a pool of 2,000 potential candidates to 50 candidates normally reviewed by the recruiter. The recruiter retained authority over whom to contact, but that authority was exercised primarily over the candidate set surfaced by AI.
+
+**Finding:** Influence classification alone may not fully determine safeguard needs. Safeguard assessment may also need to consider whether AI materially limits, filters, or shapes the options available to the human decision maker.
+
+**Status:** Exploratory. Requires additional pressure testing before incorporation into the framework.
+
