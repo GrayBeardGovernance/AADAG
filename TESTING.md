@@ -194,3 +194,15 @@ In the candidate-sourcing scenario, AI filtered a pool of 2,000 potential candid
 
 **Status:** Exploratory. Requires additional pressure testing before incorporation into the framework.
 
+## v0.3 exploratory finding: Filtering and retained human authority
+
+A second Inform-level pressure test examined routine news monitoring. AI filtered thousands of articles to a small set for an analyst, materially shaping the information available for review. The decision was treated as C1 Limited because an incorrect filtering decision in the tested scenario would have only limited consequences.
+
+The test showed that substantial AI filtering alone does not necessarily justify strong safeguards. The consequence of the decision remains important in determining how rigorously the filtering should be governed.
+
+**Finding:** Where AI materially shapes the information or options available to a human decision maker, safeguards should provide a means appropriate to the consequence level for the human to examine, challenge, or move beyond the AI-selected information.
+
+This refines the candidate-sourcing finding. AI Influence describes how AI participates in the decision, while safeguard design may also need to consider whether AI's role affects the human's practical ability to exercise retained authority.
+
+**Status:** Exploratory. Requires additional pressure testing before incorporation into the framework.
+
