@@ -253,3 +253,45 @@ This finding connects **Basis**, **Human Authority**, and safeguard rigor withou
 
 **Status:** Exploratory. Requires additional pressure testing before incorporation into the framework.
 
+## v0.3 pressure test: Practical opportunity to override
+
+### Scenario
+
+A payment processor uses AI to evaluate transactions for fraud.
+
+When the AI determines that a transaction is likely fraudulent, it places a temporary hold on the transaction. A fraud analyst has 15 minutes to override the hold before the transaction is blocked.
+
+The analyst can see the flagged transaction, customer history, fraud indicators, and the AI's confidence information.
+
+### Classification
+
+- **Decision:** Should this transaction be blocked as suspected fraud?
+- **Affected Parties:** Customer, merchant, and payment processor
+- **Consequence:** C2 Moderate
+- **AI Influence:** Presume
+- **Human Authority:** A fraud analyst can override the AI-established outcome before it takes effect
+
+Distilled through the Decision Path:
+
+> **Transaction block → C2 Moderate → Presume → Analyst override**
+
+### What was tested
+
+The test examined whether providing an override mechanism is sufficient as a safeguard for a Presume-level decision.
+
+Assume the analyst has a functioning Override control and sufficient information to evaluate the transaction. During the 15-minute intervention window, however, three analysts receive 600 alerts requiring potential review.
+
+The authority to override exists and the technical mechanism works, but many decisions may take effect because analysts lack the operational capacity to review them before the intervention window closes.
+
+### Finding: Practical opportunity to override
+
+An override mechanism alone does not establish meaningful human control.
+
+**Finding:** An override is meaningful only when a human has a practical opportunity to exercise it before the AI-established outcome takes effect.
+
+Practical opportunity may depend on sufficient time, notice, access, information, and operational capacity. The rigor required to establish that opportunity should be proportionate to the consequence of an incorrect decision.
+
+This test also supports a broader exploratory principle emerging across Inform, Recommend, and Presume: retained human authority must be practically exercisable, rather than existing only as formal authority or a technical control.
+
+**Status:** Exploratory. Requires additional pressure testing before incorporation into the framework.
+
