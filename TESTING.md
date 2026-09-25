@@ -295,3 +295,49 @@ This test also supports a broader exploratory principle emerging across Inform, 
 
 **Status:** Exploratory. Requires additional pressure testing before incorporation into the framework.
 
+## v0.3 pressure test: Governing Decide authority
+
+### Scenario
+
+A large automated warehouse uses AI to route autonomous material-handling vehicles through the facility.
+
+The AI continuously decides which route each vehicle should take based on congestion, worker locations, blocked aisles, delivery priorities, and other vehicle movements. Individual routing decisions occur continuously without case-by-case human approval.
+
+The system operates within established speed limits, restricted zones, collision-avoidance rules, and emergency-stop controls. Operations personnel can suspend autonomous routing.
+
+### Classification
+
+- **Decision:** What route should an autonomous vehicle take through the warehouse?
+- **Affected Parties:** Warehouse workers, contractors, operations personnel, the organization, and potentially property or equipment
+- **Consequence:** C4 Critical
+- **AI Influence:** Decide
+- **Human Authority:** Humans establish operating boundaries, monitor the system, modify its authority, and can suspend autonomous operation
+
+Distilled through the Decision Path:
+
+> **Autonomous vehicle routing → C4 Critical → Decide → Human governance and suspension authority**
+
+### What was tested
+
+The test examined whether defined operating boundaries and documented accountability are sufficient safeguards for a high-consequence Decide-level process.
+
+Assume the organization has established maximum vehicle speeds, permitted operating areas, collision-avoidance requirements, emergency-stop capability, a named Decision Owner, and a named Authorizing Authority.
+
+A temporary construction barrier then alters an aisle. The AI begins making routing decisions that remain within its original authorization but create a hazardous interaction near the changed work area.
+
+No individual decision necessarily violates the established rules. The conditions that supported the original authorization have changed.
+
+### Finding: Governing Decide authority
+
+At Decide, human control does not depend on case-by-case approval. It operates through governance of the authority delegated to AI.
+
+**Finding:** When AI operates at Decide, human control shifts from case-by-case approval to governance of the conditions under which AI is authorized to decide.
+
+The organization must be able to detect material changes in those conditions and modify or suspend AI decision authority when necessary.
+
+For higher-consequence Decide processes, safeguards may therefore need to address defined authority, operating boundaries, monitoring, traceability, intervention capability, and identifiable accountability.
+
+This test also supports the broader exploratory principle emerging across Inform, Recommend, Presume, and Decide: retained human authority must be practically exercisable. At Decide, that authority is exercised through governance, monitoring, modification, and suspension of delegated decision authority rather than approval of each individual decision.
+
+**Status:** Exploratory. Requires synthesis and additional validation before incorporation into the framework.
+
