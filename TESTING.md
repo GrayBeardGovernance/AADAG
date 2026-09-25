@@ -206,3 +206,50 @@ This refines the candidate-sourcing finding. AI Influence describes how AI parti
 
 **Status:** Exploratory. Requires additional pressure testing before incorporation into the framework.
 
+## v0.3 pressure test: Meaningful human review
+
+### Scenario
+
+A manufacturing company uses AI to analyze sensor readings, maintenance history, operating conditions, and inspection records for production equipment.
+
+The AI recommends that Machine 14 be taken offline for immediate maintenance. A maintenance supervisor must accept or reject the recommendation before anything happens.
+
+Taking the machine offline could halt a production line for several hours. Ignoring a correct recommendation could allow equipment damage or create a safety hazard.
+
+### Classification
+
+- **Decision:** Should Machine 14 be taken offline for immediate maintenance?
+- **Affected Parties:** Operators, maintenance personnel, the company, and potentially customers affected by disrupted production
+- **Consequence:** C3 Significant
+- **AI Influence:** Recommend
+- **Human Authority:** A maintenance supervisor retains authority to accept, reject, or modify the recommendation
+
+Distilled through the Decision Path:
+
+> **Machine shutdown → C3 Significant → Recommend → Maintenance supervisor approval**
+
+### What was tested
+
+The test examined whether requiring human review is sufficient as a safeguard for a higher-consequence Recommend-level decision.
+
+A supervisor could technically review an AI recommendation presented only as:
+
+> Machine 14  
+> Failure risk: HIGH  
+> Recommendation: IMMEDIATE SHUTDOWN  
+> ACCEPT / REJECT
+
+The supervisor retains formal approval authority, but may lack sufficient information to independently evaluate the recommendation.
+
+### Finding: Meaningful human review
+
+Requiring human approval does not by itself establish meaningful human control. A reviewer may formally approve or reject an AI recommendation while lacking sufficient information to evaluate it independently.
+
+**Finding:** Human review is meaningful only when the reviewer has sufficient information and authority to independently accept, reject, or modify the AI-influenced outcome.
+
+The information required to support meaningful review should be proportionate to the consequence of an incorrect decision. Higher-consequence decisions may require stronger supporting information, reviewer qualifications or authority, and evidence that review occurred.
+
+This finding connects **Basis**, **Human Authority**, and safeguard rigor without requiring AI systems to expose internal reasoning as a universal safeguard.
+
+**Status:** Exploratory. Requires additional pressure testing before incorporation into the framework.
+
