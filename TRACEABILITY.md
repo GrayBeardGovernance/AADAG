@@ -19,7 +19,7 @@ This file connects each major AADAG concept to the version where it entered deve
 | AI influence levels: Inform, Recommend, Presume, Decide | v0.1 concept; v0.2 refinement | Definitions and boundaries established as current working model | FRAMEWORK.md | Issue #3, ROADMAP.md |
 | Delegation | v0.2 | Incorporated as an accountability mechanism, not a separate scoring dimension | FRAMEWORK.md | Issue #2, ROADMAP.md |
 | Decision inventory | v0.2 | Nine-field template established and end-to-end tested across Inform, Recommend, Presume, Decide, failure reconstruction, and incomplete-information scenarios | FRAMEWORK.md | TESTING.md, ROADMAP.md |
-| Safeguard mapping | v0.3 planned | Planned | FRAMEWORK.md, ROADMAP.md | ROADMAP.md |
+| Safeguard mapping | v0.3 | In development | FRAMEWORK.md, TESTING.md, ROADMAP.md | TESTING.md, ROADMAP.md |
 | Field testing | v0.4 planned | Planned | ROADMAP.md | ROADMAP.md |
 | Complete usable release | v1.0 planned | Planned | ROADMAP.md | ROADMAP.md |
 
@@ -40,7 +40,7 @@ FRAMEWORK.md is the authoritative source for the definitions of these levels. RE
 
 - **v0.1 Foundation:** published 2026-09-02
 - **v0.2 Decision Classification:** published 2026-09-22
-- **v0.3 Safeguard Mapping:** planned
+- **v0.3 Safeguard Mapping:** in development
 - **v0.4 Field Testing:** planned
 - **v1.0 Usable Release:** planned
 
