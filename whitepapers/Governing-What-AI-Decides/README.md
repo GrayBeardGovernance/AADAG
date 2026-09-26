@@ -68,8 +68,6 @@ Together, these dimensions establish the foundation for the AADAG Decision Inven
 
 Decision consequence describes the potential impact of an incorrect AI influenced decision. AADAG v0.2 uses a working scale ranging from C0 through C4, with CU used when there is insufficient information to determine the consequence responsibly.
 
-**CU — Undetermined:** There is insufficient information to responsibly determine the consequence.
-
 **CU — Undetermined:** The potential consequence of an incorrect decision cannot yet be determined with sufficient confidence. Additional information or analysis is required before assigning a consequence level.
 
 **C0 — Negligible:** An incorrect decision has no meaningful adverse effect. Any resulting inconvenience is trivial and readily corrected.
