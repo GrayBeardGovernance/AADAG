@@ -98,6 +98,7 @@ A more detailed **NIST AI RMF 1.0 crosswalk and use case** is planned as the fra
 ## Start here
 
 - [Framework](FRAMEWORK.md)
+- [Working Paper 001 — Governing What AI Decides](whitepapers/Governing-What-AI-Decides/README.md)
 - [Glossary](GLOSSARY.md)
 - [Validation Record](TESTING.md)
 - [Principles](PRINCIPLES.md)
@@ -111,7 +112,7 @@ A more detailed **NIST AI RMF 1.0 crosswalk and use case** is planned as the fra
 - **Version:** 0.2 Decision Classification
 - **Status:** Released September 22, 2026
 - **Completed:** Consequence model, AI influence model, delegation accountability mechanism, Decision Path, nine-field Decision Inventory, initial NIST AI RMF 1.0 alignment, and end-to-end validation
-- **Next:** v0.3 Safeguard Mapping
+- **Current development:** v0.3 Safeguard Mapping
 - **Maintainer:** Gray Beard Governance
 
 ## Short description
