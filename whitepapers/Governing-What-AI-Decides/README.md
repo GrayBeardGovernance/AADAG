@@ -106,27 +106,7 @@ These definitions and boundaries are the current v0.2 working influence model.
 
 ---
 
-# 5. The Consequence × Influence Matrix
-
-The two classifications can be viewed together to identify where an AI influenced decision sits within the AADAG model.
-
-| Consequence | Inform | Recommend | Presume | Decide |
-| --- | :---: | :---: | :---: | :---: |
-| **C4 Critical** | C4 / Inform | C4 / Recommend | C4 / Presume | C4 / Decide |
-| **C3 Significant** | C3 / Inform | C3 / Recommend | C3 / Presume | C3 / Decide |
-| **C2 Moderate** | C2 / Inform | C2 / Recommend | C2 / Presume | C2 / Decide |
-| **C1 Limited** | C1 / Inform | C1 / Recommend | C1 / Presume | C1 / Decide |
-| **C0 Negligible** | C0 / Inform | C0 / Recommend | C0 / Presume | C0 / Decide |
-
-CU remains outside the matrix because it represents an unresolved consequence classification. A CU decision requires additional information before its position in the matrix can be established.
-
-The matrix does not currently assign a fixed safeguard package to each cell. That work is the focus of AADAG v0.3.
-
-Its current purpose is to establish the two conditions that determine the starting point for safeguard analysis: **how consequential the decision is and how much authority AI has over the outcome.**
-
----
-
-# 6. The Decision Inventory
+# 5. The Decision Inventory
 
 The Decision Inventory documents the structure surrounding an AI influenced decision. It connects the consequence and influence classifications to the people, authority, evidence, and review mechanisms involved in making that decision.
 
@@ -149,6 +129,16 @@ The inventory creates a record of decision authority. As AI influence increases,
 Detailed evidence for an individual decision instance is not added as a separate v0.2 inventory field. The v0.2 failure reconstruction test identified decision-instance traceability as a safeguard consideration carried forward into v0.3.
 
 A completed inventory should make it possible to answer a central AADAG question: **Who authorized this system to influence this particular class of decision this much?**
+
+---
+
+# 6. Testing Approach
+
+AADAG v0.2 was subjected to exploratory scenario-based pressure testing after the initial classification model was established. The testing examined how the framework behaved across different types of AI influenced decisions and identified areas where the framework required further development.
+
+Testing included scenarios involving fraud restrictions, insider risk, endpoint isolation, privileged production access, employment decisions, and autonomous operational systems. These scenarios exposed the framework to different levels of consequence, AI influence, decision speed, human involvement, and delegated authority.
+
+The testing was exploratory. It was used to identify ambiguities, failure conditions, and questions requiring further development. It should not be interpreted as empirical validation of AADAG or as evidence of effectiveness in deployed organizations. The findings that follow document issues exposed through this process and are informing the development of v0.3.
 
 ---
 
@@ -235,7 +225,7 @@ Safeguard requirements develop from the combined consequence and AI influence cl
 
 Decide level systems place greater emphasis on authorization boundaries, monitoring, suspension authority, traceability, and evidence of system behavior. These controls govern the authority delegated to the autonomous system and provide mechanisms for identifying and responding to conditions outside that authority.
 
-The Consequence × Influence classification provides the basis for determining the governance requirements surrounding the decision. The safeguard model provides the structure for meeting those requirements.
+The combined Consequence and AI Influence classification provides the basis for determining the governance requirements surrounding the decision. The safeguard model provides the structure for meeting those requirements.
 
 ---
 
@@ -249,7 +239,7 @@ AADAG v0.2 established the classification structure for AI influenced decisions 
 
 > **When case level intervention becomes impractical, human control must move to the boundaries governing autonomous decision authority.**
 
-The next development phase will map safeguards across the Consequence × Influence matrix and continue testing them against different decision environments. This work will establish the relationship among the decision being made, the consequence of getting it wrong, the authority given to AI, and the strength of governance required around that authority.
+The next development phase will map safeguards against the combined Consequence and AI Influence classification and continue testing them against different decision environments. This work will establish the relationship among the decision being made, the consequence of getting it wrong, the authority given to AI, and the strength of governance required around that authority.
 
 ---
 
