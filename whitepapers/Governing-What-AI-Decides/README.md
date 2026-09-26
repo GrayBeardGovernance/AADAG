@@ -249,7 +249,7 @@ The next development phase will map safeguards against the combined Consequence 
 
 The AADAG repository is the public working home of the framework. It contains the current framework, development history, testing artifacts, and working paper releases.
 
-**Project**
+**Brain Child**
 
 [AADAG on GitHub](https://github.com/GrayBeardGovernance/AADAG)
 
