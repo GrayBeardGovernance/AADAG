@@ -5,7 +5,7 @@
 ### AI Assisted Decision Accountability & Governance (AADAG)
 
 **AADAG Working Paper 001**  
-**Version 0.1 | September 2026**
+**Version 0.1.1 | September 2026**
 
 **Edward Magno**  
 Gray Beard Governance
@@ -70,15 +70,17 @@ Decision consequence describes the potential impact of an incorrect AI influence
 
 **CU — Undetermined:** There is insufficient information to responsibly determine the consequence.
 
-**C0 — Negligible:** An incorrect decision would produce little or no meaningful adverse effect.
+**CU — Undetermined:** The potential consequence of an incorrect decision cannot yet be determined with sufficient confidence. Additional information or analysis is required before assigning a consequence level.
 
-**C1 — Limited:** An incorrect decision could produce a contained and generally reversible impact.
+**C0 — Negligible:** An incorrect decision has no meaningful adverse effect. Any resulting inconvenience is trivial and readily corrected.
 
-**C2 — Material:** An incorrect decision could create meaningful operational, financial, security, access, or individual impact requiring intervention or remediation.
+**C1 — Limited:** An incorrect decision may cause minor disruption or inconvenience. Effects are identifiable and can be corrected through routine action.
 
-**C3 — Severe:** An incorrect decision could produce substantial harm, significant loss, major operational disruption, serious security consequences, or meaningful effects on individuals or institutional outcomes.
+**C2 — Moderate:** An incorrect decision may cause meaningful adverse effects requiring deliberate corrective action.
 
-**C4 — Critical:** An incorrect decision could create catastrophic, systemic, life safety, mission critical, or otherwise extreme consequences.
+**C3 — Significant:** An incorrect decision may cause substantial harm involving people, rights, access, finances, security, opportunity, reputation, or mission outcomes. Correction may require significant intervention and some effects may persist.
+
+**C4 — Critical:** An incorrect decision may cause lasting harm involving life, safety, fundamental rights, major financial or material loss, critical security interests, or essential mission functions. Effective correction may be difficult or impossible.
 
 The classification question is direct: **What could happen if this decision is wrong?**
 
@@ -92,9 +94,17 @@ CU addresses cases where that baseline cannot yet be established. During framewo
 
 AI Influence describes how much authority AI has over the outcome. AADAG uses four influence levels: Inform, Recommend, Presume, and Decide.
 
-At the **Inform** level, AI provides information that may assist a human decision maker, while the human constructs the decision independently. At **Recommend**, AI evaluates information and proposes an action or outcome, and the human actively decides whether to accept that recommendation. At the **Presume** level, the AI generated outcome proceeds unless a human intervenes. Human authority remains available through intervention, but AI has established the default outcome. At **Decide**, AI executes or determines the outcome within its authorized operating boundaries without requiring case level human approval.
+The v0.2 influence model defines the four levels as follows:
 
-These levels describe the practical role AI plays in reaching an outcome. A reviewer may still appear in the workflow after AI has selected relevant evidence, generated a recommendation, or established the default action. The influence classification records how much of the decision process has actually been delegated to AI.
+**Inform:** AI provides information, analysis, or context for consideration. The human evaluates the information and retains responsibility for determining what action, if any, to take. AI may identify, summarize, analyze, prioritize, or flag information without leaving this level, provided it does not propose a decision or action.
+
+**Recommend:** AI proposes a decision, action, or ranked set of options for human consideration. The human retains authority to accept, reject, or modify the recommendation, and human action is required for it to become the decision.
+
+**Presume:** AI establishes a default decision or action that will take effect unless a human intervenes. A human retains the authority and opportunity to change or override the outcome before it takes effect.
+
+**Decide:** AI selects or executes a decision without requiring case-by-case human approval. Human authority is exercised through the rules, limits, oversight, and ability to modify or stop the AI's decision-making authority.
+
+These definitions and boundaries are the current v0.2 working influence model.
 
 ---
 
@@ -105,8 +115,8 @@ The two classifications can be viewed together to identify where an AI influence
 | Consequence | Inform | Recommend | Presume | Decide |
 | --- | :---: | :---: | :---: | :---: |
 | **C4 Critical** | C4 / Inform | C4 / Recommend | C4 / Presume | C4 / Decide |
-| **C3 Severe** | C3 / Inform | C3 / Recommend | C3 / Presume | C3 / Decide |
-| **C2 Material** | C2 / Inform | C2 / Recommend | C2 / Presume | C2 / Decide |
+| **C3 Significant** | C3 / Inform | C3 / Recommend | C3 / Presume | C3 / Decide |
+| **C2 Moderate** | C2 / Inform | C2 / Recommend | C2 / Presume | C2 / Decide |
 | **C1 Limited** | C1 / Inform | C1 / Recommend | C1 / Presume | C1 / Decide |
 | **C0 Negligible** | C0 / Inform | C0 / Recommend | C0 / Presume | C0 / Decide |
 
@@ -122,21 +132,23 @@ Its current purpose is to establish the two conditions that determine the starti
 
 The Decision Inventory documents the structure surrounding an AI influenced decision. It connects the consequence and influence classifications to the people, authority, evidence, and review mechanisms involved in making that decision.
 
-The working inventory contains nine fields:
+The v0.2 Decision Inventory contains nine fields:
 
 | Field | Governance Question |
 | --- | --- |
-| Decision | What decision is actually being made? |
-| Decision Consequence | What happens if the decision is wrong? |
-| AI Influence | How much influence does AI have over the outcome? |
-| Decision Owner | Who owns the decision process? |
-| Authorizing Authority | Who authorized AI to influence this decision? |
-| Decision Basis | What information supports the decision? |
-| Human Role | What can the human reviewer actually do? |
+| Decision | What decision is AI helping make? |
+| Affected Parties | Who could be affected if the decision is wrong? |
+| Consequence | CU, C0, C1, C2, C3, or C4 |
+| AI Influence | Inform, Recommend, Presume, or Decide |
+| Human Authority | What authority do people retain over the decision or decision process? |
+| Decision Owner | Who is accountable for the decision and its outcomes? |
+| Authorizing Authority | Who authorized this level of AI influence? |
+| Basis | What information, criteria, need, or reasoning supports the decision? |
 | Review / Recourse | How can the decision be challenged, corrected, or reversed? |
-| Evidence / Record | What evidence demonstrates how the decision occurred? |
 
 The inventory creates a record of decision authority. As AI influence increases, that record establishes who authorized the AI's role, what authority was delegated, and what mechanisms exist to review the resulting decisions.
+
+Detailed evidence for an individual decision instance is not added as a separate v0.2 inventory field. The v0.2 failure reconstruction test identified decision-instance traceability as a safeguard consideration carried forward into v0.3.
 
 A completed inventory should make it possible to answer a central AADAG question: **Who authorized this system to influence this particular class of decision this much?**
 
@@ -164,7 +176,7 @@ The test examined the information and capability available to the supervisor whe
 
 The supervisor retains formal approval authority under these conditions, while the practical ability to evaluate the recommendation depends on the information, time, authority, and independent basis available to the reviewer.
 
-The test produced the first v0.3 finding:
+The individual pressure test produced an exploratory finding. Taken together with subsequent tests, it supports the following emerging v0.3 synthesis:
 
 > **Finding 01 — Review Capability**  
 > **Human review should be evaluated by capability, not presence.**
@@ -183,7 +195,7 @@ The test introduced decision volume and timing into the scenario. An analyst han
 
 The override remained available in the system. Its operational value depended on whether the analyst could use it before the decision took effect.
 
-This produced the second v0.3 finding:
+The individual pressure test produced an exploratory finding. Taken together with the surrounding tests, it supports the following emerging v0.3 synthesis:
 
 > **Finding 02 — Practical Override**  
 > **Human control must be operationally achievable within the decision window.**
@@ -202,7 +214,7 @@ That authority can be expressed through operating boundaries, permitted decision
 
 At this level, human governance occurs at the boundary of the autonomous decision environment. The human governs the **decision authority granted to the machine**.
 
-This produced the third v0.3 finding:
+The individual pressure test produced an exploratory finding. Taken together with the surrounding tests, it supports the following emerging v0.3 synthesis:
 
 > **Finding 03 — Autonomous Boundaries**  
 > **When case level intervention becomes impractical, human control must move to the boundaries governing autonomous decision authority.**
@@ -217,7 +229,7 @@ The pressure tests gave us a clearer question for v0.3:
 
 > **Given Consequence C0–C4 and Influence Inform–Decide, which safeguards are required, and how strong do they need to be?**
 
-The tests identified several characteristics that help answer that question. Evidence needs to show how the decision was reached and provide enough information to reconstruct its basis. Authority establishes who permitted AI to operate at the assigned influence level and who remains responsible for that authority.
+The tests identified several candidate safeguard characteristics that may help answer that question. Evidence needs to show how the decision was reached and provide enough information to reconstruct its basis. Authority establishes who permitted AI to operate at the assigned influence level and who remains responsible for that authority.
 
 Review examines what the human reviewer can actually evaluate. This includes the information available, the time allowed, and the ability to challenge the AI generated result. Intervention addresses whether someone can stop or alter an outcome within the available decision window.
 
@@ -225,7 +237,7 @@ Traceability provides a record of what occurred during and after the decision. R
 
 Boundary control becomes especially important at the Decide level. The organization needs defined and enforceable limits around what the system is authorized to decide, along with the conditions that trigger escalation, suspension, or human intervention.
 
-These characteristics are becoming the foundation of AADAG v0.3. They provide the structure for moving from a classified decision to the safeguards required to govern it.
+These candidate characteristics are informing the development of AADAG v0.3 and remain subject to additional pressure testing and synthesis. They provide the structure for moving from a classified decision to the safeguards required to govern it.
 
 ---
 
@@ -235,7 +247,7 @@ The testing performed so far supports the central rule guiding AADAG v0.3:
 
 > **The greater the consequence and the greater the AI influence, the stronger the required evidence, oversight, traceability, intervention, and recourse.**
 
-The safeguard requirements develop alongside the influence level. Inform and Recommend decisions place greater emphasis on the quality of information available to the human decision maker and the person's ability to evaluate it. Presume decisions add greater requirements around intervention, timing, workload, and override capacity.
+Safeguard requirements develop from the combined consequence and AI influence classification. Inform and Recommend decisions place greater emphasis on the quality of information available to the human decision maker and the person's ability to evaluate it. Presume decisions add greater requirements around intervention, timing, workload, and override capacity.
 
 Decide level systems place greater emphasis on authorization boundaries, monitoring, suspension authority, traceability, and evidence of system behavior. These controls govern the authority delegated to the autonomous system and provide mechanisms for identifying and responding to conditions outside that authority.
 
@@ -273,10 +285,10 @@ The AADAG repository is the public working home of the framework. It contains th
 [Edward Magno on LinkedIn](https://www.linkedin.com/in/edward-magno-161a19323/)
 
 **Document:** AADAG Working Paper 001  
-**Version:** 0.1  
+**Version:** 0.1.1  
 **Published:** September 2026  
 **Status:** Working Paper
 
 ## Suggested Citation
 
-Magno, Edward. *Governing What AI Decides: Moving Beyond Static Compliance to Decision-Centric Accountability.* AADAG Working Paper 001, Gray Beard Governance, Version 0.1, September 2026.
+Magno, Edward. *Governing What AI Decides: Moving Beyond Static Compliance to Decision-Centric Accountability.* AADAG Working Paper 001, Gray Beard Governance, Version 0.1.1, September 2026.
