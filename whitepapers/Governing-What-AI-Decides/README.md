@@ -1,6 +1,6 @@
 # Governing What AI Decides
 
-## Moving Beyond Static Compliance to Decision-Centric Accountability
+## Moving Beyond Static Compliance to Decision Centric Accountability
 
 ### AI Assisted Decision Accountability & Governance (AADAG)
 
