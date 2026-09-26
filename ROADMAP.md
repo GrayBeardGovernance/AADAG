@@ -24,10 +24,12 @@
 
 ## v0.3 — Safeguard mapping
 
+- [x] Publish AADAG Working Paper 001 documenting v0.2 and emerging v0.3 findings
 - [ ] Map safeguards to consequence and influence
 - [ ] Define minimum evidence requirements
 - [ ] Define human review expectations
 - [ ] Add recourse and override requirements
+- [ ] Continue pressure testing safeguard strength across decision environments
 
 ## v0.4 — Field testing
 
