@@ -152,21 +152,7 @@ A completed inventory should make it possible to answer a central AADAG question
 
 ---
 
-# 7. Testing Method
-
-AADAG v0.2 was subjected to exploratory scenario based pressure testing after the initial classification model was established. The purpose of this testing was to examine how the framework behaved when applied to different types of AI influenced decisions and to identify areas where the model required additional development.
-
-The scenarios included fraud restrictions, insider risk decisions, endpoint isolation, privileged production access, employment related decisions, and autonomous operational systems. The scenarios varied in consequence, AI influence, decision speed, human involvement, and the authority granted to the AI system.
-
-Each scenario was examined using the AADAG classification model and Decision Inventory. Testing focused on whether the decision could be identified clearly, whether consequence and influence could be classified, whether decision authority could be traced, and whether the stated human controls remained meaningful under the operating conditions of the scenario.
-
-These exercises were exploratory framework tests. They were designed to pressure test the structure and expose weaknesses, ambiguities, and unanswered questions in AADAG. They should not be interpreted as empirical validation of the framework or as evidence of effectiveness in deployed organizations.
-
-The testing produced several findings that directly influenced the development of v0.3.
-
----
-
-# 8. Finding 1: Approval Is Not Necessarily Control
+# 7. Finding 1: Approval Is Not Necessarily Control
 
 One pressure test, referred to during development as **Machine 14**, examined a high consequence AI recommendation requiring supervisory approval. The supervisor had final authority, and AI could not execute the decision independently.
 
@@ -185,7 +171,7 @@ These factors provide measurable characteristics for evaluating human review wit
 
 ---
 
-# 9. Finding 2: The Practical Opportunity to Override
+# 8. Finding 2: The Practical Opportunity to Override
 
 The fraud pressure test examined a system that could identify suspicious activity and initiate a restriction unless an analyst intervened. The analyst had authority to override the action.
 
@@ -202,7 +188,7 @@ Decision volume, staffing, response time, information availability, escalation p
 
 ---
 
-# 10. Finding 3: Governing Autonomous Velocity
+# 9. Finding 3: Governing Autonomous Velocity
 
 The autonomous warehouse pressure test pushed AADAG to the upper end of both classification dimensions: **C4 consequence and Decide level AI influence**.
 
@@ -221,7 +207,7 @@ For Decide level systems, those boundaries become a major part of the governance
 
 ---
 
-# 11. Toward Proportional Safeguards
+# 10. Toward Proportional Safeguards
 
 The pressure tests gave us a clearer question for v0.3:
 
@@ -239,7 +225,7 @@ These candidate characteristics are informing the development of AADAG v0.3 and 
 
 ---
 
-# 12. The Principle of Proportional Governance
+# 11. The Principle of Proportional Governance
 
 The testing performed so far supports the central rule guiding AADAG v0.3:
 
@@ -253,7 +239,7 @@ The Consequence × Influence classification provides the basis for determining t
 
 ---
 
-# 13. What Comes Next
+# 12. What Comes Next
 
 AADAG v0.2 established the classification structure for AI influenced decisions through consequence, influence, accountability, and the Decision Inventory. The pressure testing that followed produced three findings that are shaping safeguard development in v0.3.
 
