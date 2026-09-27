@@ -58,3 +58,11 @@ These ideas remain available for future development:
 - training and facilitation materials
 - distilled Decision View using the Decision Path as a concise summary of a completed AADAG assessment
 - proportional assessment depth to test when the Decision Path is sufficient, when the full Decision Inventory should be documented, and when deeper safeguards and supporting evidence are warranted.
+- **10 Minute AADAG:** a lightweight triage worksheet or workshop exercise for quickly examining one AI-assisted decision through five questions:
+  1. What decision is AI helping shape?
+  2. What happens if it is wrong?
+  3. How much influence does AI have?
+  4. Who still has authority?
+  5. What safeguard is obviously missing?
+
+  The result would indicate whether the decision appears reasonable, needs closer review, or should stop until basic controls exist. It would be an entry point to AADAG, not a full assessment.
