@@ -341,3 +341,135 @@ This test also supports the broader exploratory principle emerging across Inform
 
 **Status:** Exploratory. Requires synthesis and additional validation before incorporation into the framework.
 
+# v0.3 safeguard architecture synthesis — 2026-09-29
+
+The following section captures a synthesis and additional pressure testing performed after the initial Inform, Recommend, Presume, and Decide scenarios. These are development findings, not yet normative AADAG requirements. They should not be treated as incorporated into the framework until accepted and moved into FRAMEWORK.md.
+
+## Candidate safeguard families
+
+Pressure testing identified five distinct safeguard concerns that continued to remain separable across scenarios and Influence levels:
+
+1. **Decision Support** — provide the information and context necessary for people to understand and effectively exercise their role in an AI-influenced decision.
+2. **AI Assurance [working name]** — establish sufficient confidence that the AI contribution is appropriate and reliable for the decision it is helping shape.
+3. **Human Control** — ensure people retain authority and a practical ability to intervene in, alter, override, suspend, or recover from AI-influenced decisions when required.
+4. **Decision Record** — maintain sufficient information to reconstruct the AI-influenced decision, the authority exercised, and the resulting outcome when warranted.
+5. **Operating Boundaries** — define the conditions, limits, and decision authority within which AI is permitted to operate and when that authority must change or end.
+
+The working label **AI Assurance** remains less settled than the underlying concept.
+
+### Distinction test
+
+When an AI system produces a bad recommendation, the five families ask different questions:
+
+- **Decision Support:** Did the human have enough information to recognize and evaluate the problem?
+- **AI Assurance:** Was there sufficient basis for relying on the AI contribution for this decision?
+- **Human Control:** Could an authorized person meaningfully reject, alter, suspend, or recover from the outcome?
+- **Decision Record:** Can the decision and resulting action be reconstructed?
+- **Operating Boundaries:** Was AI authorized to exercise this type of influence under these conditions?
+
+This distinction test did not expose a need to merge the five concepts.
+
+## Cross-influence finding
+
+The five candidate families were pressure-tested across Inform, Recommend, Presume, and Decide scenarios.
+
+**Finding:** The same safeguard concerns remained relevant across the four Influence levels, but their form and emphasis changed as AI Influence increased.
+
+Examples include:
+
+- **Inform:** attention shifts toward the quality, selection, presentation, and accessibility of information and the human's ability to move beyond AI-filtered material.
+- **Recommend:** meaningful review requires enough information and authority for independent human judgment.
+- **Presume:** intervention must be practically exercisable before an AI-established outcome takes effect.
+- **Decide:** human control shifts toward governance of delegated authority, operating conditions, monitoring, suspension, and recovery rather than case-by-case approval.
+
+## AI reliability / assurance finding
+
+Candidate sourcing, Machine 14, fraud intervention, and autonomous warehouse tests independently exposed the same gap: human review, control, traceability, and defined boundaries do not by themselves establish that the AI contribution is sufficiently reliable for the decision environment.
+
+**Finding:** Safeguard mapping needs to address whether there is sufficient basis for relying on the AI contribution at the consequence and Influence level involved, including whether that basis remains valid during operation where relevant.
+
+Potential considerations include performance, data quality, limitations, validation, monitoring, bias where relevant to the decision, and deterioration or drift. The required depth should remain proportional rather than becoming a universal model-validation requirement.
+
+## Consequence scaling test
+
+Recommend was held constant while consequence was varied from C0 through C4.
+
+The same five safeguard concerns remained usable across the range. At lower consequence, some required little or no formal governance beyond ordinary operation. As consequence increased, stronger evidence, review, traceability, control, and boundary definition became appropriate.
+
+**Finding:** Consequence appears to primarily drive safeguard rigor, while AI Influence appears to primarily change safeguard form and emphasis.
+
+This remains a development finding rather than a universal quantitative rule.
+
+## Presume scaling test
+
+Presume was held constant while consequence was varied from C0 through C4.
+
+The test reinforced that stronger safeguards do not necessarily mean heavier processes or greater quantities of information. At higher consequence, effective safeguards may need to operate faster, be more reliable, and be more closely aligned to the actual decision window.
+
+**Finding:** Stronger safeguards should mean safeguards better matched to the consequence, Influence, operating conditions, and decision window, not automatically more documentation or more human intervention.
+
+**Finding:** Human Control does not mean maximizing human intervention. It means providing effective human authority appropriate to the decision environment.
+
+## Emerging STOP finding
+
+The C4 Presume test considered a safety-critical process in which required information or operating conditions supporting AI authority were no longer available.
+
+The five safeguard families described what had failed without requiring STOP to become an additional safeguard family.
+
+**Finding:** STOP is emerging as a potential governance outcome when the conditions required for authorized AI influence are not satisfied, rather than as a sixth safeguard family.
+
+Depending on the decision environment, an appropriate response could include constraint, reduced AI Influence, escalation, safe-state operation, or stopping the AI-influenced decision path. These response categories are not yet formal AADAG outcomes.
+
+## Initial safeguard-strength mapping
+
+A working 0–4 strength scale was used to test whether the five safeguard families could vary proportionally across Consequence × Influence combinations:
+
+- **0 — Baseline:** ordinary operation may be sufficient
+- **1 — Defined:** the safeguard should be identifiable and understood
+- **2 — Documented:** the safeguard should be established and recorded
+- **3 — Verified:** the safeguard should be demonstrated to work under expected conditions
+- **4 — Assured:** strong evidence and continuing assurance may be warranted
+
+The scale and labels remain exploratory. The numbers are strength indicators, not additive scores.
+
+Initial mapping supported the broader architecture but did not establish that every individual 0–4 assignment is correct. Decision Record strength assignments showed comparatively greater uncertainty and require additional testing.
+
+## Blind matrix test: C3 + Presume
+
+A hospital medication-order screening scenario was used to test a C3 Significant + Presume combination without changing the candidate safeguard map to fit the scenario.
+
+AI placed a medication order on temporary hold when it detected a suspected dangerous interaction. A pharmacist had a defined period to clear the hold.
+
+The test supported strong Decision Support, AI Assurance, Human Control, Decision Record, and Operating Boundaries, but exposed an Influence-classification issue.
+
+**Finding:** AI Influence should be classified according to the authority AI effectively exercises in the operating decision process. A nominal human review or override does not necessarily reduce Influence when that authority cannot reasonably be exercised.
+
+A separate Effective Influence field was considered unnecessary at this stage. The finding may be better handled as an Influence assignment rule.
+
+## Blind matrix test: C4 + Inform
+
+A chemical-plant emergency-response scenario was used to test a C4 Critical + Inform combination.
+
+AI organized and surfaced sensor, weather, facility, and procedure information for an incident commander but did not recommend or initiate the emergency action.
+
+The test supported strong Decision Support, AI Assurance, and Decision Record while Human Control and Operating Boundaries did not automatically require maximum strength.
+
+**Finding:** C4 does not imply maximum strength for every safeguard family. Consequence and Influence remain distinct inputs to safeguard design.
+
+The scenario also reinforced that filtering, ranking, prioritization, and presentation can materially shape a decision even when a system is nominally described as Inform.
+
+**Finding:** Influence classification should reflect how AI actually shapes the operating decision process rather than relying solely on the formal label assigned to the AI function.
+
+## Current synthesis status
+
+The pressure tests support continued development of the five-family safeguard architecture and a proportional Consequence × Influence mapping approach.
+
+The following remain open before normative incorporation:
+
+- final name and definition for AI Assurance
+- final safeguard-strength labels and thresholds
+- validation of individual matrix assignments, especially Decision Record
+- formal treatment of conditions that require constraint, reduced Influence, escalation, or STOP
+- additional external and field pressure testing
+
+**Status:** Strong exploratory synthesis. Not yet incorporated into FRAMEWORK.md.
