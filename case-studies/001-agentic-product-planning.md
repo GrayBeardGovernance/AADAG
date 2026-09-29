@@ -6,6 +6,8 @@
 
 This case study tests AADAG against a published AI-agentic decision intelligence architecture rather than a hypothetical example. It is intended to expose weaknesses, ambiguity, and unnecessary complexity in AADAG while the framework is still being developed.
 
+This case study began while several v0.2 concepts were still being refined. The terminology below has been aligned to the released v0.2 framework while preserving the development questions the case study was designed to test.
+
 ## Source architecture
 
 This case study is based on:
@@ -30,15 +32,15 @@ The paper provides the decision environment. AADAG is being tested as a governan
 
 AADAG treats the AI-influenced decision as the primary unit of governance.
 
-For each decision point identified in the architecture, the case study asks:
+For each decision point identified in the architecture, the case study asks the current v0.2 core governance questions:
 
-1. **Decision:** What decision is AI helping shape?
+1. **Decision:** What decision is AI helping us make?
 2. **Consequence:** What happens if the decision is wrong?
-3. **Influence:** What role is AI actually playing?
-4. **Human role:** What judgment or authority must remain with a person?
-5. **Evidence:** What information supports the decision, and can it be examined?
-6. **Accountability:** Who owns the decision and its consequences?
-7. **Review:** Can the decision be challenged, corrected, or reversed?
+3. **Influence:** How much influence does AI have over the outcome?
+4. **Human Authority:** What authority do people retain over the decision or decision process?
+5. **Basis:** What information, criteria, need, or reasoning supports the decision?
+6. **Accountability:** Who owns the decision and its consequences, and who authorized AI to have its assigned level of influence?
+7. **Review:** How can the decision be challenged, corrected, or reversed?
 
 The first pass intentionally does not add new AADAG categories. If the current framework cannot describe a decision cleanly, that failure will be documented rather than hidden by changing the model.
 
@@ -92,19 +94,19 @@ This is one of the central hypotheses being tested:
 
 ## Influence analysis
 
-AADAG currently uses four working AI influence categories:
+AADAG v0.2 uses four AI Influence levels:
 
 **Inform**  
-AI supplies information to a human decision-maker.
+AI provides information, analysis, or context for consideration. The human evaluates the information and retains responsibility for determining what action, if any, to take. AI may identify, summarize, analyze, prioritize, or flag information without leaving this level, provided it does not propose a decision or action.
 
 **Recommend**  
-AI proposes or ranks possible decisions.
+AI proposes a decision, action, or ranked set of options for human consideration. The human retains authority to accept, reject, or modify the recommendation, and human action is required for it to become the decision.
 
 **Presume**  
-AI establishes a default or working decision that remains in effect unless a human intervenes.
+AI establishes a default decision or action that will take effect unless a human intervenes. A human retains the authority and opportunity to change or override the outcome before it takes effect.
 
 **Decide**  
-AI makes or executes the decision with limited human intervention.
+AI selects or executes a decision without requiring case-by-case human approval. Human authority is exercised through the rules, limits, oversight, and ability to modify or stop the AI's decision-making authority.
 
 The source architecture is particularly useful for testing the boundary between these categories because outputs can move directly between analytical stages and into downstream enterprise systems.
 
@@ -132,19 +134,19 @@ AADAG will ask:
 
 This may help determine whether AADAG consequence and influence classifications can provide a repeatable basis for deciding where meaningful human authority is required.
 
-## Delegation question
+## Delegation question and v0.2 resolution
 
-AADAG v0.2 is separately exploring delegation.
+This case study originally tested whether delegation should become a distinct governance concept or whether it duplicated the Influence classification.
 
-This case study gives that concept a concrete test.
+The v0.2 development process resolved that question. **Delegation is the organizational authorization granting AI a defined level of influence over a decision.** It is an accountability mechanism rather than a separate classification scale.
 
-**Influence** describes how much AI affects a decision.
+**Influence** describes how AI participates in the decision and the authority it has over the outcome.
 
-**Delegation** may describe the organizational act of granting AI that influence.
+**Delegation** identifies the organizational act and authority that permitted AI to operate at that level of influence.
 
 The agentic architecture makes the distinction visible. A system may possess the technical capability to perform an action while the organization chooses whether that capability is permitted at a particular decision point.
 
-The case study will test whether delegation adds useful accountability or merely duplicates the influence classification.
+This case study therefore tests whether the authorizing authority and assigned Influence level remain identifiable as decisions move through an agentic workflow.
 
 ## Accountability question
 
@@ -180,8 +182,8 @@ Potential failure signals include:
 
 * consequence levels that cannot be assigned consistently;
 * influence categories that overlap or leave gaps;
-* human-role requirements that cannot be derived from the classification;
-* delegation adding terminology without adding governance value;
+* human-authority requirements that cannot be derived from the classification;
+* delegation or authorization information that cannot be identified clearly;
 * different reviewers reaching radically different classifications from the same facts; or
 * an assessment process that becomes too complicated for routine organizational use.
 
