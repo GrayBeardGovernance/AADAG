@@ -58,6 +58,7 @@ These ideas remain available for future development:
 - training and facilitation materials
 - distilled Decision View using the Decision Path as a concise summary of a completed AADAG assessment
 - proportional assessment depth to test when the Decision Path is sufficient, when the full Decision Inventory should be documented, and when deeper safeguards and supporting evidence are warranted.
+- **AADAG governing AADAG:** use the AI-assisted development and maintenance of AADAG as a real-world self-application case study. Document what development work is delegated to AI, what authority remains with the framework owner, where execution is permitted without additional approval, where AI must stop and surface a framework decision, and how consistency, traceability, review, and authorization are recorded. Potential future post, case study, or working paper demonstrating AADAG's delegation and accountability concepts through its own development history.
 - **10 Minute AADAG:** a lightweight triage worksheet or workshop exercise for quickly examining one AI-assisted decision through five questions:
   1. What decision is AI helping shape?
   2. What happens if it is wrong?
