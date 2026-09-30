@@ -67,3 +67,15 @@ These ideas remain available for future development:
   5. What safeguard is obviously missing?
 
   The result would indicate whether the decision appears reasonable, needs closer review, or should stop until basic controls exist. It would be an entry point to AADAG, not a full assessment.
+
+- **Efficiency through proportional governance:** explore whether AADAG's safeguard model can reduce unnecessary governance burden by focusing on what must be effective for the decision rather than simply requiring more controls as consequence increases.
+
+  Emerging examples:
+
+  **Decision Support:** usable information, not maximum information.  
+  **Human Control:** effective authority, not maximum human involvement.  
+  **Decision Record:** sufficient reconstruction, not logging everything.
+
+  Potential principle: **Stronger governance should mean more effective governance, not automatically more governance.**
+
+  Requires further pressure testing before incorporation into AADAG.
