@@ -45,12 +45,14 @@ The Decision Inventory was pressure-tested across Inform, Recommend, Presume, an
 For each AI-influenced decision, ask:
 
 1. **Decision:** What decision is AI helping us make?
-2. **Consequence:** What happens if the decision is wrong?
-3. **Influence:** How much influence does AI have over the outcome?
-4. **Human Authority:** What authority do people retain over the decision or decision process?
-5. **Basis:** What information, criteria, need, or reasoning supports the decision?
-6. **Accountability:** Who owns the decision and its consequences, and who authorized AI to have its assigned level of influence?
-7. **Review:** How can the decision be challenged, corrected, or reversed?
+2. **Affected Parties:** Who could be affected if the decision is wrong?
+3. **Consequence:** What happens if the decision is wrong?
+4. **AI Influence:** How much influence does AI have over the outcome?
+5. **Human Authority:** What authority do people retain over the decision or decision process?
+6. **Decision Owner:** Who is accountable for the decision and its outcomes?
+7. **Authorizing Authority:** Who authorized this level of AI influence?
+8. **Basis:** What information, criteria, need, or reasoning supports the decision?
+9. **Review / Recourse:** How can the decision be challenged, corrected, or reversed?
 
 ## Initial assessment model
 
@@ -199,9 +201,9 @@ When an AI system's authorized influence changes, such as moving from Recommend 
 
 The decision inventory captures this accountability through three fields:
 
-- **Decision owner:** Who is accountable for the decision and its outcomes
-- **Authorized AI influence:** Inform, Recommend, Presume, or Decide
-- **Authorizing authority:** Who approved that level of influence
+- **Decision Owner:** Who is accountable for the decision and its outcomes
+- **AI Influence:** Inform, Recommend, Presume, or Decide
+- **Authorizing Authority:** Who approved that level of influence
 
 ## Central rule
 
