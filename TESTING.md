@@ -269,3 +269,41 @@ A C3 Presume medication-order scenario showed that a nominal override does not n
 A C4 Inform emergency-response scenario tested the opposite problem. AI organized and surfaced critical information but did not recommend or initiate an emergency action. Strong Decision Support, AI Assurance, and Decision Record were justified by the consequence, but maximum Human Control and Operating Boundaries were not. This supports keeping Consequence and Influence distinct. C4 does not automatically mean maximum safeguards everywhere.
 
 Taken together, these tests provide strong support for continuing with the five-family safeguard architecture and a proportional Consequence × Influence model. The exact safeguard-strength scale, individual matrix assignments, the final name for AI Assurance, and the treatment of STOP remain open. These results are development evidence and have not yet been incorporated into FRAMEWORK.md.
+
+### v0.3 pressure test: AI Assurance and basis for reliance
+
+Additional testing examined what constitutes sufficient reason to rely on an AI contribution and whether assurance can be treated as a stable property of an AI system.
+
+Three scenarios were used.
+
+**Good history, changed conditions**
+
+An AI vulnerability prioritization system had strong validation and operational history. The organization subsequently migrated critical services into a new cloud environment that was not represented in the prior validation.
+
+The test showed that strong historical evidence may become less applicable when material operating conditions change. A useful response is not necessarily to reject the AI contribution or require complete revalidation. The material gap can be surfaced at the decision point along with the known basis and limitations of the available assurance evidence. Targeted verification may then be sufficient depending on Consequence, Influence, and the nature of the gap.
+
+This suggests that assurance evidence should reflect the AI's current known state and whether the conditions supporting prior reliance remain applicable.
+
+**Thin history, good outcomes**
+
+A newly deployed AI produced recommendations that survived independent human scrutiny but had little operational history.
+
+Successful prior outcomes contribute evidence, but quantity of past success alone does not establish sufficient assurance. The relevance of that evidence to the current decision, environment, and role assigned to AI also matters.
+
+The test did not support establishing an arbitrary number of successful decisions after which an AI system should be considered assured.
+
+**Strong assurance, wrong outcome**
+
+A well validated AI operating within conditions represented by its assurance evidence produced an incorrect vulnerability prioritization recommendation.
+
+The test showed that assurance does not establish certainty that an individual AI influenced decision will be correct. It establishes whether there was a defensible basis for relying on the AI contribution before the outcome was known.
+
+When an incorrect decision occurs, Decision Record supports reconstruction and root cause analysis. Resulting evidence about failure modes, limitations, or changed assumptions can then update the basis for future reliance.
+
+Across the three tests, AI Assurance remained distinct from Decision Support. Decision Support concerns whether the human has what is needed to exercise judgment. AI Assurance concerns whether sufficient relevant evidence supports relying on the AI contribution for the role it is being given in the particular decision.
+
+The tests also suggest that assurance should not be treated as a permanent trust designation assigned to an AI system. The sufficiency of assurance depends on the relevance of available evidence to the decision context and should be proportionate to Consequence and AI Influence.
+
+**Working conclusion:** AI Assurance asks whether sufficient relevant evidence supports relying on the AI contribution for the role it is being given in the decision. Assurance is not certainty. Prior evidence may need to be reconsidered when material conditions change.
+
+**Status:** Development evidence. AI Assurance remains a working name and requires further testing before incorporation into the framework.
