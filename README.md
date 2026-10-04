@@ -99,6 +99,7 @@ A more detailed **NIST AI RMF 1.0 crosswalk and use case** is planned as the fra
 
 - [Framework](FRAMEWORK.md)
 - [Working Paper 001 — Governing What AI Decides](whitepapers/Governing-What-AI-Decides/README.md)
+- [Governing Agentic AI by Decision Authority](WHITEPAPER-AGENTIC-AI.md)
 - [Glossary](GLOSSARY.md)
 - [Validation Record](TESTING.md)
 - [Principles](PRINCIPLES.md)
