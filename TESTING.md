@@ -307,3 +307,46 @@ The tests also suggest that assurance should not be treated as a permanent trust
 **Working conclusion:** AI Assurance asks whether sufficient relevant evidence supports relying on the AI contribution for the role it is being given in the decision. Assurance is not certainty. Prior evidence may need to be reconsidered when material conditions change.
 
 **Status:** Development evidence. AI Assurance remains a working name and requires further testing before incorporation into the framework.
+
+
+## v0.3 pressure test: Operating Boundaries and delegated AI authority
+
+Additional testing examined whether Operating Boundaries remained distinct from Human Control and whether AI authority should be treated as a static permission or as authority that depends on operating conditions.
+
+Three scenarios were used.
+
+**Authorized action, unexpected conditions**
+
+An AI security system was authorized to automatically isolate endpoints when defined compromise indicators were present. The AI detected those indicators on a domain controller that supported critical production services.
+
+The AI could be correct about the compromise while automatic isolation could still create significant operational consequences. The test therefore separated the accuracy of the AI assessment from the authority to act under the circumstances.
+
+This suggests that Operating Boundaries should address not only what AI is permitted to do, but the conditions under which that authority remains valid. When material conditions change, the normal decision path may need to change even when the AI is operating correctly.
+
+The test also clarified the relationship between delegated AI authority and retained human authority. Humans do not necessarily approve every decision at Decide. Instead, humans retain ultimate authority even when immediate decision authority has been delegated to AI.
+
+**Accumulated activity and changing context**
+
+A refund system was authorized to approve individual refunds up to $500. A customer submitted repeated refund requests below that threshold. Each individual decision remained within the established boundary, but the accumulated activity created a materially different risk context.
+
+The test showed that Operating Boundaries may need to account for more than individual decision thresholds. Relevant conditions may include cumulative activity, operating state, known contextual changes, or conditions established through other organizational risk processes.
+
+AI can monitor known conditions when they are defined and observable. Humans may also identify new conditions that were not anticipated when the authority was established. Those conditions can trigger reconsideration of the authority delegated to AI.
+
+AADAG does not decide what an organization's risk appetite should be. It uses the organization's established risk posture to help govern the authority given to AI.
+
+**Authorized AI declines to act**
+
+An AI refund system was authorized to approve routine refunds up to $500 but declined a valid $120 refund because it determined that it lacked sufficient basis to make the decision.
+
+The test showed that permission to exercise decision authority does not necessarily create an obligation to exercise it. An AI system may remain within its Operating Boundaries when it declines to act and routes the decision to another authorized path.
+
+Frequent refusal may indicate an efficiency, suitability, performance, or process design problem, but it does not automatically indicate a failure of Operating Boundaries.
+
+Across the three tests, Operating Boundaries remained distinct from Human Control. Operating Boundaries concern the authority AI has and the conditions under which that authority applies. Human Control concerns whether retained human authority can actually be exercised when needed.
+
+The tests also reinforced a distinction between a boundary condition and the governance response to that condition. Reaching or exceeding a boundary may lead to constraint, reduced AI Influence, escalation, STOP, or another defined response. The boundary identifies when normal AI authority no longer applies. The governance response determines what happens next.
+
+**Working conclusion:** Operating Boundaries govern where AI's decision authority begins, where it ends, and the conditions under which that authority changes.
+
+**Status:** Development evidence. Operating Boundaries requires further testing and integration before incorporation into the framework.
