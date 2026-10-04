@@ -2,7 +2,27 @@
 
 ## Applying Decision-Centered Governance to Autonomous AI Systems
 
-### Abstract
+### AI Assisted Decision Accountability & Governance (AADAG)
+
+**AADAG Working Paper 002**  
+**Version 0.1.0 | October 2026**
+
+**Edward Magno**  
+Gray Beard Governance
+
+---
+
+## Working Paper Status
+
+This paper documents development findings from pressure testing the AI Assisted Decision Accountability & Governance (AADAG) framework against agentic AI and autonomous decision workflows.
+
+AADAG remains under active development. The concepts examined in this paper, including delegated authority, Operating Boundaries, runtime evidence, reassessment, alternate decision paths, and STOP, are development findings informing AADAG v0.3 and do not automatically establish normative framework requirements.
+
+This paper will be updated as that work progresses.
+
+---
+
+## Abstract
 
 Agentic AI complicates governance because a single AI system may perform many activities within the same workflow, including gathering information, evaluating evidence, making recommendations, initiating actions, and executing decisions. Describing such a system simply as autonomous does not adequately describe the authority it exercises over the individual decisions within that workflow. The same agent may have substantial autonomy over one decision while remaining limited to an advisory role for another.
 
