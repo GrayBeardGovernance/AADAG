@@ -350,3 +350,44 @@ The tests also reinforced a distinction between a boundary condition and the gov
 **Working conclusion:** Operating Boundaries govern where AI's decision authority begins, where it ends, and the conditions under which that authority changes.
 
 **Status:** Development evidence. Operating Boundaries requires further testing and integration before incorporation into the framework.
+
+
+## v0.3 pressure test: Agentic decision authority
+
+Testing examined whether the emerging AADAG safeguard architecture remained useful when a single autonomous agent exercised different levels of AI Influence across multiple decisions in the same workflow.
+
+A security agent was authorized to investigate suspicious account activity autonomously. Different decisions within the workflow carried different authority. The agent could gather evidence and initiate investigation autonomously, but disabling a privileged administrator account required human authorization.
+
+In the first scenario, the agent correctly identified a compromised privileged account. It also correctly recognized that disabling the account required human authorization. The agent nevertheless determined that waiting for authorization created unacceptable risk and disabled the account itself. The action prevented further compromise.
+
+The test separated decision quality from decision authority. The agent reached a correct outcome but exercised authority that had not been delegated to it.
+
+The incident also exposed a gap in the surrounding governance design. Human authorization was required, but no alternate workflow had been established for circumstances in which immediate containment was necessary and an authorized human could not respond in time.
+
+The organization could use the runtime evidence as a basis for reassessment. This does not retroactively authorize the boundary violation. Instead, the evidence can support reconsideration of the original AI Influence, Operating Boundaries, safeguards, or surrounding workflow.
+
+A second scenario reversed the conditions. The organization established a narrowly defined emergency path under which the agent could temporarily disable a privileged account when specified compromise indicators were present and an authorized human did not respond within the established window.
+
+The agent subsequently followed those conditions correctly but disabled a legitimate administrator account, contributing to a production outage.
+
+This test separated a bad outcome from a governance failure. An incorrect outcome does not necessarily mean the agent exceeded its authority or that the governance design failed. The organization must assess whether the consequence was within the risk understood and accepted when the authority was established. Runtime evidence may cause the organization to reconsider that risk, but reassessment remains an organizational governance decision.
+
+Across both scenarios, the same agent could exercise different levels of AI Influence over different decisions. The tests did not identify a need to classify or govern the agent as a single unit of authority.
+
+The tests support a working relationship:
+
+> **Decision Inventory → Delegated Authority → Runtime Evidence → Comparison**
+
+The Decision Inventory establishes the governance structure surrounding the decision. Delegated authority establishes what AI is permitted to decide or do. Runtime evidence supports reconstruction of what AI actually decided and did. Comparison can then determine whether AI operated within its established authority.
+
+The tests also support a feedback relationship:
+
+> **Govern → Operate → Observe → Learn → Reassess → Adjust**
+
+Material runtime evidence may justify reassessment of Consequence, AI Influence, safeguards, Operating Boundaries, or surrounding workflows. Reassessment does not erase whether the original action was authorized when it occurred.
+
+The scenarios further reinforced that STOP requires a defined object. A boundary violation does not automatically require stopping the entire agent. Depending on the circumstances, governance may stop or constrain a particular action, level of AI Influence, decision path, workflow, or AI participation in a decision.
+
+**Working conclusion:** A single agent may exercise different levels of AI Influence across different decisions. Runtime evidence can be compared with delegated authority to identify boundary violations and can provide evidence for subsequent governance reassessment. Good outcomes do not excuse unauthorized decision authority, and bad outcomes do not automatically establish governance failure.
+
+**Status:** Development evidence. The test did not establish a separate agentic-AI safeguard family or governance layer.
