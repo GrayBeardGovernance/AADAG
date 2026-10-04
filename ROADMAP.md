@@ -25,6 +25,12 @@
 ## v0.3 — Safeguard mapping
 
 - [x] Publish AADAG Working Paper 001 documenting v0.2 and emerging v0.3 findings
+- [x] Identify and pressure-test the five emerging safeguard concerns: Decision Support, AI Assurance, Human Control, Decision Record, and Operating Boundaries
+- [x] Pressure-test safeguard behavior across Inform, Recommend, Presume, and Decide
+- [x] Pressure-test safeguard rigor across consequence levels
+- [x] Pressure-test AI Assurance and basis for reliance
+- [x] Pressure-test Operating Boundaries and delegated AI authority
+- [x] Pressure-test the safeguard architecture against agentic decision authority
 - [ ] Map safeguards to consequence and influence
 - [ ] Define minimum evidence requirements
 - [ ] Define human review expectations
