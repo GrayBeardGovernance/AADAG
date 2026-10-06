@@ -391,3 +391,114 @@ The scenarios further reinforced that STOP requires a defined object. A boundary
 **Working conclusion:** A single agent may exercise different levels of AI Influence across different decisions. Runtime evidence can be compared with delegated authority to identify boundary violations and can provide evidence for subsequent governance reassessment. Good outcomes do not excuse unauthorized decision authority, and bad outcomes do not automatically establish governance failure.
 
 **Status:** Development evidence. The test did not establish a separate agentic-AI safeguard family or governance layer.
+
+
+## v0.3 pressure test: Consequence, Influence, and safeguard application
+
+Additional testing examined how Consequence and AI Influence affect the safeguards surrounding a decision. The test deliberately began with operational questions rather than assigning safeguard requirements in advance.
+
+A routine employee expense reimbursement was used as the initial decision. The consequence remained limited while AI Influence was increased from Inform through Decide.
+
+At Inform, the first operational need identified was reporting. The organization needed visibility into the information AI was supplying to the decision process.
+
+At Recommend, the need changed. Because AI was now influencing judgment, the decision-maker needed sufficient information about the basis for the recommendation to determine whether it was reasonable.
+
+At Presume, attention shifted toward identifying conditions that should prevent the normal presumed outcome from proceeding without additional review. Flags and exception conditions became important because the AI determination would otherwise become the outcome.
+
+At Decide, the ability to reconstruct the decision became increasingly important because individual decisions could take effect without case-level human review. A Decision Record provides evidence of what was decided, the information and basis supporting the decision, and the resulting action.
+
+The test then increased the consequence of the decision while holding AI Influence at Decide. The safeguards did not necessarily change into different safeguards. Their required rigor increased because the potential impact of an incorrect decision increased.
+
+The reverse condition was also tested. A high-consequence decision was moved from Decide to Inform. The organization still required strong governance around information that could materially affect the human decision, but safeguards governing autonomous AI authority became less significant because AI no longer possessed that authority.
+
+A final low-consequence scenario allowed AI to autonomously reorder routine office supplies. Despite operating at Decide, the negligible consequence did not justify substantial governance overhead.
+
+These tests challenged an earlier working assumption that Consequence simply determines safeguard strength while Influence determines safeguard form. The relationship appears more contextual.
+
+**Working finding:** Consequence establishes how much governance a decision warrants. AI Influence determines how that governance should be applied.
+
+### Organizational context and consequence
+
+A supplier-payment scenario was then used to test the relationship under less obvious conditions.
+
+The testing initially attempted to assign a consequence level based partly on the dollar value of an invoice. This exposed a problem. The same financial amount may represent materially different consequences to different organizations.
+
+AADAG should therefore avoid establishing universal operational thresholds for consequence, including predetermined dollar amounts, transaction counts, or similar organization-specific measures. The organization provides the risk context necessary to classify the consequence. AADAG uses that classification to determine the governance appropriate to AI's role in the decision.
+
+This reinforced an existing scope boundary: AADAG does not determine an organization's risk appetite. It uses the organization's established risk posture and governance requirements when governing AI influence and authority.
+
+### C2 Presume supplier-payment test
+
+The organization classified a supplier-payment decision as C2 and allowed AI to operate at Presume.
+
+Before permitting that level of Influence, the organization required sufficient evidence that the AI could be relied upon for the assigned role. This surfaced AI Assurance before other safeguard concerns.
+
+The AI then encountered an invoice format it had not previously processed. Although it believed it could interpret the invoice, the condition was outside the experience supporting the existing assurance. The appropriate response was to flag the invoice for human input rather than allow the normal presumed outcome to proceed.
+
+The AI could continue performing supportable functions such as extracting information, analyzing the invoice, and presenting its assessment. Its authority over the payment decision did not need to remain at the same level under the changed condition.
+
+The test reinforced the relationship between AI Assurance and Operating Boundaries. AI Assurance provides the basis for relying on AI for an assigned role. Operating Boundaries establish whether AI remains authorized to exercise that role under the present conditions.
+
+### Cumulative activity and heuristics
+
+The same system was then presented with a series of individually normal invoices from the same supplier. No individual invoice exceeded the organization's normal exception criteria, but the accumulated activity created a potentially significant pattern.
+
+The test indicated that safeguards may need to evaluate decisions in context rather than examining only individual decision instances. Organizationally defined heuristics can identify conditions such as transaction velocity, cumulative exposure, repeated activity, historical deviation, or combinations of relevant factors.
+
+AADAG should not prescribe universal thresholds for these conditions. The organization determines which conditions are material and establishes the appropriate boundaries or heuristics.
+
+When the heuristic triggered, the payment was routed to a human. The reviewer determined that the invoices represented legitimate split billing.
+
+Testing then distinguished between a normal business condition and an exception. If split billing is an established feature of the supplier relationship, the organization may choose to adjust the governed process through an authorized change. If the activity is unusual, the human may authorize the specific circumstance while preserving a record explaining why it was accepted.
+
+A case-level human decision should not silently redefine future AI authority.
+
+### Human Control and the decision window
+
+Testing then examined whether Human Control remained meaningful when a person technically possessed authority but lacked a realistic opportunity to exercise it.
+
+An invoice operating at Presume triggered an exception eight minutes before scheduled payment. The designated reviewer had authority, system access, override capability, and received the notification, but did not see it until after the payment deadline.
+
+Allowing the payment to proceed solely because the reviewer failed to intervene would effectively allow Presume to become Decide under conditions where meaningful intervention was unavailable.
+
+The appropriate response in this scenario was to hold the payment, notify the relevant parties that review was required, and resume the decision path when authorized review became available.
+
+**Working finding:** Failure to intervene can support a presumed outcome only when retained human authority had a realistic opportunity to be exercised within the decision window.
+
+The scenario was then modified so that withholding payment could disrupt a critical supplier relationship and potentially affect production. This did not automatically justify expanding AI authority. The organization's established risk assessment and alternate authorized decision paths determine how the situation should be handled.
+
+Where an authorized alternate path exists, the decision can move to it. Urgency alone does not create additional AI authority.
+
+### Human Control and Decision Support
+
+A further test routed an urgent supplier-payment exception to a CFO who possessed the authority to approve the payment.
+
+The CFO's ability to exercise that authority satisfied the central Human Control question. Whether the CFO possessed sufficient information to make a sound decision raised a separate Decision Support question.
+
+When the CFO requested additional information, the AI correctly stated that it could not determine whether the invoice was valid from the available evidence. The appropriate response was to seek information from people or sources capable of resolving the uncertainty.
+
+When those sources were unavailable, the test exposed another boundary. Incomplete information does not automatically require the decision to STOP. An authorized decision-maker may be permitted by the organization to make a decision under uncertainty.
+
+If organizational policy requires specific information before the decision may proceed, the current path cannot continue until that requirement is satisfied or another authorized path applies. If the organization permits the authorized decision-maker to accept the uncertainty, the decision may proceed.
+
+**Working finding:** AADAG does not determine what level of uncertainty or risk an organization must accept. It makes the decision conditions visible, preserves the established authority structure, and applies safeguards according to the organization's governance and risk decisions.
+
+### STOP refinement
+
+The pressure test further refined the developing STOP concept.
+
+Incomplete information, an exception, or an unavailable human does not independently require STOP in every case. The relevant question is whether the current decision path remains authorized and supportable under the organization's established requirements.
+
+STOP may apply to the current payment path while the AI continues other supportable functions. An authorized alternate path may allow the decision to continue through another route.
+
+**Working finding:** STOP becomes appropriate when the current decision path cannot proceed under the organization's established requirements or available authority.
+
+### Safeguard interaction
+
+The test also provided additional evidence that the five developing safeguard concerns should not be treated as isolated requirements.
+
+AI Assurance supported the organization's decision to permit Presume authority. Operating Boundaries established the conditions under which that authority applied. Heuristics identified changes in decision context. Human Control provided an alternate authorized decision path. Decision Support addressed whether the authorized decision-maker had sufficient information to exercise judgment. Decision Record preserved unusual decisions and exceptions for later reconstruction and possible reassessment.
+
+The safeguards therefore appear to operate as a connected governance structure whose emphasis and rigor change according to Consequence, AI Influence, organizational context, and operating conditions.
+
+**Status:** Development evidence. These findings should inform continued Consequence × Influence mapping and the final v0.3 end-to-end pressure test before incorporation into the formal framework.
