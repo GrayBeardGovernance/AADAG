@@ -173,21 +173,189 @@ AI influence describes how AI participates in a decision and how much decision a
 
 These definitions and boundaries are the current v0.2 working influence model.
 
-### 3. Required safeguards
+### 3. Safeguard Mapping
 
-Safeguards should increase with both consequence and AI influence. Candidate safeguards include:
+AADAG applies safeguards according to the consequence of an incorrect decision and the level of influence AI has over that decision.
 
-- named human ownership
-- documented decision criteria
-- source and evidence review
-- meaningful human review
-- logging and traceability
-- bias and performance evaluation
-- appeal or correction mechanisms
-- monitoring for changed conditions
-- authority to suspend AI use.
+> **Consequence establishes how much governance a decision warrants. AI Influence determines how that governance should be applied.**
 
-Detailed safeguard mapping is planned for v0.3.
+Safeguards should be proportionate to the decision being governed. Higher consequence may require greater rigor, but greater AI Influence does not automatically require every safeguard to become stronger. The safeguards that matter most, and how they are applied, depend on the role AI has in the decision.
+
+AADAG uses five safeguard concerns:
+
+#### Decision Support
+
+Decision Support addresses whether the people involved in a decision have the information needed to exercise their role.
+
+This may include the information AI provides, the basis supporting a recommendation, known limitations or uncertainty, relevant evidence, and other information material to the decision.
+
+Decision Support does not require every possible piece of information to be available. The information required depends on the decision, the authority being exercised, and the organization's established requirements.
+
+#### AI Assurance
+
+AI Assurance addresses whether sufficient relevant evidence supports relying on AI for the role it has been given in the decision.
+
+Relevant evidence may include testing, validation, observed performance, suitability for the decision environment, reliability of supporting data, and operational experience.
+
+Assurance is not certainty. Evidence that supported reliance on AI under one set of conditions may become less applicable when the system, data, decision environment, or other material conditions change.
+
+#### Human Control
+
+Human Control addresses whether retained human authority can actually be exercised when needed.
+
+The presence of a human role alone does not establish Human Control. The person must have the authority and practical ability to exercise the role assigned to them within the conditions and decision window in which that authority matters.
+
+As AI Influence increases, Human Control may move from case-level approval toward governing the authority delegated to AI, including the ability to constrain, modify, suspend, or withdraw that authority.
+
+#### Decision Record
+
+Decision Record addresses whether a decision and the relevant events surrounding it can be reconstructed.
+
+The record should be proportionate to the decision and may include the outcome, information or evidence used, AI contribution, human action, exceptions, changes in authority, and resulting actions where those details are material.
+
+Decision Record supports accountability, review, correction, investigation, and later reassessment. It should not require documentation that provides no meaningful governance value.
+
+#### Operating Boundaries
+
+Operating Boundaries establish where AI's decision authority begins, where it ends, and the conditions under which that authority changes.
+
+Boundaries may reflect the decision being made, AI Influence, organizational policy, operating conditions, defined exceptions, cumulative activity, or other conditions the organization determines are material.
+
+Reaching an Operating Boundary does not automatically require disabling the AI system. The affected decision or level of AI Influence may be constrained, routed to another authorized path, reduced, suspended, or stopped while other supportable AI functions continue.
+
+#### 3.1 Consequence and Safeguard Rigor
+
+Consequence determines the rigor warranted around an AI-influenced decision but does not prescribe a fixed set of controls.
+
+AADAG does not define universal thresholds for financial value, transaction volume, confidence scores, error rates, or other organization-specific measures. The organization provides the risk context used to classify the decision and determine what level of governance is appropriate.
+
+The consequence levels provide the following safeguard posture:
+
+**C0 — Negligible**
+
+Safeguards should remain minimal. Governance should not introduce meaningful overhead where an incorrect decision has no meaningful adverse effect. Basic operational practices may be sufficient.
+
+**C1 — Limited**
+
+Safeguards should provide basic visibility and accountability appropriate to AI's role. Errors should be identifiable and correctable through routine action without requiring substantial governance infrastructure.
+
+**C2 — Moderate**
+
+Safeguards should be deliberately defined for the decision. The organization should understand why AI is being relied upon, establish relevant boundaries and exceptions, preserve appropriate human authority, and maintain enough evidence to review or reconstruct material decisions.
+
+**C3 — Significant**
+
+Safeguards should provide strong and reliable governance over AI's role in the decision. Evidence supporting reliance on AI, operating boundaries, human authority, decision support, records, exception handling, and reassessment should be established with rigor appropriate to the potential harm.
+
+**C4 — Critical**
+
+Safeguards should receive the highest level of rigor appropriate to the organization's environment and established risk requirements. Delegated AI authority should have a strong supporting basis, clearly defined boundaries, reliable paths for exercising retained human authority, and sufficient evidence to reconstruct and reassess consequential decisions.
+
+These levels describe increasing governance rigor rather than a mandatory control count. The same safeguard may be implemented very differently across consequence levels.
+
+A Decision Record for a C1 decision, for example, may require only enough information to identify what occurred and correct an error. A C4 Decision Record may require substantially greater evidence because the organization must be able to reconstruct a decision whose effects could be lasting or irreversible.
+
+Safeguards should also avoid unnecessary governance overhead. High AI Influence does not by itself justify extensive controls around a negligible-consequence decision.
+
+#### 3.2 AI Influence and Safeguard Application
+
+AI Influence determines how safeguards should be applied to the decision.
+
+As AI moves from Inform through Decide, its role changes from supplying information to exercising decision authority. Safeguards should reflect that role rather than increase mechanically with each Influence level.
+
+##### Inform
+
+At Inform, AI provides information, analysis, context, prioritization, or flags without proposing or making the decision.
+
+Safeguards should focus primarily on whether the AI contribution can be appropriately relied upon as an input to the human decision. Decision Support and AI Assurance may therefore carry substantial weight, particularly when the consequence of an incorrect decision is high.
+
+Human Control is generally inherent at this level because the human retains decision authority. Operating Boundaries should ensure that AI remains within its informational role and does not begin recommending or taking action without authorization.
+
+Decision Records should preserve AI's contribution when reconstruction of the decision warrants it.
+
+##### Recommend
+
+At Recommend, AI proposes a decision, action, or set of options while a human retains authority to determine the outcome.
+
+Safeguards should allow the human to exercise judgment rather than simply accept the AI recommendation without a meaningful basis for doing so. Decision Support should provide enough information about the recommendation and its basis for the human to evaluate it at the rigor warranted by the consequence.
+
+AI Assurance should support reliance on AI for the recommending role. Operating Boundaries should prevent a recommendation from becoming an action without the required human decision.
+
+Decision Records should preserve the recommendation and resulting decision when those details are material to accountability or reconstruction.
+
+##### Presume
+
+At Presume, AI establishes an outcome that will take effect unless a human intervenes.
+
+Safeguards should address the conditions under which the presumed outcome may proceed, the conditions requiring additional review, and whether retained human authority can realistically be exercised before the outcome takes effect.
+
+Operating Boundaries may include exceptions, heuristics, cumulative activity, changed conditions, or other organization-defined triggers that alter the normal decision path.
+
+Human Control requires more than assigning someone the ability to override the AI. The authorized person must have a realistic opportunity to exercise that authority within the relevant decision window.
+
+> **Failure to intervene can support a presumed outcome only when retained human authority had a realistic opportunity to be exercised.**
+
+When that opportunity does not exist, Presume should not silently become Decide. The decision should follow another authorized path or wait until the organization's requirements for proceeding are satisfied.
+
+##### Decide
+
+At Decide, AI selects or executes the decision without requiring case-by-case human approval.
+
+Safeguards should focus on the authority delegated to AI and the conditions under which that authority remains valid. AI Assurance should provide sufficient relevant evidence to support reliance on AI for the assigned decision role. Operating Boundaries should define where that authority applies and when it must change, route elsewhere, or cease.
+
+Human Control at Decide does not require a person to approve every individual decision. Human authority is exercised through governance of the delegated authority, including the ability to constrain, modify, suspend, or withdraw it.
+
+Decision Records become particularly important when individual decisions occur without prior human review because the organization must retain sufficient evidence to reconstruct material decisions and evaluate how the delegated authority was exercised.
+
+#### 3.3 Safeguards Working Together
+
+The five safeguard concerns operate together. They should not be treated as independent requirements or a checklist that must be applied identically to every decision.
+
+A condition identified by one safeguard may affect another. Evidence supporting AI Assurance may justify a particular level of AI Influence. Operating Boundaries determine where that authority applies. Decision Support provides information needed to exercise judgment. Human Control preserves the organization's ability to exercise retained authority. Decision Record provides evidence needed to reconstruct what occurred and support later review or reassessment.
+
+The relative importance of each safeguard may change according to Consequence, AI Influence, organizational requirements, and operating conditions.
+
+##### Changed Conditions
+
+Safeguards should account for material changes in the conditions supporting the governed decision.
+
+A change in data, operating environment, system behavior, affected population, decision context, or other material condition may weaken the basis supporting the current AI role without making every AI function unusable.
+
+When this occurs, the organization should determine whether the existing AI Influence remains supportable under the established safeguards and Operating Boundaries.
+
+AI authority may remain unchanged, become more constrained, move to a lower Influence level, route to another authorized decision path, or cease for the affected decision.
+
+##### Alternate Decision Paths
+
+A decision that cannot continue through its normal path does not necessarily have to stop entirely.
+
+Operating Boundaries may route the decision to another person, process, Influence level, or authorized authority. The alternate path should operate within authority already established by the organization.
+
+Urgency, inconvenience, or operational pressure does not itself expand AI authority.
+
+A human decision made through an authorized alternate path also does not automatically expand future AI authority. A case-specific exception should remain an exception unless the organization deliberately changes the governed process.
+
+##### STOP
+
+STOP applies when the current decision path cannot proceed under the organization's established requirements or available authority.
+
+STOP applies to the affected decision path rather than automatically requiring the AI system itself to be disabled. AI may continue performing other authorized and supportable functions while the affected decision is held, constrained, or routed elsewhere.
+
+An exception, incomplete information, or unavailable human does not independently require STOP in every case. The organization determines what information, authority, and conditions are required for a decision to proceed.
+
+Where another authorized path exists, the decision may move to that path. Where no authorized path permits the decision to continue, the current path stops.
+
+##### Runtime Evidence and Reassessment
+
+Operation of the governed decision produces evidence about how the safeguards and delegated authority work in practice.
+
+Runtime evidence may include exceptions, overrides, boundary conditions, repeated patterns, unexpected outcomes, performance changes, human interventions, or decisions that could not proceed through their expected path.
+
+This evidence should inform reassessment when it indicates that the assumptions supporting the current governance may no longer hold.
+
+Reassessment may result in no change. It may also result in changes to safeguards, Operating Boundaries, AI Influence, decision classification, or other parts of the governed process.
+
+A successful outcome does not by itself establish that AI acted within its authorized authority. An unfavorable outcome does not by itself establish that governance failed. Reassessment should consider both the outcome and whether the decision occurred within the authority and conditions established by the organization.
 
 ## Delegation and accountability
 
@@ -207,14 +375,14 @@ The decision inventory captures this accountability through three fields:
 
 ## Central rule
 
-**The greater the consequence and the greater the AI influence, the stronger the required evidence, oversight, traceability, and recourse.**
+**Consequence establishes how much governance a decision warrants. AI Influence determines how that governance should be applied.**
 
 ## Scope
 
 AADAG provides a decision-governance layer that works alongside law, regulation, organizational policy, technical assurance, and vendor review.
 
-It applies proportional governance to AI-assisted decisions according to their consequences and the influence given to AI. Human accountability requires meaningful authority, adequate information, and genuine control over the outcome.
+It applies proportional governance to AI-assisted decisions according to their consequences and the influence given to AI. Human accountability requires that retained human authority remain meaningful and that delegated AI authority remain governable within the organization's established boundaries.
 
 ## Development status
 
-AADAG v0.2 Decision Classification was released on September 22, 2026. The consequence model, AI influence model, delegation accountability mechanism, Decision Path, and nine-field Decision Inventory form the v0.2 release. Safeguard mapping is planned for v0.3.
+AADAG v0.2 Decision Classification was released on September 22, 2026. The consequence model, AI influence model, delegation accountability mechanism, Decision Path, and nine-field Decision Inventory form the v0.2 release. Safeguard mapping is under active development for v0.3.
