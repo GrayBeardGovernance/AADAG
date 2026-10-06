@@ -121,6 +121,10 @@ A more detailed **NIST AI RMF 1.0 crosswalk and use case** is planned as the fra
 
 AADAG helps organizations identify and classify the decisions AI influences, document human authority and accountability, and assess potential consequences and AI influence.
 
+## Advisory & Consulting
+
+Available for AI governance advisory, framework customization, and NIST AI RMF 1.0 alignment consulting.
+
 ## Feedback
 
 Constructive challenges are welcome. If a concept is unclear, incomplete, difficult to apply, or produces the wrong result, please open an issue.
