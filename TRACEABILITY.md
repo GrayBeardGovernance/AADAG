@@ -19,12 +19,12 @@ This file connects each major AADAG concept to the version where it entered deve
 | AI influence levels: Inform, Recommend, Presume, Decide | v0.1 concept; v0.2 refinement | Definitions and boundaries established as current working model | FRAMEWORK.md | Issue #3, ROADMAP.md |
 | Delegation | v0.2 | Incorporated as an accountability mechanism, not a separate scoring dimension | FRAMEWORK.md | Issue #2, ROADMAP.md |
 | Decision inventory | v0.2 | Nine-field template established and end-to-end tested across Inform, Recommend, Presume, Decide, failure reconstruction, and incomplete-information scenarios | FRAMEWORK.md | TESTING.md, ROADMAP.md |
-| Safeguard mapping | v0.3 | In development; five-family architecture has strong exploratory support but is not yet normative | FRAMEWORK.md | TESTING.md, ROADMAP.md |
-| Candidate safeguard families: Decision Support, AI Assurance [working], Human Control, Decision Record, Operating Boundaries | v0.3 | Strong exploratory synthesis; names and individual mapping remain subject to refinement | Not yet normative | TESTING.md |
-| Safeguard proportionality: consequence primarily drives rigor; Influence changes form and emphasis | v0.3 | Strong exploratory finding | Not yet normative | TESTING.md |
-| Practical exercisability of Human Authority | v0.3 | Repeated exploratory finding across Recommend, Presume, and Decide tests | Not yet normative | TESTING.md |
-| Influence reflects actual operating authority | v0.3 | Strong exploratory assignment-rule candidate; nominal review or override may not reduce effective Influence when it cannot reasonably be exercised | Not yet normative | TESTING.md |
-| STOP as potential governance outcome | v0.3 | Emerging finding; not a safeguard family and not yet a formal AADAG outcome | Not yet normative | TESTING.md, ROADMAP.md Incubator |
+| Safeguard mapping | v0.3.0 | Incorporated in the development release; consequence-rigor and AI Influence application guidance established; independent field validation outstanding | FRAMEWORK.md §3 | TESTING.md, ROADMAP.md |
+| Five safeguard families: Decision Support, AI Assurance, Human Control, Decision Record, Operating Boundaries | v0.3.0 | Incorporated as five safeguard concerns; organization-specific implementations remain contextual | FRAMEWORK.md §3 | TESTING.md |
+| Safeguard proportionality: consequence drives rigor; Influence changes form and emphasis | v0.3.0 | Incorporated as the central mapping rule | FRAMEWORK.md §3 | TESTING.md |
+| Practical exercisability of Human Authority | v0.3.0 | Incorporated; human authority must be exercisable within the relevant decision window when retained | FRAMEWORK.md §3 | TESTING.md |
+| Influence reflects actual operating authority | v0.3.0 | Incorporated into influence application: nominal review or override does not substitute for meaningful exercisable authority | FRAMEWORK.md §3 | TESTING.md |
+| STOP for an unauthorized affected decision path | v0.3.0 | Incorporated as a path-level governance outcome when no authorized alternate path permits proceeding; not a sixth safeguard or blanket system shutdown | FRAMEWORK.md §3 | TESTING.md |
 | Safeguard strength scale 0–4 | v0.3 | Exploratory implementation mechanism; labels and individual assignments not established | Not yet normative | TESTING.md |
 | Field testing | v0.4 planned | Planned | ROADMAP.md | ROADMAP.md |
 | Complete usable release | v1.0 planned | Planned | ROADMAP.md | ROADMAP.md |
@@ -46,7 +46,7 @@ FRAMEWORK.md is the authoritative source for the definitions of these levels. RE
 
 - **v0.1 Foundation:** published 2026-09-02
 - **v0.2 Decision Classification:** published 2026-09-22
-- **v0.3 Safeguard Mapping:** in development
+- **v0.3.0 Safeguard Mapping:** development release published 2026-10-08; not independently field-validated
 - **v0.4 Field Testing:** planned
 - **v1.0 Usable Release:** planned
 
@@ -54,8 +54,6 @@ FRAMEWORK.md is the authoritative source for the definitions of these levels. RE
 
 A concept should not be described as complete in the roadmap while its tracking issue still lists required work as unfinished. Experimental concepts should remain clearly marked as exploratory until they are formally incorporated into FRAMEWORK.md as part of the assessment model.
 
-## v0.3 development boundary
+## v0.3 release boundary
 
-Current v0.3 pressure testing has produced strong support for a five-family safeguard architecture and proportional safeguard mapping, but these findings remain development evidence rather than framework doctrine.
-
-TESTING.md records the evidence and exploratory synthesis. TRACEABILITY.md records their development status. FRAMEWORK.md remains the normative boundary and should not be updated until the framework owner accepts the relevant v0.3 concepts for incorporation.
+The framework owner incorporated the five safeguard families, consequence-based rigor, influence-specific application, meaningful human review, override/recourse, and path-level STOP guidance into FRAMEWORK.md for the v0.3.0 development release. FRAMEWORK.md is authoritative for the current model; TESTING.md remains the exploratory development evidence, not independent operational validation. Organization-specific acceptance criteria, authority assignments, and field validation remain outstanding. Concepts not incorporated in FRAMEWORK.md, including a numeric safeguard strength scale, remain exploratory.
