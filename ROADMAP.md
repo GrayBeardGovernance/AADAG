@@ -31,11 +31,13 @@
 - [x] Pressure-test AI Assurance and basis for reliance
 - [x] Pressure-test Operating Boundaries and delegated AI authority
 - [x] Pressure-test the safeguard architecture against agentic decision authority
-- [ ] Map safeguards to consequence and influence
-- [ ] Define minimum evidence requirements
-- [ ] Define human review expectations
-- [ ] Add recourse and override requirements
-- [ ] Continue pressure testing safeguard strength across decision environments
+- [x] Map safeguards to consequence and influence
+- [x] Define minimum evidence requirements
+- [x] Define human review expectations
+- [x] Add recourse and override requirements
+- [x] Consolidate completed scenario pressure tests and document remaining validation limits (additional field testing deferred to v0.4)
+
+**v0.3.0 status:** Released October 8, 2026 as a development release. The safeguard mapping is consolidated in `FRAMEWORK.md`; independent operational validation remains future work.
 
 ## v0.4 — Field testing
 
