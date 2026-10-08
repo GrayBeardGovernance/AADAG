@@ -147,7 +147,7 @@ Reversibility is one of the characteristics considered when assigning consequenc
 
 A measure used to prevent an incorrect decision, reduce its effects, provide opportunities for intervention, or help correct an outcome.
 
-Detailed safeguard selection and mapping are planned for AADAG v0.3.
+AADAG v0.3.0 establishes five safeguard families and proportionate mapping guidance in `FRAMEWORK.md` Section 3. Organization-specific safeguard selection, implementation, and independent field validation remain outstanding.
 
 ## Scope
 
