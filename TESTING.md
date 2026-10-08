@@ -502,3 +502,146 @@ AI Assurance supported the organization's decision to permit Presume authority. 
 The safeguards therefore appear to operate as a connected governance structure whose emphasis and rigor change according to Consequence, AI Influence, organizational context, and operating conditions.
 
 **Status:** Development evidence. These findings should inform continued Consequence × Influence mapping and the final v0.3 end-to-end pressure test before incorporation into the formal framework.
+
+## v0.3 End-to-End Pressure Test: Regulated Bioreactor Operations and After-Action Learning
+
+**Status:** Development evidence. Provisional findings pending final Decision Inventory review and domain validation.
+
+### Scenario and Operating Context
+
+This pressure test examined AI-assisted decision-making during a simulated incident at a regulated pharmaceutical manufacturing facility producing therapeutic protein.
+
+The bioreactor operated under established process limits, validated procedures, quality requirements, and designated human authorities. AI monitored process information, correlated evidence, identified abnormal conditions, and supported operational decisions. Qualified personnel retained authority over process adjustments, quality decisions, and batch disposition.
+
+The exercise tested how AADAG's five safeguard families behaved as conditions deteriorated, evidence became unreliable, and the organization faced pressure to protect a potentially compromised production batch.
+
+The scenario is hypothetical. Its technical details and assumed quality procedures have not been independently validated by a pharmaceutical manufacturing subject-matter expert.
+
+### 1. Initial Detection and Recommendation
+
+AI detected declining dissolved oxygen and identified increasing agitation as a potential corrective action.
+
+The participants provisionally classified the AI-influenced decision as C4 because an incorrect process assessment or adjustment could credibly contribute to critical product-quality consequences, including major batch loss or potential downstream patient impact.
+
+At Inform, AI was expected to supply reliable observations, trends, source information, and relevant uncertainty.
+
+At Recommend, the evidence requirement increased. The operator needed to understand the basis for the proposed adjustment, including sensor readings, corroborating information, uncertainty, and possible consequences.
+
+**Finding 01: A C4 recommendation requires sufficient supporting evidence for qualified personnel to evaluate its basis before acting.**
+
+An explanation alone does not establish that the recommendation is reliable.
+
+### 2. Conflicting Evidence and Withheld Recommendation
+
+A second oxygen sensor contradicted the evidence supporting the proposed adjustment.
+
+The test established that AI should explicitly identify the conflicting readings and explain why it could not currently support a reliable recommendation. It should not continue presenting the adjustment as a firm recommendation while material uncertainty remains unresolved.
+
+AI could continue providing sensor information, historical trends, and other evidence that might help qualified personnel investigate the discrepancy.
+
+**Finding 02: Where material evidence is insufficient or contradictory, AI should withhold an unsupported recommendation, explain the limitation, and identify the information needed to resolve it.**
+
+This behavior was provisionally described as WITHHOLD. It represents a behavior within the existing safeguards rather than a proposed sixth safeguard family or new formal governance outcome.
+
+### 3. Escalation and Emergency Authority
+
+As dissolved oxygen approached a critical threshold, AI escalated the unresolved condition to Quality Assurance and the appropriate operational personnel under the facility's established procedures.
+
+The operator was permitted to take immediate action under an existing emergency procedure that explicitly authorized the response. The absence of a reliable AI recommendation did not remove the operator's established authority or create a requirement to wait for AI to resolve the uncertainty.
+
+**Finding 03: Human Control must preserve the ability of authorized personnel to act under established emergency procedures. AI uncertainty must not create an unauthorized obstacle to time-critical human action.**
+
+The actual escalation recipients, emergency conditions, and notification sequence must be established by the organization rather than prescribed universally by AADAG.
+
+### 4. Quality Assessment and Batch Hold
+
+Following the authorized intervention, dissolved oxygen stabilized. Subsequent laboratory evidence nevertheless suggested that product quality might have been compromised.
+
+AI identified the discrepancy, presented the supporting evidence, and recommended escalation for quality evaluation and a possible batch hold.
+
+Authorized personnel retained responsibility for the quality decision. Where an applicable procedure independently required a hold, that requirement remained binding regardless of AI's recommendation.
+
+**Finding 04: AI may support quality decisions through evidence and recommendations, but its participation does not change mandatory quality requirements or established decision authority.**
+
+### 5. Proposed Recovery Outside Validated Procedures
+
+The scenario then introduced a possible recovery method identified through historical data analysis. The proposed method fell outside validated operating procedures.
+
+The test participants rejected introducing this speculative recovery approach as an operational recommendation during the active incident.
+
+The batch remained subject to established quality controls. Any future consideration of the method would require the organization's applicable evaluation, validation, and change-control processes.
+
+**Finding 05: Operating Boundaries must account for the conditions and context in which AI-generated information is introduced. A potentially useful idea for future improvement may be inappropriate as an active operational recommendation.**
+
+The proposed unvalidated recovery path was not permitted to proceed. This exercised STOP at the level of the affected decision path, without implying that all monitoring, equipment operation, or other authorized activities must stop.
+
+### 6. After-Action Review
+
+The test identified a valuable additional role for AI after the operational incident had been controlled.
+
+The participants proposed a two-section after-action report.
+
+**Section A: What Happened**
+
+This section reconstructs the incident using contemporaneous evidence, including sensor readings, AI observations, withheld recommendations, escalations, human decisions, procedural actions, laboratory findings, and final disposition.
+
+It must distinguish information actually available during the event from information established afterward.
+
+**Section B: Lessons Learned and Possible Solutions to Explore**
+
+This section allows AI to examine historical evidence, identify recurring patterns, investigate possible warning indicators, and propose improvements for future evaluation.
+
+Potential improvements may include sensor reliability, monitoring practices, operating procedures, training, or recovery research. Such proposals remain subject to human assessment and any applicable validation or change-control requirements before operational adoption.
+
+**Finding 06: AI can support both operational decision-making and retrospective organizational learning, provided the operating context, evidence, and applicable authority are clearly distinguished.**
+
+The after-action process provides an opportunity to use AI's analytical capabilities without expanding its authority during a critical operational event.
+
+### 7. Provisional Decision Inventory Reconstruction
+
+The following entries summarize the decisions exercised in the scenario. They are not yet complete nine-field Decision Inventory records.
+
+| Decision type | Consequence | AI Influence | Human authority |
+|---|---|---|---|
+| Identify abnormal dissolved oxygen conditions | C4 proposed | Inform | Qualified operations personnel |
+| Recommend process adjustment | C4 proposed | Recommend | Authorized operator or process engineer |
+| Identify evidence conflict and escalate | C4 proposed | Inform | Designated operational and quality personnel |
+| Support batch-quality assessment | C4 proposed | Inform / Recommend | Authorized quality personnel |
+| Evaluate potential recovery during active incident | C4 proposed | Inform within established boundaries | Designated engineering and quality authorities |
+| Support retrospective lessons learned | To be assessed separately | Inform / Recommend | Designated process improvement and change-control authorities |
+
+The C4 proposals reflect the assumed highest credible consequences of incorrect AI-influenced operational decisions. The final reconstruction must verify the consequence pathway for each decision type rather than automatically classifying every activity within the facility as C4.
+
+The remaining Decision Inventory fields require confirmation: Affected Parties, Decision Owner, Authorizing Authority, Basis, and Review / Recourse. Human Authority must also be verified against the facility's actual procedures.
+
+### 8. Safeguard Assessment
+
+The scenario exercised all five developing AADAG safeguard families.
+
+**Decision Support:** AI supplied operational information, supporting evidence, explanations, and uncertainty needed for human judgment.
+
+**AI Assurance:** Conflicting sensor evidence challenged the basis for relying on AI's recommendation. The recommendation was withheld pending further evidence.
+
+**Human Control:** Qualified personnel retained authority over process adjustments, emergency responses, quality decisions, and batch disposition.
+
+**Decision Record:** Evidence, alerts, uncertainty, recommendations, human actions, and procedural outcomes supported reconstruction and later review.
+
+**Operating Boundaries:** AI remained within its informational and advisory role. Established procedures controlled operational action, while speculative improvement ideas were deferred to retrospective analysis.
+
+The test did not identify a demonstrated need for an additional safeguard family.
+
+### 9. Limitations and Follow-Up
+
+This exercise tested a human-governed operational workflow in which AI primarily exercised Inform and Recommend influence. It did not establish that autonomous Presume or Decide authority would be appropriate for the bioreactor.
+
+The scenario also assumed a regulated manufacturing environment without independently verifying specific site procedures, regulatory obligations, or quality-authority assignments.
+
+Before promoting these findings into normative framework requirements, the following work remains:
+
+1. Complete the nine-field Decision Inventory reconstruction for the relevant decision types.
+2. Verify each proposed C4 classification against the highest credible consequence assignment rules.
+3. Distinguish mandatory organizational requirements from safeguards proposed by AADAG.
+4. Assess whether WITHHOLD and active-incident versus after-action context require any clarification within the existing five safeguard families.
+5. Seek domain-expert review of the manufacturing assumptions where feasible.
+
+**Working conclusion:** The bioreactor pressure test provided supporting evidence that AADAG's five safeguard families can address a high-consequence, human-governed operational incident. It also identified retrospective AI-assisted learning as a promising application of Decision Record and Operating Boundaries. These findings remain development evidence until the outstanding classification and validation work is completed.
