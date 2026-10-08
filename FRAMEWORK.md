@@ -309,6 +309,36 @@ Human Control at Decide does not require a person to approve every individual de
 
 Decision Records become particularly important when individual decisions occur without prior human review because the organization must retain sufficient evidence to reconstruct material decisions and evaluate how the delegated authority was exercised.
 
+#### 3.4 Safeguard Mapping — Application Guide (v0.3)
+
+Use the nine-field Decision Inventory to define the decision and its accountable authority. Then apply two complementary assessments: **Consequence sets the required rigor; AI Influence determines how the five safeguards operate.** The following tables are application guidance, not 24 independent control sets or universal numeric thresholds.
+
+| Consequence | Safeguard rigor and minimum expectation |
+|---|---|
+| **CU — Undetermined** | Identify missing consequence evidence and responsible reviewers. Do not treat CU as low risk or authorize a decision path whose required classification and approval remain unresolved. |
+| **C0 — Negligible** | Use minimal, proportionate practices; avoid controls without meaningful governance value. |
+| **C1 — Limited** | Establish basic visibility, identifiable responsibility, and routine error correction. |
+| **C2 — Moderate** | Document relevant evidence, assigned authority, operating limits, exceptions, and a practical review or correction path. |
+| **C3 — Significant** | Require strong, decision-relevant assurance; demonstrably effective human intervention where retained; dependable exception handling and reconstructable records. |
+| **C4 — Critical** | Apply the highest justified rigor: robust evidence for reliance, explicit authority and boundaries, credible intervention or authorized alternate paths, and records sufficient for consequential investigation and recourse. |
+
+| AI Influence | How safeguard application changes |
+|---|---|
+| **Inform** | Emphasize accurate and usable Decision Support, AI Assurance for informational reliance, limits on escalation into advice/action, and records where material. Humans interpret and decide. |
+| **Recommend** | Provide evidence and uncertainty needed for independent human judgment; require the authorized human decision before implementation; retain the recommendation and disposition when material. |
+| **Presume** | Define conditions for the default outcome, exception triggers, a realistic human override opportunity before effect, and evidence of whether the outcome proceeded or was changed. Without a meaningful opportunity to intervene, use an authorized alternate path rather than silently converting Presume to Decide. |
+| **Decide** | Require documented delegated authority, fit-for-purpose assurance, explicit operating limits, runtime oversight and ability to constrain/suspend/withdraw authority, and reconstructable material decisions. Case-by-case human approval is not intrinsic to Decide. |
+
+**Minimum evidence and authority expectations.** For each governed decision, the organization should identify (1) the basis for classifying consequence and AI Influence; (2) the evidence sufficient to rely on AI in that role, including material uncertainty and limitations; (3) the Decision Owner, Authorizing Authority, and retained Human Authority; (4) the applicable operating conditions and exception/STOP triggers; and (5) what must be recorded to enable proportionate review and recourse. The depth and form of evidence scale with consequence and operating context. **To be confirmed** documents an unresolved role; it is not authorization to proceed.
+
+**Meaningful human review.** Where the organization retains case-level approval or intervention, the reviewer must have adequate decision-relevant information, appropriate authority, and a realistic opportunity to act in the applicable decision window. At Decide, review instead focuses on authorization, boundaries, performance, exceptions, and continuing suitability of delegated authority.
+
+**Override and recourse.** Define who may challenge, correct, reverse, constrain, or suspend a decision or delegated AI authority, which outcomes are reversible, and what escalation or alternate authorized path applies when they are not. Record material overrides and their basis. Review/recourse expectations should reflect affected parties and the highest credible consequence.
+
+**Proceed, redirect, or STOP.** The organization establishes the evidence, authority, and operating conditions required for a path to proceed. If a requirement fails, constrain or redirect the affected decision to an **already authorized** alternate path when available. If none permits it to proceed, **STOP that decision path**. Withholding an unsupported AI recommendation may coexist with continued authorized informational support and does not itself stop equipment, unrelated decisions, or established human authority.
+
+**Scope and validation.** This v0.3 mapping consolidates exploratory framework pressure tests; it does not establish site-specific regulatory compliance, validate particular manufacturing procedures, or substitute for organizational acceptance criteria. Field testing and implementation templates are planned for later versions.
+
 #### 3.3 Safeguards Working Together
 
 The five safeguard concerns operate together. They should not be treated as independent requirements or a checklist that must be applied identically to every decision.
@@ -389,4 +419,4 @@ It applies proportional governance to AI-assisted decisions according to their c
 
 ## Development status
 
-AADAG v0.2 Decision Classification was released on September 22, 2026. The consequence model, AI influence model, delegation accountability mechanism, Decision Path, and nine-field Decision Inventory form the v0.2 release. Safeguard mapping is under active development for v0.3.
+AADAG v0.2 Decision Classification was released on September 22, 2026. AADAG v0.3.0 Safeguard Mapping was released on October 8, 2026 as a development release. The v0.3 application guide consolidates the five safeguard families, consequence-based rigor, influence-specific application, evidence, meaningful human review, recourse, and STOP. It has not been independently field-validated.
