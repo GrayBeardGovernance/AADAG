@@ -2,6 +2,17 @@
 
 All notable changes to AADAG will be documented here.
 
+## [Unreleased] — v0.3 Safeguard Mapping
+
+### Development findings
+
+- Closed out the hypothetical regulated-bioreactor pressure test with six nine-field Decision Inventory reconstructions in `TESTING.md`; decision ownership and authorizing authority remain **To be confirmed** pending organizational verification.
+- Reviewed consequence assignments under the v0.2 highest-credible-consequence rule: three C4 provisional classifications require validation; three decision types remain CU pending sufficient evidence. These are development assessments, not operationally validated classifications.
+- Confirmed that the test did not demonstrate a need for a tenth inventory field or a sixth safeguard family.
+- Clarified Operating Boundaries to cover the context and timing of AI-generated information, including the distinction between active-incident recommendations and retrospective research.
+- Clarified that withholding an unsupported AI recommendation does not automatically trigger STOP or remove established human authority; STOP continues to apply to the affected unauthorized decision path.
+- Retained domain validation, site-specific procedures, and accountable/authorizing authority assignments as outstanding limitations; v0.3 release is not declared here.
+
 ## [0.2.0] — 2026-09-22
 
 ### Added
