@@ -268,7 +268,7 @@ A C3 Presume medication-order scenario showed that a nominal override does not n
 
 A C4 Inform emergency-response scenario tested the opposite problem. AI organized and surfaced critical information but did not recommend or initiate an emergency action. Strong Decision Support, AI Assurance, and Decision Record were justified by the consequence, but maximum Human Control and Operating Boundaries were not. This supports keeping Consequence and Influence distinct. C4 does not automatically mean maximum safeguards everywhere.
 
-Taken together, these tests provide strong support for continuing with the five-family safeguard architecture and a proportional Consequence × Influence model. The exact safeguard-strength scale, individual matrix assignments, the final name for AI Assurance, and the treatment of STOP remain open. These results are development evidence and have not yet been incorporated into FRAMEWORK.md.
+Taken together, these tests provide strong support for continuing with the five-family safeguard architecture and a proportional Consequence × Influence model. The exact safeguard-strength scale, individual matrix assignments, the final name for AI Assurance, and the treatment of STOP remain open. These results are development evidence and have not yet been incorporated into FRAMEWORK.md. **Publication context (October 2026):** The five-family architecture, proportional mapping, AI Assurance, and path-level STOP guidance were subsequently incorporated into `FRAMEWORK.md` for the v0.3.0 development release; numeric safeguard-strength scales and individual matrix assignments remain exploratory, and independent field validation is outstanding.
 
 ### v0.3 pressure test: AI Assurance and basis for reliance
 
