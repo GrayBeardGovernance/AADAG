@@ -62,7 +62,7 @@ A privileged-access decision shows the Decision Path in practice:
 
 An AI system evaluates an employee's role, requested permissions, manager authorization, existing access, and applicable policy, then recommends whether privileged administrator access should be granted. A designated human approver retains authority to accept, reject, or modify the recommendation.
 
-The full nine-field Decision Inventory captures the affected parties, decision owner, authorizing authority, basis, and review or recourse. See the [v0.2 Validation Record](TESTING.md) for the complete pressure test.
+The full nine-field Decision Inventory captures the affected parties, decision owner, authorizing authority, basis, and review or recourse. See the [Development Testing Record (v0.2–v0.3)](TESTING.md) for the documented pressure tests.
 
 ## Alignment with the NIST AI Risk Management Framework
 
@@ -106,7 +106,7 @@ AADAG maps five safeguard families—**Decision Support, AI Assurance, Human Con
   - [Working Paper 001 — Governing What AI Decides](working-papers/001-governing-what-ai-decides/README.md)
   - [Working Paper 002 — Governing Agentic AI by Decision Authority](working-papers/002-governing-agentic-ai-by-decision-authority/README.md)
 - [Glossary](GLOSSARY.md)
-- [Validation Record](TESTING.md)
+- [Development Testing Record (v0.2–v0.3)](TESTING.md)
 - [Principles](PRINCIPLES.md)
 - [Roadmap](ROADMAP.md)
 - [Traceability](TRACEABILITY.md)
