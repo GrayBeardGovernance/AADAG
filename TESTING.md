@@ -1,8 +1,8 @@
-# AADAG v0.2 Validation Record
+# AADAG Development Testing Record — v0.2 and v0.3
 
 ## Purpose
 
-This record documents the end-to-end testing performed during development of AADAG v0.2 Decision Classification.
+This record documents the end-to-end testing performed during development of AADAG v0.2 Decision Classification and the exploratory pressure testing used to develop v0.3 Safeguard Mapping. These hypothetical and scenario-based exercises support framework development; they do not constitute independent operational or domain-specific validation.
 
 The goal was to pressure-test the framework as written, identify ambiguity or unnecessary complexity, and determine whether the Decision Path and Decision Inventory remained useful across different consequence and AI influence conditions.
 
