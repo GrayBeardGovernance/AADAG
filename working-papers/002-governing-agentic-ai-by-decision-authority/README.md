@@ -20,6 +20,8 @@ AADAG remains under active development. The concepts examined in this paper, inc
 
 This paper will be updated as that work progresses.
 
+**Publication context (October 2026):** AADAG v0.3.0 Safeguard Mapping has since been released as a development release. This paper preserves the agentic pressure-test findings; consult the current `FRAMEWORK.md` for the consolidated v0.3 application guide. Independent field validation remains outstanding.
+
 ---
 
 ## Abstract
