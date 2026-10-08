@@ -221,6 +221,8 @@ Operating Boundaries establish where AI's decision authority begins, where it en
 
 Boundaries may reflect the decision being made, AI Influence, organizational policy, operating conditions, defined exceptions, cumulative activity, or other conditions the organization determines are material.
 
+Operating Boundaries also govern the **context and timing of AI-generated information**. Information suitable for retrospective research or process improvement may be inappropriate to introduce as an operational recommendation during an active incident. Movement from research into operational use remains subject to the organization's established authorization, validation, and change-control requirements.
+
 Reaching an Operating Boundary does not automatically require disabling the AI system. The affected decision or level of AI Influence may be constrained, routed to another authorized path, reduced, suspended, or stopped while other supportable AI functions continue.
 
 #### 3.1 Consequence and Safeguard Rigor
@@ -344,6 +346,8 @@ STOP applies to the affected decision path rather than automatically requiring t
 An exception, incomplete information, or unavailable human does not independently require STOP in every case. The organization determines what information, authority, and conditions are required for a decision to proceed.
 
 Where another authorized path exists, the decision may move to that path. Where no authorized path permits the decision to continue, the current path stops.
+
+Where material evidence cannot support a reliable AI recommendation, the AI may **withhold that recommendation**, communicate the uncertainty, and continue authorized informational support. Withholding an unsupported recommendation does not itself revoke a human's established authority or automatically trigger STOP; applicable procedures and authorized alternate paths govern what can proceed.
 
 ##### Runtime Evidence and Reassessment
 
