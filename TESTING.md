@@ -645,3 +645,106 @@ Before promoting these findings into normative framework requirements, the follo
 5. Seek domain-expert review of the manufacturing assumptions where feasible.
 
 **Working conclusion:** The bioreactor pressure test provided supporting evidence that AADAG's five safeguard families can address a high-consequence, human-governed operational incident. It also identified retrospective AI-assisted learning as a promising application of Decision Record and Operating Boundaries. These findings remain development evidence until the outstanding classification and validation work is completed.
+
+
+### 10. Decision Inventory Closeout — Six Decision Types
+
+**Status:** Framework-development reconstruction completed; operational governance and consequence validation remain outstanding. This section supplements, rather than replaces, the original provisional inventory in Section 7.
+
+**Documentation convention:** Where organizational accountability or approval cannot be established in this hypothetical scenario, record **To be confirmed**. Such a record is not governance-ready and does not authorize AI activity. An actual organization must establish required authority and permitted decision paths before operational use.
+
+#### Inventory 01 — Process adjustment recommendation
+
+| Field | Working reconstruction |
+|---|---|
+| **Decision** | Process adjustment recommendation |
+| **Affected Parties** | Patients, manufacturing personnel, manufacturer, downstream recipients |
+| **Consequence** | C4 provisional: critical product-quality or patient harm pathway requires validation |
+| **AI Influence** | Recommend |
+| **Human Authority** | Authorized operator or process engineer; site authority to be confirmed |
+| **Decision Owner** | To be confirmed |
+| **Authorizing Authority** | To be confirmed |
+| **Basis** | Sensor trends, corroboration, process limits, approved procedures |
+| **Review / Recourse** | Operator review, escalation, quality investigation, incident record |
+
+#### Inventory 02 — Conflicting evidence and escalation
+
+| Field | Working reconstruction |
+|---|---|
+| **Decision** | Conflicting evidence and escalation |
+| **Affected Parties** | Operators, manufacturer, downstream recipients |
+| **Consequence** | CU: credible harm from missed escalation not established |
+| **AI Influence** | Inform |
+| **Human Authority** | Qualified operations and quality personnel; site authority to be confirmed |
+| **Decision Owner** | To be confirmed |
+| **Authorizing Authority** | To be confirmed |
+| **Basis** | Conflicting sensors, trends, alarm criteria |
+| **Review / Recourse** | Sensor investigation, escalation log, incident review |
+
+#### Inventory 03 — Batch-quality assessment
+
+| Field | Working reconstruction |
+|---|---|
+| **Decision** | Batch-quality assessment |
+| **Affected Parties** | Patients, manufacturer, quality personnel, downstream recipients |
+| **Consequence** | C4 provisional: erroneous release-related quality decision may cause serious patient harm; pathway to validate |
+| **AI Influence** | Inform / Recommend |
+| **Human Authority** | Authorized quality personnel; specific roles to be confirmed |
+| **Decision Owner** | To be confirmed |
+| **Authorizing Authority** | To be confirmed |
+| **Basis** | Laboratory findings, deviations, applicable quality requirements |
+| **Review / Recourse** | Quality investigation, disposition review, corrective action |
+
+#### Inventory 04 — Unvalidated active-incident recovery
+
+| Field | Working reconstruction |
+|---|---|
+| **Decision** | Unvalidated active-incident recovery |
+| **Affected Parties** | Patients, operators, manufacturer, quality organization |
+| **Consequence** | C4 provisional: unauthorized operational intervention may cause critical quality harm; pathway to validate |
+| **AI Influence** | Inform only within approved boundaries; no unvalidated operational recommendation |
+| **Human Authority** | Designated engineering and quality authorities; site authority to be confirmed |
+| **Decision Owner** | To be confirmed |
+| **Authorizing Authority** | To be confirmed |
+| **Basis** | Validated procedures, incident evidence, recovery research, change-control rules |
+| **Review / Recourse** | Technical evaluation, validation and formal change control |
+
+#### Inventory 05 — Retrospective improvement research
+
+| Field | Working reconstruction |
+|---|---|
+| **Decision** | Retrospective improvement research |
+| **Affected Parties** | Manufacturing staff, quality personnel, organization, potentially future patients |
+| **Consequence** | CU: depends on defined research-selection decision; approval to implement is separate |
+| **AI Influence** | Inform / Recommend |
+| **Human Authority** | Designated improvement and change-control personnel; site authority to be confirmed |
+| **Decision Owner** | To be confirmed |
+| **Authorizing Authority** | To be confirmed |
+| **Basis** | Incident record, historical trends, sensor performance, lessons learned |
+| **Review / Recourse** | Human technical review, documented acceptance or rejection; change control for implementation |
+
+#### Inventory 06 — Abnormal-condition detection
+
+| Field | Working reconstruction |
+|---|---|
+| **Decision** | Abnormal-condition detection |
+| **Affected Parties** | Operators, manufacturer, potentially downstream recipients |
+| **Consequence** | CU: credible harm from missed or incorrect alert not established |
+| **AI Influence** | Inform |
+| **Human Authority** | Qualified operators; site authority to be confirmed |
+| **Decision Owner** | To be confirmed |
+| **Authorizing Authority** | To be confirmed |
+| **Basis** | Sensor readings, process limits, trends, historical evidence |
+| **Review / Recourse** | Alert review, incident investigation, monitoring-performance assessment |
+
+### 11. Consequence Classification and Safeguard Closeout
+
+The v0.2 assignment rule remains controlling: classify each defined decision type according to its **highest credible consequence if wrong**, considering affected parties, nature, scope, duration, and reversibility, without reducing the classification because safeguards exist. The presence of a critical facility alone does not establish C4.
+
+**C4 provisional:** Process adjustment recommendation, batch-quality assessment, and unvalidated active-incident recovery. Each requires validation of its particular credible critical-harm pathway. The batch-quality decision must be defined precisely enough to distinguish quality assessment from authorization to release product.
+
+**CU pending evidence:** Conflicting evidence and escalation, retrospective improvement research, and abnormal-condition detection. CU indicates insufficient basis to classify, not low risk. Research selection must be distinguished from authorizing implementation.
+
+The six inventory records fit the existing **nine fields**. No tenth field or sixth safeguard was demonstrated. **WITHHOLD** remains an evidence-dependent advisory behavior within existing safeguards. **STOP** applies to an unauthorized affected decision path, not automatically to equipment or all AI functions. Operating Boundaries should address when and in what context information is presented: speculative recovery proposals inappropriate during an active incident may be suitable for retrospective research subject to validation and change control.
+
+**Remaining limitations:** Site-specific decision owners, authorizing authorities, retained human authority, mandatory procedures, and manufacturing-specific consequence pathways remain unverified. Domain-expert review is desirable before treating the scenario as operational evidence. These unresolved items do not prevent closing the hypothetical framework-development exercise, but they do prevent claiming operational validation or completed organizational governance.
