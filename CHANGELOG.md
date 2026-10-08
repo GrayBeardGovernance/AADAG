@@ -2,7 +2,15 @@
 
 All notable changes to AADAG will be documented here.
 
-## [Unreleased] — v0.3 Safeguard Mapping
+## [0.3.0] — 2026-10-08 — Safeguard Mapping (development release)
+
+### Added
+
+- Consolidated a consequence-rigor and AI-Influence application guide for the five safeguard families in `FRAMEWORK.md`.
+- Defined proportionate minimum evidence and authority expectations, meaningful human review, override and recourse, and proceed/redirect/STOP behavior.
+- Completed the v0.3 roadmap scope based on existing pressure tests; independent field validation and implementation templates remain future work.
+
+### Development findings
 
 ### Development findings
 
