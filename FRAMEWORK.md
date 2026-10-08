@@ -309,7 +309,7 @@ Human Control at Decide does not require a person to approve every individual de
 
 Decision Records become particularly important when individual decisions occur without prior human review because the organization must retain sufficient evidence to reconstruct material decisions and evaluate how the delegated authority was exercised.
 
-#### 3.4 Safeguard Mapping — Application Guide (v0.3)
+#### 3.3 Safeguard Mapping — Application Guide (v0.3)
 
 Use the nine-field Decision Inventory to define the decision and its accountable authority. Then apply two complementary assessments: **Consequence sets the required rigor; AI Influence determines how the five safeguards operate.** The following tables are application guidance, not 24 independent control sets or universal numeric thresholds.
 
@@ -339,7 +339,7 @@ Use the nine-field Decision Inventory to define the decision and its accountable
 
 **Scope and validation.** This v0.3 mapping consolidates exploratory framework pressure tests; it does not establish site-specific regulatory compliance, validate particular manufacturing procedures, or substitute for organizational acceptance criteria. Field testing and implementation templates are planned for later versions.
 
-#### 3.3 Safeguards Working Together
+#### 3.4 Safeguards Working Together
 
 The five safeguard concerns operate together. They should not be treated as independent requirements or a checklist that must be applied identically to every decision.
 
