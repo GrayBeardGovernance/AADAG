@@ -95,6 +95,10 @@ A more detailed **NIST AI RMF 1.0 crosswalk and use case** is planned as the fra
 
 **Reference:** National Institute of Standards and Technology, [Artificial Intelligence Risk Management Framework (AI RMF 1.0)](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10)
 
+## ISO/IEC 42001:2023 Crosswalk (Draft)
+
+A [draft ISO/IEC 42001:2023 crosswalk](references/ISO-42001-CROSSWALK.md) correlates AADAG's decision-level governance concepts with selected ISO AI management system requirements and controls. The mapping is **under review** and is intended to show relationships, not claim equivalence, certification, or compliance. AADAG's framework and methodology remain unchanged.
+
 ## Safeguard Mapping (v0.3)
 
 AADAG maps five safeguard families—**Decision Support, AI Assurance, Human Control, Decision Record, and Operating Boundaries**—to the consequence and AI Influence of each decision. Consequence sets the rigor; Influence shapes application. The [v0.3 application guide](FRAMEWORK.md#34-safeguard-mapping--application-guide-v03) includes evidence, meaningful review, recourse, and STOP expectations. This development release is not an operational certification or independently field-validated standard.
