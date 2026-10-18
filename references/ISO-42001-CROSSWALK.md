@@ -6,9 +6,9 @@
 
 ## 1. Purpose
 
-This document correlates the AI-Assisted Decision Accountability & Governance (AADAG) framework v0.3 with selected requirements and controls of ISO/IEC 42001:2023.
+This document correlates the AI Assisted Decision Accountability & Governance (AADAG) framework v0.3 with selected requirements and controls of ISO/IEC 42001:2023.
 
-AADAG and ISO/IEC 42001 serve different but complementary purposes. ISO/IEC 42001 addresses organizational AI management systems. AADAG provides a decision-centered methodology for assessing consequences, AI influence, human authority, and appropriate safeguards.
+AADAG and ISO/IEC 42001 serve different but complementary purposes. ISO/IEC 42001 addresses organizational AI management systems. AADAG provides a decision centered methodology for assessing consequences, AI influence, human authority, and appropriate safeguards.
 
 This crosswalk does not modify AADAG, establish equivalence between the two frameworks, or demonstrate ISO/IEC 42001 compliance.
 
@@ -46,7 +46,7 @@ Alignment describes conceptual relevance, not evidence that an organization has 
 
 All mappings are provisional pending final source verification and detailed interpretation.
 
-## 4. Where AADAG Provides Additional Decision-Level Structure
+## 4. Where AADAG Provides Additional Decision Level Structure
 
 AADAG distinguishes four levels of AI influence: Inform, Recommend, Presume, and Decide.
 
@@ -70,7 +70,7 @@ Potential applications include documenting:
 - Actions taken and their outcomes
 - Human intervention, review, and recourse
 
-Execution time revalidation, confirmed outcomes, and post-execution exception handling are areas for further AADAG pressure testing. They should not be represented as fully implemented capabilities of v0.3.
+Execution time revalidation, confirmed outcomes, and post execution exception handling are areas for further AADAG pressure testing. They should not be represented as fully implemented capabilities of v0.3.
 
 ## 6. ISO Requirements Outside AADAG's Intended Scope
 
@@ -78,12 +78,12 @@ AADAG does not independently establish a complete organizational AI management s
 
 Examples of responsibilities outside its intended scope include:
 
-- Organization-wide AI policy and management system objectives
+- Organization wide AI policy and management system objectives
 - Resource allocation and competence management
 - Formal internal audit programs
 - Management review processes
 - Comprehensive AI data lifecycle management
-- Supplier and third-party management
+- Supplier and third party management
 - Organization-wide continual improvement programs
 
 These are scope distinctions, not automatically AADAG deficiencies.
@@ -94,7 +94,7 @@ This document is an independent correlation of governance concepts.
 
 It is not endorsed by ISO or IEC, is not a certification guide, and does not replace the official ISO/IEC 42001:2023 standard.
 
-AADAG v0.3 remains a development framework that has undergone scenario pressure testing but has not been independently field-validated.
+AADAG v0.3 remains a development framework that has undergone scenario pressure testing but has not been independently field validated.
 
 ## 8. References
 
