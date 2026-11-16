@@ -1,63 +1,56 @@
-# AADAG Strategic Direction
+# Where AADAG Is Going
 
-**Strategic evolution | November 2026**
+**Govern every decision AI helps shape.**
 
-> **Govern every decision AI helps shape.**
+Companies rushed to adopt AI. Many are still figuring out what to do with it.
 
-## Purpose
+That's where AADAG comes in.
 
-AADAG provides decision-centered guidance for strategically implementing, evaluating, and improving the role of AI in organizations.
+AADAG helps organizations look at the decisions AI influences and figure out whether AI is being used strategically.
 
-It helps organizations determine where AI belongs, how much influence or decision authority it should have, where meaningful human involvement belongs, and what safeguards and evidence support that arrangement.
+## Two Ways to Use AADAG
 
-AADAG combines a governance framework with practical assessment methodologies. Its starting point is the decision, rather than the AI tool.
+### 1. You Already Have AI
 
-## Two applications
+Start with what's already running.
 
-### AI Implementation Assessment
+What is AI doing? What decisions is it influencing? Is it helping? Does a person have enough information and authority to challenge it?
 
-**For organizations already using AI.**
+The goal is to find what works, what needs adjusting, and what shouldn't be automated.
 
-Organizations can examine how AI currently participates in business decisions, identify where it is useful or poorly positioned, evaluate human authority and intervention points, and recommend improvements.
+### 2. You're Thinking About Using AI
 
-**Assessment output:** A decision inventory and prioritized recommendations to retain, adjust, constrain, or stop AI participation, with supporting safeguards and evidence.
+Start with the business problem, not the technology.
 
-### AI Opportunity Assessment
+Where could AI actually help? What would it cost? What would the business gain? How much of the work should AI handle, and what decisions should stay with people?
 
-**For organizations considering AI or expanding its use.**
+The goal is to make informed choices before spending money or changing how the business operates.
 
-Organizations can examine business activities and decisions, identify appropriate opportunities for AI, choose levels of AI influence, and design human oversight before implementation. Business value, cost, and expected return on investment help inform recommendations.
+## How AADAG Approaches Decisions
 
-**Assessment output:** A decision-level AI implementation recommendation covering AI's role, human authority, safeguards, risks, and expected business value.
+Everything starts with four questions:
 
-## Shared decision-centered foundation
+1. What decision are we making?
+2. What happens if we get it wrong?
+3. How much influence should AI have?
+4. Who has the authority to make or change the decision?
 
-Both applications build on AADAG's established path:
+From there, we look at safeguards, evidence, and when AI needs to stop or hand control back to a person.
 
-**Decision → Consequence → AI Influence → Human Authority**
+Human oversight isn't just putting somebody at the end of a process to click Approve. That person needs to be able to understand what's happening and do something about it.
 
-The methodology then examines appropriate safeguards, operating boundaries, evidence, decision outcomes, and reassessment.
+## Where It Fits
 
-The four AI influence levels are **Inform, Recommend, Presume, and Decide**. The five safeguard families are **Decision Support, AI Assurance, Human Control, Decision Record, and Operating Boundaries**.
+AADAG works alongside established practices like NIST AI RMF and ISO/IEC 42001.
 
-Human involvement is a design choice: the question is where a person can meaningfully review, challenge, authorize, redirect, or stop a decision, rather than simply whether a human appears in a workflow.
+Those provide broader risk management and governance structures. AADAG focuses on the decisions themselves and how AI should participate in them.
 
-## Relationship to established practices
+The approach can work for a small business exploring its first AI tools or a larger organization trying to get a handle on systems it already uses.
 
-AADAG can complement the **NIST AI Risk Management Framework**, **ISO/IEC 42001**, and existing organizational risk management practices by applying decision-level guidance to specific AI uses.
+## What's Next
 
-## Intended users
+We're developing two practical assessments: one for existing AI implementations and another for new opportunities.
 
-AADAG is intended to be practical for small businesses, organizations adopting or improving AI, business leaders, and cybersecurity and governance practitioners.
+Both use the same AADAG foundation. Both should leave an organization with a clearer understanding of where AI belongs, where people belong, and what needs to happen next.
 
-## Strategic priority
-
-The next phase emphasizes **professional credibility through practical application**: complete worked assessments, document the reasoning and evidence, communicate findings, and invite external feedback.
-
-The two assessment applications share one foundation. Their detailed processes and templates will be developed as subsequent work.
-
-## Identity
-
-**AADAG** remains the working name. **AI Decision Authority & Accountability Guidance** is a proposed expanded name under consideration; the existing framework name and historical version references remain intact.
-
-This document establishes strategic direction while the [Framework](FRAMEWORK.md), [Roadmap](ROADMAP.md), and development records continue to document the technical model and its evolution.
+The goal is straightforward: **Help organizations use AI deliberately, not just because they can.**
