@@ -103,8 +103,15 @@ A [draft ISO/IEC 42001:2023 crosswalk](references/ISO-42001-CROSSWALK.md) correl
 
 AADAG maps five safeguard families—**Decision Support, AI Assurance, Human Control, Decision Record, and Operating Boundaries**—to the consequence and AI Influence of each decision. Consequence sets the rigor; Influence shapes application. The [v0.3 application guide](FRAMEWORK.md#34-safeguard-mapping--application-guide-v03) includes evidence, meaningful review, recourse, and STOP expectations. This development release is not an operational certification or independently field-validated standard.
 
+## Strategic direction
+
+AADAG is evolving as decision-centered guidance for strategic AI implementation, human oversight design, and accountable automation. Its two practical applications are an **AI Implementation Assessment** for existing AI use and an **AI Opportunity Assessment** for planned or expanded AI use.
+
+Read the [AADAG Strategic Direction](STRATEGIC-DIRECTION.md) for the purpose, audiences, and next-phase priorities.
+
 ## Start here
 
+- [Strategic Direction](STRATEGIC-DIRECTION.md)
 - [Framework](FRAMEWORK.md)
 - [Working Papers](working-papers/README.md)
   - [Working Paper 001 — Governing What AI Decides](working-papers/001-governing-what-ai-decides/README.md)
