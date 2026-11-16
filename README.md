@@ -114,6 +114,7 @@ Read [Where AADAG Is Going](STRATEGIC-DIRECTION.md) for the direction behind thi
 ## Start here
 
 - [Strategic Direction](STRATEGIC-DIRECTION.md)
+- [Product Direction: Two AADAG Workbooks](PRODUCT-DIRECTION.md)
 - [Framework](FRAMEWORK.md)
 - [Working Papers](working-papers/README.md)
   - [Working Paper 001 — Governing What AI Decides](working-papers/001-governing-what-ai-decides/README.md)
