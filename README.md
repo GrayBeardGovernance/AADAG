@@ -105,9 +105,11 @@ AADAG maps five safeguard families—**Decision Support, AI Assurance, Human Con
 
 ## Strategic direction
 
-AADAG is evolving as decision-centered guidance for strategic AI implementation, human oversight design, and accountable automation. Its two practical applications are an **AI Implementation Assessment** for existing AI use and an **AI Opportunity Assessment** for planned or expanded AI use.
+Companies rushed to adopt AI. Many are still figuring out what to do with it. AADAG helps organizations examine the decisions AI influences and decide where it fits, where people need to be involved, and what could work better.
 
-Read the [AADAG Strategic Direction](STRATEGIC-DIRECTION.md) for the purpose, audiences, and next-phase priorities.
+We're developing two practical assessments: one for AI already in use and one for organizations considering new AI opportunities.
+
+Read [Where AADAG Is Going](STRATEGIC-DIRECTION.md) for the direction behind this work.
 
 ## Start here
 
